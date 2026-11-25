@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="892.7" viewBox="0 0 980 892.7" role="img" aria-labelledby="title desc">
+<defs>
+</defs>
+<title id="title">Consigned cut tape: long strips, not short ones</title><desc id="desc">Drawn to scale, 8 mm carrier tape seen from above, with a part in every pocket. Top: one continuous strip 240 mm long, with the round sprocket holes along the top and an arrow showing the direction of feed to the right (EIA-481), so the right-hand end goes into the feeder first; 50 mm is marked as the shortest strip that can be handled and 150 mm as the preferred minimum, and the parts at both ends are marked as the ones that may be lost. Bottom: the same kind of parts sent as five strips of ten, each 40 mm long, shorter than the 50 mm minimum.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAAOMAAsAAAAABugAAANBAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMhGyAcKgZgADwBNgIkAwwEBgWGDgcgGyAGEdWbNMXPw9hY1nha3Iyt4wXJzYjKL2oRlo7mN700nILnX/++3+cmGVHVfAgVhBJSSa/epaupPqDkaYYx4HoAXeSLuU2BRCZxH3FJIlan/sNzINIS9fX5+2uriEUPBXZWM6X8vRNPNJN1oiXxkBghUSHUq4jGn1DJgXUO2w1BvhZffYWpgvYQkfQRS2Yu6tt/4llMeu0lRpAAu7vLxSXF5cfgwHOFKvAzRtmCGJ03cP3OPTt2mLuKCbfLbK+csMk5+rqxB+IvutQkeyRRuEh0elbfBRv2z7BnT5vcPlaGwR+5eMWalrqG53n7C8YN+qkhJ7vmLlcLGIdVDUPLli9cXtdwWNoTY+fMzMXPTv4fyjxLegFvL6gVeUaIbBGUiKpf8zbO3bY9/1Gxy3LMOmWX+RpT3ebgRuMv9heaQKyNNqELoTMmmOiiTA7z/eId4or8e5Q7EYKUdTJdunEZwXRjY2ysCWa4NBOD8kNgNDOYTgAjEVLLacQUfHzc8pP+3yftz5NheY2lD7piIk/ERO2IibYtUXZYdI7+kNoIEogiRxLZt//QscTQAF1dAEgVKpNCjRdfMHXFIhJpzUzWplD2MmCa9UPguI/hPWSnN4tRcJCfANbyPYzesDH8ypPL08NvdyYhwm/Ld0AA9CTzDCgQAzxAASloBEjBUIEgDI3glQOwOF++43vHl5IwAQE0pPxnT3z7v5iKAODV2sMuXHnOcy6H0ddrCnoAPCw5PY3p1gBIrEJlesrA8GSM0mHIboxEKCCSZWhERwIjESGEkGdLeMSxiFC0+xCaOl/C0OZPhFGTHCJWCmTg/xNHS+cw4HA9+TQKFQIVJWUN4EglATM2JPGBLZ9DJxEg0BNCKocvsOGS2IbGrsDBk4XnMAX2JIqQiePnqCX0yuMeXbGZ2nqBKJ8xQDTWOGygpqBkL9Ol0KA8Tl1FWVV017VbBxL6S9XqV8c1GSNw4JChe7qABLY1aQQSW0AiAiGb2Ms69rx8EJNLAKW6/O5lOaZcbTZNZXDxI1m3dh5SBc4NR2MmxjPj5bsIYECH2mM9u5DfPeoAKoRcHUVFAYFP40KBgoDGVODwKYo2xpY5IzRWuM5TdgIAAAA=) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAAOgAAsAAAAABuAAAANYAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMxGyAcKgZgADwBNgIkAwwEBgWFdgcgGxgGAC4KbGP6GM2Wo726i1pqjJHVltEQHvATPP+/1u6b+YhJYjdh4klMk2qGSKaSlywWGpXOmXU21oZYIhN3HZUkYu2N8b8XHVY5ciBVzLb9GG/QHZ54NEqo5krd5FDGAYthjGNinS9si3TIcKq/vFuI62AV0ioY0q4TyfTpT9WMJTyWBTikEfn30rVxTAx9D3VMoF6Bqi1osBerlrrPSwWrQAE7jF3GABIFpSEi0W0u2oPR5UFMYW6PFl1zhfK3qLBKYJWKVWZY5cmqUKsyOyamht1UYv3HF/R6/cVYuME4p3sedeSFnjmLoa5G4QK8RfyiYqvNbzTmdKmy0IeBxPjf6/Crmk9/Re8mHKf/apiSCgVF6Hlc17DjB1aQ73as3jvdGtaTnkDTf6Kc7q0yUAnGlQNp5OT+ZUKvOxFAF9HTtv4l6s6ZK3Gmx5/0zrzcZk2vGF/mqafD7ja6Qp+X79t9z2JtVc/0qcdrqlHIE0WzgqSVXomcAYd2OulCLnZQdDjckWNzghVW1Bx2iGrzVGXMeoPA1YfXKeuHwiY13fJiQRZ5b9SF0YZ7N2KHWP02COBLvERSXbs4hFIogP8/AEBoKcy0w9Jzw2yHMv40AOVRqPUTB48s9Qa4Szu0Nzw2OcRLh6BuA9h1KTq/3Id+utsU5WX5K/CyyAAIgBrw+AYk8+ZxoAPhdAQ7FWbg2RS0pqCrUuhm3dFdAwIACKDgOUQGg4r/CPUG4MdzP4h28AHs7Ci326NqAGmUD6uCudgCIaB1j3Kp9wqGpKozZIxQu5AO+LAiiigfoF0obwjp2g2NQHYNnVLXy8oaHuR6NTxJjWYESLKkf2Ig2W2nz+F68xGVhoFM6TLkStZNg0ADG0M+0M7n0CEFAxXumMbhC6y5kG1g5AJ0ebPIHKagGIst0uPfuNpBqjuTxG/COOadW9epp3WC3RFPHDaQLVV6+EsWmURYzrCaTBmyZMhRIKe9GCpF6ptibZswFKJdHDfs2R8dBFWFc4jS/AQBdAXW2a7Dsrw2fPNdvLsA3TLa9NXmpjDZ8f3JZCBOj6+J7U530VHDHiTEJJGZZVubqFtQBdrd6trm/+esLdkUxlxtadKsUviIiwXyVhFT3iKfqqDNyKK+liiBn7uEBw==) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAANcAAsAAAAABswAAAMUAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMeGyAcKgZgADwBNgIkAwwEBgWFdgcgGwUGERWcJwh+JMYOk5mVF7Cr9L8jD54n/97OHQR0lV1XgCvIFYESRLepVp73lQTAwtyQVFavBknE2t2GNSxbzu6jXiJk/WY1xpDhj9KaasJgSxeKIBQWjG1Foui2OYuQWNQuQHtx8qu/sFQwChFJ6TrRL6bz52FMLmbNFdKv0czLxcsTLz8Gr0B5hdpLMYE3Mdr1iDF57eatWL18uXummHDX50tO2JYc89a61fEnvMQktz6RcJHo9KxWY/+rh44PHbN7Vh2TP7XEr1xZ+4LeUejd/qeGqs6PmuIuaDtWNUxMnpK3LDgW92yvkX4+Nj/ZP5RZq7wga6BZ2gM7iCwWtIiuNfN9nHfuS46ZKa5Pjn2mXR9fZKp3OnjU+jv4W9tAX9fHhuaFZtnAR1dl83AXaLyjKlSepr0TX4yE9bRTNUFtHR8KmmhHmKq1gX4WXhcWtDZIlu8bII+M0zJ9QdyU/f7f+93Pw2F5Ze1q910dE7k9Jmp5TLRbFeVuROeYX6kIEEUOeUirNttrJwIDUFMDAM1YRgVqtrixg7DoZJD3AzC2s7qIBVvPPAK2hZWoR1xWu0tEaCSUIABzeB169NxdOnvKk8vTw69WJ0H4VfkOCIDpb58DBUQACtBAChoBUjBUAGEYBFUSwNRw7e33t18oi5V5rIH7B4hNA+Ib/YvQEQB8mHNZKax6wx0Ghm0xbxE0KjcDcyaSaMYYBE+9ts2kXXg8d4gnSBfoBhqIZDIaMZFAN4gThDy6CYoIxguahkwXDBWcECwNeSmEUSZRQqwUSO1nx1FfdaOlsqx+TRxGCCIvqHCNfFgV6DdwbMpEdbu5zjt6YVQ27aHyi+n8CZdf7pRZOw4P8cjNFD/DDxmqndThB9V9B57XxmUBMsv7folhGCNjK6IgCYqhoGFg3HGtNMfgAGdpGeDHbnwgVrPYLXtJ63vwKrzh9OIQOy9qbgsYjTUMbksiunkXSYCfTVnL+hnUXPttx5ntZATnRwUOSKg/PTrF/e9xABFiNeC41m3iClu2jTO2bELuMN/mDfc95qovXQY=) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="892.7" class="bg" />
+<g transform="translate(0,55.7)">
+<style>
+.tape   { fill: #2b2e33; }
+.pocket { fill: #111315; }
+.cover  { fill: #bcd7ee; fill-opacity: 0.45; stroke: #7da7c9; stroke-width: 1.77; }
+.sprk   { fill: #ffffff; }
+.reel   { fill: #3a78c2; fill-opacity: 0.25; stroke: #3a78c2; stroke-width: 2.36; }
+.hub    { fill: #ffffff; stroke: #3a78c2; stroke-width: 2.36; }
+.tube   { fill: #cfd8de; fill-opacity: 0.55; stroke: #5b636b; stroke-width: 2.16; }
+.stopper{ fill: #2f9e4f; }
+.tray   { fill: #2b2e33; }
+.tcell  { fill: #3f444b; }
+.bag    { fill: #b9c0c7; fill-opacity: 0.35; stroke: #5b636b; stroke-width: 2.36; }
+.seal   { fill: #8f969d; }
+.card   { fill: #f4f1e6; stroke: #5b636b; stroke-width: 1.97; }
+.dry    { fill: #3a6fd8; }
+.wet    { fill: #e58fb4; }
+.desic  { fill: #ece6d2; stroke: #8a8270; stroke-width: 1.97; }
+.caution{ fill: #f2c94c; stroke: #8a6d00; stroke-width: 1.97; }
+.cardink{ fill: #1d2125; }
+.good   { fill: #2f9e4f; }
+.bad    { fill: #b23a2b; }
+@media (prefers-color-scheme: dark) {
+  .tape   { fill: #4a5058; }
+  .pocket { fill: #23272b; }
+  .sprk   { fill: #16191c; }
+  .hub    { fill: #16191c; }
+  .tray   { fill: #4a5058; }
+  .tcell  { fill: #5d646d; }
+  .good   { fill: #5cc47d; }
+  .bad    { fill: #f08a7a; }
+}
+</style>
+<rect x="50.0" y="160.0" width="816.0" height="27.2" rx="0.0" class="tape" />
+<circle cx="63.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="77.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="90.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="104.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="118.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="131.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="145.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="158.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="172.39999999999998" cy="165.95" r="2.55" class="sprk" />
+<circle cx="186.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="199.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="213.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="226.79999999999998" cy="165.95" r="2.55" class="sprk" />
+<circle cx="240.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="254.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="267.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="281.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="294.79999999999995" cy="165.95" r="2.55" class="sprk" />
+<circle cx="308.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="322.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="335.59999999999997" cy="165.95" r="2.55" class="sprk" />
+<circle cx="349.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="362.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="376.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="390.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="403.59999999999997" cy="165.95" r="2.55" class="sprk" />
+<circle cx="417.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="430.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="444.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="458.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="471.59999999999997" cy="165.95" r="2.55" class="sprk" />
+<circle cx="485.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="498.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="512.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="526.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="539.5999999999999" cy="165.95" r="2.55" class="sprk" />
+<circle cx="553.2" cy="165.95" r="2.55" class="sprk" />
+<circle cx="566.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="580.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="594.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="607.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="621.1999999999999" cy="165.95" r="2.55" class="sprk" />
+<circle cx="634.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="648.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="662.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="675.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="689.1999999999999" cy="165.95" r="2.55" class="sprk" />
+<circle cx="702.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="716.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="730.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="743.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="757.1999999999999" cy="165.95" r="2.55" class="sprk" />
+<circle cx="770.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="784.4" cy="165.95" r="2.55" class="sprk" />
+<circle cx="798.0" cy="165.95" r="2.55" class="sprk" />
+<circle cx="811.6" cy="165.95" r="2.55" class="sprk" />
+<circle cx="825.1999999999999" cy="165.95" r="2.55" class="sprk" />
+<circle cx="838.8" cy="165.95" r="2.55" class="sprk" />
+<circle cx="852.4" cy="165.95" r="2.55" class="sprk" />
+<rect x="54.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="55.44" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="55.44" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="55.44" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="68.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="69.03999999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="69.03999999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="69.03999999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="82.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="82.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="82.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="82.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="95.72999999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="96.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="96.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="96.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="109.33" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="109.84" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="109.84" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="109.84" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="122.92999999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="123.44" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="123.44" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="123.44" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="136.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="137.04000000000002" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="137.04000000000002" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="137.04000000000002" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="150.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="150.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="150.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="150.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="163.73000000000002" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="164.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="164.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="164.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="177.33" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="177.84" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="177.84" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="177.84" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="190.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="191.44" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="191.44" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="191.44" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="204.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="205.04" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="205.04" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="205.04" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="218.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="218.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="218.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="218.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="231.73000000000002" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="232.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="232.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="232.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="245.33" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="245.84" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="245.84" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="245.84" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="258.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="259.44" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="259.44" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="259.44" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="272.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="273.03999999999996" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="273.03999999999996" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="273.03999999999996" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="286.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="286.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="286.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="286.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="299.73" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="300.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="300.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="300.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="313.33" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="313.84" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="313.84" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="313.84" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="326.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="327.44" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="327.44" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="327.44" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="340.53000000000003" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="341.03999999999996" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="341.03999999999996" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="341.03999999999996" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="354.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="354.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="354.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="354.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="367.73" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="368.23999999999995" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="368.23999999999995" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="368.23999999999995" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="381.33" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="381.84" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="381.84" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="381.84" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="394.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="395.44" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="395.44" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="395.44" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="408.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="409.03999999999996" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="409.03999999999996" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="409.03999999999996" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="422.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="422.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="422.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="422.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="435.73" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="436.23999999999995" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="436.23999999999995" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="436.23999999999995" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="449.33" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="449.84" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="449.84" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="449.84" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="462.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="463.44" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="463.44" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="463.44" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="476.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="477.03999999999996" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="477.03999999999996" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="477.03999999999996" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="490.12999999999994" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="490.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="490.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="490.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="503.72999999999996" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="504.23999999999995" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="504.23999999999995" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="504.23999999999995" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="517.3299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="517.8399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="517.8399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="517.8399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="530.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="531.4399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="531.4399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="531.4399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="544.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="545.04" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="545.04" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="545.04" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="558.1299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="558.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="558.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="558.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="571.7299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="572.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="572.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="572.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="585.3299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="585.8399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="585.8399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="585.8399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="598.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="599.4399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="599.4399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="599.4399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="612.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="613.04" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="613.04" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="613.04" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="626.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="626.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="626.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="626.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="639.7299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="640.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="640.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="640.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="653.3299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="653.8399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="653.8399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="653.8399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="666.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="667.4399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="667.4399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="667.4399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="680.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="681.04" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="681.04" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="681.04" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="694.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="694.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="694.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="694.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="707.7299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="708.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="708.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="708.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="721.3299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="721.8399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="721.8399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="721.8399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="734.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="735.4399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="735.4399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="735.4399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="748.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="749.04" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="749.04" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="749.04" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="762.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="762.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="762.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="762.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="775.7299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="776.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="776.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="776.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="789.3299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="789.8399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="789.8399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="789.8399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="802.93" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="803.4399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="803.4399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="803.4399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="816.53" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="817.04" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="817.04" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="817.04" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="830.13" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="830.64" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="830.64" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="830.64" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="843.7299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="844.24" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="844.24" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="844.24" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="857.3299999999999" y="174.62" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="857.8399999999999" y="175.13" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="857.8399999999999" y="175.13" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="857.8399999999999" y="179.55" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="50.0" y="171.22" width="816.0" height="13.26" rx="0.0" class="cover" />
+<text x="50.0" y="95.4" font-size="18.67" text-anchor="start" class="ink" font-weight="600">✓ One continuous strip</text>
+<path d="M50.0,191.3775 L50.0,206.37" class="dim" />
+<path d="M220.0,191.3775 L220.0,206.37" class="dim" />
+<path d="M50.0,200.8 L220.0,200.8" class="dim" />
+<path d="M50.0,200.8 L59.05215853528203,197.18445272439698 L59.05215853528203,204.41554727560305 Z" class="arrow" />
+<path d="M220.0,200.8 L210.94784146471795,204.41554727560305 L210.94784146471795,197.18445272439698 Z" class="arrow" />
+<text x="135.0" y="221.6875" font-size="16.71" text-anchor="middle" class="dimtxt">50 mm minimum</text>
+<path d="M50.0,191.3775 L50.0,247.17" class="dim" />
+<path d="M560.0,191.3775 L560.0,247.17" class="dim" />
+<path d="M50.0,241.6 L560.0,241.6" class="dim" />
+<path d="M50.0,241.6 L59.05215853528203,237.98445272439696 L59.05215853528203,245.21554727560303 Z" class="arrow" />
+<path d="M560.0,241.6 L550.947841464718,245.21554727560303 L550.947841464718,237.98445272439696 Z" class="arrow" />
+<text x="305.0" y="262.4875" font-size="16.71" text-anchor="middle" class="dimtxt">150 mm or more, preferred</text>
+<text x="50.0" y="336.79999999999995" font-size="18.67" text-anchor="start" class="ink" font-weight="600">✗ Strips of ten, 40 mm each</text>
+<rect x="50.0" y="350.4" width="136.0" height="27.2" rx="0.0" class="tape" />
+<circle cx="63.6" cy="356.35" r="2.55" class="sprk" />
+<circle cx="77.2" cy="356.35" r="2.55" class="sprk" />
+<circle cx="90.8" cy="356.35" r="2.55" class="sprk" />
+<circle cx="104.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="118.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="131.6" cy="356.35" r="2.55" class="sprk" />
+<circle cx="145.2" cy="356.35" r="2.55" class="sprk" />
+<circle cx="158.8" cy="356.35" r="2.55" class="sprk" />
+<circle cx="172.39999999999998" cy="356.35" r="2.55" class="sprk" />
+<rect x="54.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="55.44" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="55.44" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="55.44" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="68.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="69.03999999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="69.03999999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="69.03999999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="82.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="82.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="82.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="82.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="95.72999999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="96.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="96.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="96.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="109.33" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="109.84" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="109.84" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="109.84" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="122.92999999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="123.44" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="123.44" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="123.44" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="136.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="137.04000000000002" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="137.04000000000002" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="137.04000000000002" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="150.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="150.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="150.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="150.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="163.73000000000002" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="164.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="164.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="164.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="177.33" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="177.84" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="177.84" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="177.84" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="50.0" y="361.62" width="136.0" height="13.26" rx="0.0" class="cover" />
+<rect x="209.79999999999998" y="350.4" width="136.0" height="27.2" rx="0.0" class="tape" />
+<circle cx="223.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="237.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="250.6" cy="356.35" r="2.55" class="sprk" />
+<circle cx="264.2" cy="356.35" r="2.55" class="sprk" />
+<circle cx="277.79999999999995" cy="356.35" r="2.55" class="sprk" />
+<circle cx="291.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="305.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="318.59999999999997" cy="356.35" r="2.55" class="sprk" />
+<circle cx="332.2" cy="356.35" r="2.55" class="sprk" />
+<rect x="214.73000000000002" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="215.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="215.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="215.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="228.33" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="228.84" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="228.84" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="228.84" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="241.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="242.44" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="242.44" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="242.44" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="255.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="256.03999999999996" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="256.03999999999996" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="256.03999999999996" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="269.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="269.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="269.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="269.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="282.73" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="283.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="283.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="283.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="296.33000000000004" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="296.84" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="296.84" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="296.84" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="309.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="310.44" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="310.44" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="310.44" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="323.53000000000003" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="324.03999999999996" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="324.03999999999996" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="324.03999999999996" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="337.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="337.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="337.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="337.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="209.79999999999998" y="361.62" width="136.0" height="13.26" rx="0.0" class="cover" />
+<rect x="369.59999999999997" y="350.4" width="136.0" height="27.2" rx="0.0" class="tape" />
+<circle cx="383.2" cy="356.35" r="2.55" class="sprk" />
+<circle cx="396.8" cy="356.35" r="2.55" class="sprk" />
+<circle cx="410.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="424.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="437.59999999999997" cy="356.35" r="2.55" class="sprk" />
+<circle cx="451.2" cy="356.35" r="2.55" class="sprk" />
+<circle cx="464.8" cy="356.35" r="2.55" class="sprk" />
+<circle cx="478.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="492.0" cy="356.35" r="2.55" class="sprk" />
+<rect x="374.53000000000003" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="375.03999999999996" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="375.03999999999996" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="375.03999999999996" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="388.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="388.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="388.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="388.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="401.73" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="402.23999999999995" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="402.23999999999995" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="402.23999999999995" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="415.33" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="415.84" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="415.84" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="415.84" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="428.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="429.44" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="429.44" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="429.44" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="442.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="443.03999999999996" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="443.03999999999996" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="443.03999999999996" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="456.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="456.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="456.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="456.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="469.73" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="470.23999999999995" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="470.23999999999995" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="470.23999999999995" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="483.33" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="483.84" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="483.84" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="483.84" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="496.92999999999995" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="497.43999999999994" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="497.43999999999994" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="497.43999999999994" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="369.59999999999997" y="361.62" width="136.0" height="13.26" rx="0.0" class="cover" />
+<rect x="529.4" y="350.4" width="136.0" height="27.2" rx="0.0" class="tape" />
+<circle cx="543.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="556.5999999999999" cy="356.35" r="2.55" class="sprk" />
+<circle cx="570.1999999999999" cy="356.35" r="2.55" class="sprk" />
+<circle cx="583.8" cy="356.35" r="2.55" class="sprk" />
+<circle cx="597.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="611.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="624.6" cy="356.35" r="2.55" class="sprk" />
+<circle cx="638.1999999999999" cy="356.35" r="2.55" class="sprk" />
+<circle cx="651.8" cy="356.35" r="2.55" class="sprk" />
+<rect x="534.3299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="534.8399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="534.8399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="534.8399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="547.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="548.4399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="548.4399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="548.4399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="561.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="562.04" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="562.04" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="562.04" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="575.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="575.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="575.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="575.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="588.7299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="589.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="589.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="589.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="602.3299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="602.8399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="602.8399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="602.8399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="615.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="616.4399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="616.4399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="616.4399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="629.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="630.04" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="630.04" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="630.04" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="643.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="643.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="643.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="643.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="656.7299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="657.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="657.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="657.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="529.4" y="361.62" width="136.0" height="13.26" rx="0.0" class="cover" />
+<rect x="689.1999999999999" y="350.4" width="136.0" height="27.2" rx="0.0" class="tape" />
+<circle cx="702.8" cy="356.35" r="2.55" class="sprk" />
+<circle cx="716.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="730.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="743.6" cy="356.35" r="2.55" class="sprk" />
+<circle cx="757.1999999999999" cy="356.35" r="2.55" class="sprk" />
+<circle cx="770.8" cy="356.35" r="2.55" class="sprk" />
+<circle cx="784.4" cy="356.35" r="2.55" class="sprk" />
+<circle cx="798.0" cy="356.35" r="2.55" class="sprk" />
+<circle cx="811.6" cy="356.35" r="2.55" class="sprk" />
+<rect x="694.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="694.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="694.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="694.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="707.7299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="708.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="708.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="708.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="721.3299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="721.8399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="721.8399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="721.8399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="734.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="735.4399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="735.4399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="735.4399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="748.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="749.04" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="749.04" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="749.04" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="762.13" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="762.64" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="762.64" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="762.64" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="775.7299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="776.24" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="776.24" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="776.24" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="789.3299999999999" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="789.8399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="789.8399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="789.8399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="802.93" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="803.4399999999999" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="803.4399999999999" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="803.4399999999999" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="816.53" y="365.02" width="3.74" height="6.46" rx="0.34" class="pocket" />
+<rect x="817.04" y="365.53" width="2.72" height="5.44" rx="0.0" class="capbody" />
+<rect x="817.04" y="365.53" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="817.04" y="369.95" width="2.72" height="1.02" rx="0.0" class="capterm" />
+<rect x="689.1999999999999" y="361.62" width="136.0" height="13.26" rx="0.0" class="cover" />
+<path d="M209.79999999999998,381.77750000000003 L209.79999999999998,396.77" class="dim" />
+<path d="M345.8,381.77750000000003 L345.8,396.77" class="dim" />
+<path d="M209.79999999999998,391.2 L345.8,391.2" class="dim" />
+<path d="M209.79999999999998,391.2 L218.85215853528203,387.58445272439695 L218.85215853528203,394.815547275603 Z" class="arrow" />
+<path d="M345.8,391.2 L336.74784146471796,394.815547275603 L336.74784146471796,387.58445272439695 Z" class="arrow" />
+<text x="277.8" y="412.0875" font-size="16.71" text-anchor="middle" class="dimtxt">40 mm</text>
+<path d="M872.8,177.85 L913.6,177.85" class="lead" />
+<path d="M913.6,177.85 L902.46,172.28 L902.46,183.42 Z" class="dot" />
+<text x="872.8" y="166.71" font-size="16.71" text-anchor="start" class="muted">Feed</text>
+<text x="50" y="515.875" font-size="17.69" class="ink" font-weight="600">Key</text>
+<path d="M50,529.8 L480,529.8" class="thin" />
+<circle cx="63.925" cy="560.435" r="12.5325" class="balloon" />
+<text x="63.925" y="566.005" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">1</text>
+<text x="88.99000000000001" y="566.005" font-size="17.2" class="ink">Last part in: the trailing end</text>
+<text x="88.99000000000001" y="588.285" font-size="15.72" class="muted">May be lost</text>
+<circle cx="63.925" cy="618.92" r="12.5325" class="balloon" />
+<text x="63.925" y="624.49" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">2</text>
+<text x="88.99000000000001" y="624.49" font-size="17.2" class="ink">A part in every pocket</text>
+<text x="88.99000000000001" y="646.77" font-size="15.72" class="muted">Usually no empty leader on cut tape</text>
+<path d="M520,529.8 L950,529.8" class="thin" />
+<circle cx="533.925" cy="560.435" r="12.5325" class="balloon" />
+<text x="533.925" y="566.005" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">3</text>
+<text x="558.99" y="566.005" font-size="17.2" class="ink">First part in: the leading end</text>
+<text x="558.99" y="588.285" font-size="15.72" class="muted">May be lost; buy a little extra (attrition)</text>
+<circle cx="533.925" cy="618.92" r="12.5325" class="balloon" />
+<text x="533.925" y="624.49" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">4</text>
+<text x="558.99" y="624.49" font-size="17.2" class="ink">Each strip loaded or spliced by hand</text>
+<text x="558.99" y="646.77" font-size="15.72" class="muted">Shorter than 50 mm: too short to load</text>
+<rect x="50" y="701.0775" width="19.495" height="19.495" class="tape" />
+<rect x="50" y="701.0775" width="19.495" height="19.495" class="thin" />
+<text x="80.635" y="717.7875" font-size="16.71" class="ink">Carrier tape</text>
+<rect x="50" y="731.7125" width="19.495" height="19.495" class="cover" />
+<rect x="50" y="731.7125" width="19.495" height="19.495" class="thin" />
+<text x="80.635" y="748.4225" font-size="16.71" class="ink">Cover tape</text>
+<rect x="50" y="762.3475" width="19.495" height="19.495" class="capbody" />
+<rect x="50" y="762.3475" width="19.495" height="19.495" class="thin" />
+<text x="80.635" y="779.0575" font-size="16.71" class="ink">Part</text>
+<text x="330" y="716.395" font-size="15.72" class="muted">Drawn to scale: 8 mm tape, 4 mm pitch.</text>
+<text x="330" y="737.617" font-size="15.72" class="muted">Shortest strip: 50 mm minimum, 150 mm or more preferred</text>
+<text x="330" y="758.8389999999999" font-size="15.72" class="muted">(Worthington Assembly and CircuitHub).</text>
+<text x="330" y="780.061" font-size="15.72" class="muted">Feed direction per EIA-481: cover tape up, round sprocket</text>
+<text x="330" y="801.283" font-size="15.72" class="muted">holes at the top, unreeling to the right.</text>
+<path d="M56.8,177.85 L56.8,139.925" class="lead" fill="none" />
+<circle cx="56.8" cy="177.85" r="3.0635000000000003" class="dot" />
+<circle cx="56.8" cy="126.0" r="13.925" class="balloon" />
+<text x="56.8" y="131.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">1</text>
+<path d="M464.8,172.24 L464.8,139.925" class="lead" fill="none" />
+<circle cx="464.8" cy="172.24" r="3.0635000000000003" class="dot" />
+<circle cx="464.8" cy="126.0" r="13.925" class="balloon" />
+<text x="464.8" y="131.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">2</text>
+<path d="M859.1999999999999,177.85 L859.1999999999999,139.925" class="lead" fill="none" />
+<circle cx="859.1999999999999" cy="177.85" r="3.0635000000000003" class="dot" />
+<circle cx="859.1999999999999" cy="126.0" r="13.925" class="balloon" />
+<text x="859.1999999999999" y="131.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">3</text>
+<path d="M376.4,368.25 L376.4,404.47499999999997" class="lead" fill="none" />
+<circle cx="376.4" cy="368.25" r="3.0635000000000003" class="dot" />
+<circle cx="376.4" cy="418.4" r="13.925" class="balloon" />
+<text x="376.4" y="423.96999999999997" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">4</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D58</text>
+<text x="96.77874999999999" y="36.205" font-size="17.69" class="muted">PCB-DFA-101 · PCB-DFA-105</text>
+</svg>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="658.7" viewBox="0 0 980 658.7" role="img" aria-labelledby="title desc">
+<defs>
+</defs>
+<title id="title">D65: A board packed to ship, compared with a board in an anti-static bag only</title><desc id="desc">D65 is a cross-section, drawn to scale. Left, marked good: a 100 mm board 1.6 mm thick with parts on top is wrapped in pink anti-static bubble wrap, then sealed in a metallized static-shielding bag folded over and taped, in a corrugated box with filler. A spark from outside stops at the shielding bag. Right, marked avoid: the same board in a pink anti-static bag only; the spark passes through the bag to the board.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,d09GMgABAAAAAA/kABAAAAAAIlAAAA+GAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbkgIcgWoGYD9TVEFURACBHhEICp9AmFcBNgIkA4FkC3QABCAFiDAHIAwHG10do6Kks8JL9pcH3JCBNdAbwkMEVRVfRbEoS7Xo0l50F61t+g6B+nTiB4yZYQf+evMlKrZ8hfK1jR2eKR6q/SJfz8edPUQQ5i4gLKEGNiYa0aiwYrZJ9VBu1lBVWocmiFmxEMxqVNhAkVDEquyeu71EZNUI6sd+e/fFSvloohSTatJcGtNJhVYpgekqz6I5bI8KO7cFRmUoSZFthUrsRZgiPYJ8FvaN7Z/76ftXl7SuI9LEQrEN3MVNivnJEkOgAf6HYQ/MM+S62OwknmlK1v/NlXZyAOCKLGQ9kKpS2Z/ZHUruLqf2bQ6YMrvvNVuWRBbYArMFFq6uQrWuQrmT1RVSVvdcZgrwtZEj0SAXueRip5idEEImdETvZ3/9RycwA1AUYSGCxRgIAtU2GvVjE+4wIG6XEyuAeIBV84CoAfIRiP3Nch60oAgUfeMOdUZFtQ7BDC3CPARhFHb+H1bqt2mgv6n/bLVRAMgCAMiELIE8zQFEF/omFgP5hxyrUUkVMiNbcrZ2jT1xzJUXSegc91iYD2pwIi2ZY4otbw0apt5rzEQcKHoRCDm57KmX6gZIL0wU8c5ZCs3DGCSkrm/F5GOtbMmwPDaQi2m58wVLUY9EkhTpCL+tKH965WIBzIzOccmSwoWyjWV4ZHbvJwYGZYEllRWcR+XOr4KR1By97UgIkzOKYHuIlUmnX3dSe1JzuQ4M3cAGyKtoJJ5Ub83A8P5QP5FqEot8r97ilIn1obmFgQv4JErcHSBDDiTksEc0oKcRiLK1UFD1Edp55b0MLJppThPKw9dgAaMI1c3T8ndjlYza4vrKEemPAhJ3pqnF2lRUsrCwlgIXym/OVcL/DwcICIjM6Fw+jydadZyZP+gfbeOAlC7iXbNE5qbNw8fsCAHuasNlQv6PbywBVBoyM9Om26bWXA+2dsbJuwWIe6GhFkYaBEhO71XgcdIAjiKhynSNtqYC/4oKa/8X32KpOh1GVLNNzEXUbQmOfgICDATsNohgmRYs12mxLqzQarZOo6JYqUczYCmiZoNGY6EOczVptVZpMM+gdlNLADAfAbsNaNAoaBQA1SydqRDCYt2mBjA1R4tRWKDFTHO16vWWajLPgA4zLDIMYL46ozAqfqOWqMc2babMSqv2HyOwoL4t8qxsM/ZgXy0/+W2/gCAooKaR1y/wH0WAEmhuLx6mtmDjEBCTkpFTUFIh2KZbCXkxmGA0aDV6nbBFL4IQZy6g6k2MInToT3WLqro/fkTXnz2Rw7cC/fAKAgHRqCkMAdZocMkWzZoiKXOmcHTQVQ7kM2Pbn3JwHM+CLplDzFEDX7RVrRIWQ0AYhV4RwkJNl+KaZWVWFqGl7rmQAmKxMQ3KlhYgYJ56u4bcnrMaKbc2Dbj+HcUGVdTBrwf4L9yfGLxGazzbfP7fo3mIGxEQj3mGNclxpoyABW3od72drhIA/5zMCZkUtubEsNoswLxxiUkNjZJYLPCD/RIaPI0VetSbYQ0BBQ0rlIdfGK5oy7OZWINHRM3ExsUvBLOivL+1AUFKiX3Qe73TC71o2t+HgGX4fvXb20qARYWDIEqajXAUwD2Ay0B7Rz8POAU4AqBTClMVGfSyJCgg40puIAC50qXFwq3CGzeSWW30Scdmrmi4uFWEe3zB8hkXTxa1oVraaqShuLqjpLbAS19tVVm1LxmurikUX8m+1HpfBs9NkzDdrb66DE7spizOLy0euPmGJY81rHDiozkswkmuFKTybbycXKIE+TQZ2QaxWumyQ4usjaC11xgc1IJGbzUKUx6kG1x77/KIOhO7q1o83kqNTrIy3QsxnJAns2Z6e8/hNBuKlego/hqlt97D9g4vRuTyrSxnWFiCZbfMqzZPnKGXyYxwC5xZ2QM/rudCmxcVC5b8SwN9C3VNThqDMWpUq6g/x3+39sSOVSmxjbfxThDnpdaF2TH7FH5ZoFS5l/LEa8nyaddSc4/6b5gsDglPZfp0OVXQ6ez2PJThnD9ezfqanEz6kBkaH2x6RF9LSaGSaxus13eBko93LONHdqpud24/T5fzkRf9IYVcZCYojFrYsAKMsmcAcQgBgZhY3w0/vo03G6p3ItGSQ6dSCi/cQp/0HD9CWLONZpN5GpPQuFy/o26422iBkynCYZIJB5uGMQgGcb+Zk6SJIyur9SREAsIdkppo1EGv3VPOgiZK986YWo6e+IbACQZcdOl9hgFgAcUlR58rFSyvvCdfXyVgi/unX1aCtPzCQ9tQhkacCRoElQPRrS0DnbrrXIJV4yBfZJw+/xlUHi++VSwliCkZGMUKeTF6VPs1T3qWqvUQ1B4roW2hOGysbIvzNaQrOvfQkKhd+u+M5kBzLVygJqoH1RypO+FV7fRSHLmGMUosnHq5fka8VJ/euVmeYQv1X2us3Uies00Vkgi1A7/uUNJKVAaNbJqmg9cP3+SkAvrnlss4lFd70CCmXajNoTdRyy7v0Di8tJ8sCfnoVRLP/UKP2W6u5Ht+GyMJz312bh6u3pW6ihY/mGcqj1oP254/1KK1P+fh98cfe9mrT5eZWPl8/adsG2QV0HycXnbIuph3BnF08P/3UZIOzDcNeHC2wq0Q8By/PaUJKLWamaLQf+vKHSzWBaOssu6OxA3iLjrTJbkaLLcnLply35jO+G64IhyfP99PRcvsiJ8rk4YVItzjFuJTSgX8eNPvJTbdfqkPmG/6cOoCatwjO3VhSXHqsud8OGTPOqWzvSYhbdaG0mZMImdKnSGf3Qdl+4PWkrULRNpjF0w7bsTx4PVXhbGZSx0Ue5XT5xJo5FMySdrrEWbCSjXpo+7f2MQHspxsaNBzPM0F5pvOYLUxb6tfNnTaDV/QAnMfXvg4gTLqyW48etPR9286DX4YKh0YLHv02itc84LTaVR7EvulBxIXKhCeUin+CiouBEKYczSvQ7bGufQ/0yCD9gUO0zcsXeHel8ICvl0iYNntkqUxlTQ67tb4Vjn3nuaDKGcQxyZ+u26+/zjGUTkNVtfilgj8wfm6rCh/zQFvtws9lJ18bRC9lpFs6bzpldDFxRXacnbSnclEs0Vag227rSQ4O0TrnaGuDYnHYs1ZFnf8DRBsh+5o+JmIJN+qjf/dcMe5HtOpysGAqooZMEyOTHm8SEAuR3wB5QRaBn3wZE3qVY9bXy0YnTzf6H5Vmv69F4ZOgxG1hoKeCtH4X6bo0xapbxgcnOoxg7oaCKrLmE4vDnJS47VGqDH+wGq/5dkAsw2jxSZQZQDxyeVIwOtBpgAFvqppsur1IZWyAdUt8iZ9JFy3abl94aUBhm1PktKXVbwvqwN7b6eRzz4dRC8PRUNe5f/2EYMhLqDHYVsmmrkckP6ygkSzhJ1ifVDgkBt+ZE8/42OLldvUuqwnrMtFlXJZgHstEU186dbEMgKHjJKFjUolbFqhyGx2p9PmBvo/tdGn7nqHZUCF5NlJ6VY/7aEwW6FwOhpB/ArP0nu7wN/s1ic/uOLljz+Dr7js/cil4APFvmvl5i0mvMpgJoH+OUlEnjrrHrrGxjn09TRLpkdpJZai9tbalwFWFvzjoFHUHBpIspsbg2iOjBo4MYuFg6GTcySRaJZkVec6pTHfSWbJwhh8KcWmUZs5ToPhyyg2tWbArUB3fUViAK1nsl5VoRXbQw/d2fjLP6sH5xZBrwcJy8Xo5gkGkADQP0dHI3uOH8BqVzrIsFXxNzg2Q7YwblG2rDDPRGkc9qekoa0We9d7NsoGW6w1Rykqa0VyQ4bx0oUM9rERYtOMs+uCHzgtkGrROB3sPvzL9cqOUDS0vbYdj+I7GQmqMAl+ap+0i8gRg6TWR7vZypZLEEdbbVeSaLNa+ODFx3aeVk1Wkqc9vhNceebO7aFF7+L6Qd09zPYzd546sza9BtoIeOD/8xOXLF9y/v3/PwPOL922e3SgvV5ikJvQdc9z/5+VC6VDZz1z+OiR01/hAcp2G/Pk9vGu79AyOKWdCqgd6nSUTgDUueT0pxfJR7ezm9ICMZAnwPjPnCoHspax5JhQpm8abNig7yD42wn4Ixj6GKDtkVpQf0Mu12fVApGI2/3RBueiE43EP9ybBeo0nDfL+R/95sAjVFl3hGI5h03+FXz05Z1xiavdcSRyEyDve1RnpbCoYobDe0LAQNh3leiD6A7vrDnJVYf1SmFsbnEjgvKncDAGfZxmQQgl+uOoRErf3EmBXzj4NTyyOMJHBy+ikP+wTIhMwluKdAJixmANP0g0sZlmgULnsVj6dbNSBJ2r8EDyWnvMdkftWjyPX6tveGs/Kgzb6GZbV47+plkopr/G44nmP4JbQPq8+4pjBjt8Jz7Ze/2aq5+hTckmE243mqrIgKYzcxZQXrbNQTrbmMC1rsCS7pIi634thfMTPA+Mhz6W2hBXqRNmiyFT0DuiKpNDpzU51SqLpTr5QcGrD77r8/Wb2J1js1zTZDZrslhzRmPWNHH8hwPn76M90S4fpUBHrmbSr2xdN6C+DfSDBgG9PV2ZYveQwuLD4ovVqkrp8GpFyfxxeoZYAHScAGKsH/Qv8lG/0O/ZXkYfqgMOu9sXyq3bN/RWPOVwtMhv4dGS391PQKA4d7//90i0W/fWYpqf4Jup/QQAfLsV+dNQjtm4+Qt6BQR/k+lbAETY9a0czW778hpDPsKcl9iQD1omMexdp1yCaGbFLxkushaQ8lKducZouujjgNXpVIjbKhZ15CXB5L4ikkFp5vBpWz5NJUnvL0+liThWVLe+2+JI68rdtHFczY/MzqrGv+Zyv1kXQsD/tjtmu50nBij9SrNbRQkJ8CFwC3mZA/GIralGTj9G5sRPiRAnTp1mfAQcJdVoiTpB49NrzfS8RlQn+A83MVxybGIxK85NbNwIv7OFJ3aWxX0Te+fijYkzY102TJjlUIXRKZhRuU1M7MyppNnoC3/oySZq5VHnFRRtKsOlpFVBJETG4K+1MpCwX0kwE/jkK3B5FQV5ELtNRQllWQkpuJhsD/FK2EBjfqB/QUZCXBWBrY5j0wrKFoSVlFXF9BUaQkIAz7QqRiCuIOdhBSlS2CKZ+vCqKoSwjJaHL53Ol18f7DKuHJKQgzMryFoWVL/mqixMmYSAiIiYlpePF0KbJKCBDPPnK9NAk4FnSdTKxoW6CrwGwhaNC1RXJSnWC4LiMciylsUlJGqdsAyy6pRlpWxUGdI/xMEN4ssiOI8a7I5GPHlZSAwGM85vSpJJW8waDE47UcY6awCAlJZJwKmXSCPnmF7IjjBJkkII2Lk+UhFFMxINJaebOaSBjSLI7B+GyasHEnGEbvtO5GOzzwEA) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="658.7" class="bg" />
+<g transform="translate(0,55.7)">
+<style>
+.carton   { fill: #c49a6c; stroke: #8a6a45; stroke-width: 1.77; }
+.flute    { stroke: #8a6a45; stroke-width: 1.67; fill: none; }
+.fill     { fill: #ece6da; stroke: #b8ad98; stroke-width: 1.57; }
+.pink     { fill: #f3a9c2; stroke: #c76f90; stroke-width: 1.57; }
+.pinkbag  { stroke: #e07aa0; stroke-width: 3.14; fill: none; }
+.shield   { stroke: #8f969d; stroke-width: 3.54; fill: none; }
+.tape     { fill: #d8c48a; stroke: #8a7a52; stroke-width: 1.57; }
+.zap      { fill: #e0392b; stroke: #7a1a12; stroke-width: 1.77; }
+.good     { fill: #2f9e4f; }
+.bad      { fill: #b23a2b; }
+@media (prefers-color-scheme: dark) {
+  .fill   { fill: #4a463e; stroke: #7d7564; }
+  .shield { stroke: #c9ccd1; }
+  .good   { fill: #5cc47d; }
+  .bad    { fill: #f08a7a; }
+}
+</style>
+<rect x="15.600000000000001" y="78.0" width="390.0" height="161.20000000000002" rx="0.0" class="carton" />
+<rect x="26.0" y="88.4" width="369.2" height="140.4" rx="0.0" class="bg" />
+<path d="M15.600000000000001,80.08 L19.5,86.32000000000001" class="flute" />
+<path d="M15.600000000000001,230.88 L19.5,237.12" class="flute" />
+<path d="M23.400000000000002,80.08 L27.3,86.32000000000001" class="flute" />
+<path d="M23.400000000000002,230.88 L27.3,237.12" class="flute" />
+<path d="M31.200000000000003,80.08 L35.1,86.32000000000001" class="flute" />
+<path d="M31.200000000000003,230.88 L35.1,237.12" class="flute" />
+<path d="M39.0,80.08 L42.9,86.32000000000001" class="flute" />
+<path d="M39.0,230.88 L42.9,237.12" class="flute" />
+<path d="M46.800000000000004,80.08 L50.7,86.32000000000001" class="flute" />
+<path d="M46.800000000000004,230.88 L50.7,237.12" class="flute" />
+<path d="M54.6,80.08 L58.5,86.32000000000001" class="flute" />
+<path d="M54.6,230.88 L58.5,237.12" class="flute" />
+<path d="M62.400000000000006,80.08 L66.3,86.32000000000001" class="flute" />
+<path d="M62.400000000000006,230.88 L66.3,237.12" class="flute" />
+<path d="M70.2,80.08 L74.10000000000001,86.32000000000001" class="flute" />
+<path d="M70.2,230.88 L74.10000000000001,237.12" class="flute" />
+<path d="M78.0,80.08 L81.9,86.32000000000001" class="flute" />
+<path d="M78.0,230.88 L81.9,237.12" class="flute" />
+<path d="M85.8,80.08 L89.7,86.32000000000001" class="flute" />
+<path d="M85.8,230.88 L89.7,237.12" class="flute" />
+<path d="M93.60000000000001,80.08 L97.5,86.32000000000001" class="flute" />
+<path d="M93.60000000000001,230.88 L97.5,237.12" class="flute" />
+<path d="M101.4,80.08 L105.3,86.32000000000001" class="flute" />
+<path d="M101.4,230.88 L105.3,237.12" class="flute" />
+<path d="M109.2,80.08 L113.10000000000001,86.32000000000001" class="flute" />
+<path d="M109.2,230.88 L113.10000000000001,237.12" class="flute" />
+<path d="M117.0,80.08 L120.9,86.32000000000001" class="flute" />
+<path d="M117.0,230.88 L120.9,237.12" class="flute" />
+<path d="M124.80000000000001,80.08 L128.70000000000002,86.32000000000001" class="flute" />
+<path d="M124.80000000000001,230.88 L128.70000000000002,237.12" class="flute" />
+<path d="M132.6,80.08 L136.5,86.32000000000001" class="flute" />
+<path d="M132.6,230.88 L136.5,237.12" class="flute" />
+<path d="M140.4,80.08 L144.3,86.32000000000001" class="flute" />
+<path d="M140.4,230.88 L144.3,237.12" class="flute" />
+<path d="M148.20000000000002,80.08 L152.1,86.32000000000001" class="flute" />
+<path d="M148.20000000000002,230.88 L152.1,237.12" class="flute" />
+<path d="M156.0,80.08 L159.9,86.32000000000001" class="flute" />
+<path d="M156.0,230.88 L159.9,237.12" class="flute" />
+<path d="M163.8,80.08 L167.70000000000002,86.32000000000001" class="flute" />
+<path d="M163.8,230.88 L167.70000000000002,237.12" class="flute" />
+<path d="M171.6,80.08 L175.5,86.32000000000001" class="flute" />
+<path d="M171.6,230.88 L175.5,237.12" class="flute" />
+<path d="M179.4,80.08 L183.3,86.32000000000001" class="flute" />
+<path d="M179.4,230.88 L183.3,237.12" class="flute" />
+<path d="M187.20000000000002,80.08 L191.1,86.32000000000001" class="flute" />
+<path d="M187.20000000000002,230.88 L191.1,237.12" class="flute" />
+<path d="M195.0,80.08 L198.9,86.32000000000001" class="flute" />
+<path d="M195.0,230.88 L198.9,237.12" class="flute" />
+<path d="M202.8,80.08 L206.70000000000002,86.32000000000001" class="flute" />
+<path d="M202.8,230.88 L206.70000000000002,237.12" class="flute" />
+<path d="M210.6,80.08 L214.5,86.32000000000001" class="flute" />
+<path d="M210.6,230.88 L214.5,237.12" class="flute" />
+<path d="M218.4,80.08 L222.3,86.32000000000001" class="flute" />
+<path d="M218.4,230.88 L222.3,237.12" class="flute" />
+<path d="M226.20000000000002,80.08 L230.1,86.32000000000001" class="flute" />
+<path d="M226.20000000000002,230.88 L230.1,237.12" class="flute" />
+<path d="M234.0,80.08 L237.9,86.32000000000001" class="flute" />
+<path d="M234.0,230.88 L237.9,237.12" class="flute" />
+<path d="M241.8,80.08 L245.70000000000002,86.32000000000001" class="flute" />
+<path d="M241.8,230.88 L245.70000000000002,237.12" class="flute" />
+<path d="M249.60000000000002,80.08 L253.5,86.32000000000001" class="flute" />
+<path d="M249.60000000000002,230.88 L253.5,237.12" class="flute" />
+<path d="M257.40000000000003,80.08 L261.3,86.32000000000001" class="flute" />
+<path d="M257.40000000000003,230.88 L261.3,237.12" class="flute" />
+<path d="M265.2,80.08 L269.1,86.32000000000001" class="flute" />
+<path d="M265.2,230.88 L269.1,237.12" class="flute" />
+<path d="M273.0,80.08 L276.90000000000003,86.32000000000001" class="flute" />
+<path d="M273.0,230.88 L276.90000000000003,237.12" class="flute" />
+<path d="M280.8,80.08 L284.7,86.32000000000001" class="flute" />
+<path d="M280.8,230.88 L284.7,237.12" class="flute" />
+<path d="M288.6,80.08 L292.5,86.32000000000001" class="flute" />
+<path d="M288.6,230.88 L292.5,237.12" class="flute" />
+<path d="M296.40000000000003,80.08 L300.3,86.32000000000001" class="flute" />
+<path d="M296.40000000000003,230.88 L300.3,237.12" class="flute" />
+<path d="M304.2,80.08 L308.1,86.32000000000001" class="flute" />
+<path d="M304.2,230.88 L308.1,237.12" class="flute" />
+<path d="M312.0,80.08 L315.90000000000003,86.32000000000001" class="flute" />
+<path d="M312.0,230.88 L315.90000000000003,237.12" class="flute" />
+<path d="M319.8,80.08 L323.7,86.32000000000001" class="flute" />
+<path d="M319.8,230.88 L323.7,237.12" class="flute" />
+<path d="M327.6,80.08 L331.5,86.32000000000001" class="flute" />
+<path d="M327.6,230.88 L331.5,237.12" class="flute" />
+<path d="M335.40000000000003,80.08 L339.3,86.32000000000001" class="flute" />
+<path d="M335.40000000000003,230.88 L339.3,237.12" class="flute" />
+<path d="M343.2,80.08 L347.1,86.32000000000001" class="flute" />
+<path d="M343.2,230.88 L347.1,237.12" class="flute" />
+<path d="M351.0,80.08 L354.90000000000003,86.32000000000001" class="flute" />
+<path d="M351.0,230.88 L354.90000000000003,237.12" class="flute" />
+<path d="M358.8,80.08 L362.7,86.32000000000001" class="flute" />
+<path d="M358.8,230.88 L362.7,237.12" class="flute" />
+<path d="M366.6,80.08 L370.5,86.32000000000001" class="flute" />
+<path d="M366.6,230.88 L370.5,237.12" class="flute" />
+<path d="M374.40000000000003,80.08 L378.3,86.32000000000001" class="flute" />
+<path d="M374.40000000000003,230.88 L378.3,237.12" class="flute" />
+<path d="M382.2,80.08 L386.1,86.32000000000001" class="flute" />
+<path d="M382.2,230.88 L386.1,237.12" class="flute" />
+<path d="M390.0,80.08 L393.90000000000003,86.32000000000001" class="flute" />
+<path d="M390.0,230.88 L393.90000000000003,237.12" class="flute" />
+<path d="M397.8,80.08 L401.7,86.32000000000001" class="flute" />
+<path d="M397.8,230.88 L401.7,237.12" class="flute" />
+<rect x="28.6" y="91.0" width="364.0" height="26.0" rx="7.800000000000001" class="fill" />
+<rect x="28.6" y="200.20000000000002" width="364.0" height="26.0" rx="7.800000000000001" class="fill" />
+<rect x="80.60000000000001" y="163.8" width="260.0" height="4.16" rx="0.0" class="mask-on-fr4" />
+<rect x="99.84" y="162.76000000000002" width="16.12" height="1.04" rx="0.0" class="solder" />
+<rect x="101.4" y="157.56" width="13.0" height="5.2" rx="0.0" class="part" />
+<rect x="136.24" y="162.76000000000002" width="21.32" height="1.04" rx="0.0" class="solder" />
+<rect x="137.8" y="159.64000000000001" width="18.2" height="3.12" rx="0.0" class="part" />
+<rect x="167.44000000000003" y="162.76000000000002" width="34.32" height="1.04" rx="0.0" class="solder" />
+<rect x="169.0" y="160.16" width="31.200000000000003" height="2.6" rx="0.0" class="part" />
+<rect x="214.24" y="162.76000000000002" width="26.52" height="1.04" rx="0.0" class="solder" />
+<rect x="215.8" y="153.66" width="23.400000000000002" height="9.1" rx="0.0" class="part" />
+<rect x="261.04" y="162.76000000000002" width="11.440000000000001" height="1.04" rx="0.0" class="solder" />
+<rect x="262.6" y="158.6" width="8.32" height="4.16" rx="0.0" class="part" />
+<rect x="292.24" y="162.76000000000002" width="29.119999999999997" height="1.04" rx="0.0" class="solder" />
+<rect x="293.8" y="147.16" width="26.0" height="15.600000000000001" rx="0.0" class="part" />
+<rect x="67.60000000000001" y="139.36" width="286.0" height="5.2" rx="0.0" class="pink" />
+<circle cx="72.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="85.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="98.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="111.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="124.80000000000001" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="137.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="150.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="163.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="176.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="189.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="202.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="215.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="228.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="241.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="254.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="267.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="280.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="293.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="306.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="319.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="332.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<circle cx="345.8" cy="135.20000000000002" r="4.680000000000001" class="pink" />
+<rect x="67.60000000000001" y="170.56" width="286.0" height="5.2" rx="0.0" class="pink" />
+<circle cx="72.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="85.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="98.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="111.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="124.80000000000001" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="137.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="150.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="163.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="176.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="189.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="202.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="215.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="228.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="241.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="254.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="267.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="280.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="293.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="306.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="319.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="332.8" cy="179.92" r="4.680000000000001" class="pink" />
+<circle cx="345.8" cy="179.92" r="4.680000000000001" class="pink" />
+<rect x="63.7" y="128.96" width="5.2" height="57.19999999999998" rx="0.0" class="pink" />
+<rect x="352.3" y="128.96" width="5.2" height="57.19999999999998" rx="0.0" class="pink" />
+<rect x="57.2" y="122.46000000000001" width="306.8" height="70.19999999999999" rx="5.2" class="shield" />
+<path d="M364.0,122.46000000000001 L377.0,131.56" class="shield" />
+<rect x="360.1" y="136.76000000000002" width="15.600000000000001" height="20.8" rx="0.0" class="tape" />
+<rect x="520.0" y="78.0" width="390.0" height="161.20000000000002" rx="0.0" class="carton" />
+<rect x="530.4" y="88.4" width="369.2" height="140.4" rx="0.0" class="bg" />
+<path d="M520.0,80.08 L523.9,86.32000000000001" class="flute" />
+<path d="M520.0,230.88 L523.9,237.12" class="flute" />
+<path d="M527.8000000000001,80.08 L531.7,86.32000000000001" class="flute" />
+<path d="M527.8000000000001,230.88 L531.7,237.12" class="flute" />
+<path d="M535.6,80.08 L539.5,86.32000000000001" class="flute" />
+<path d="M535.6,230.88 L539.5,237.12" class="flute" />
+<path d="M543.4,80.08 L547.3000000000001,86.32000000000001" class="flute" />
+<path d="M543.4,230.88 L547.3000000000001,237.12" class="flute" />
+<path d="M551.2,80.08 L555.1,86.32000000000001" class="flute" />
+<path d="M551.2,230.88 L555.1,237.12" class="flute" />
+<path d="M559.0,80.08 L562.9,86.32000000000001" class="flute" />
+<path d="M559.0,230.88 L562.9,237.12" class="flute" />
+<path d="M566.8000000000001,80.08 L570.7,86.32000000000001" class="flute" />
+<path d="M566.8000000000001,230.88 L570.7,237.12" class="flute" />
+<path d="M574.6,80.08 L578.5,86.32000000000001" class="flute" />
+<path d="M574.6,230.88 L578.5,237.12" class="flute" />
+<path d="M582.4,80.08 L586.3000000000001,86.32000000000001" class="flute" />
+<path d="M582.4,230.88 L586.3000000000001,237.12" class="flute" />
+<path d="M590.2,80.08 L594.1,86.32000000000001" class="flute" />
+<path d="M590.2,230.88 L594.1,237.12" class="flute" />
+<path d="M598.0,80.08 L601.9,86.32000000000001" class="flute" />
+<path d="M598.0,230.88 L601.9,237.12" class="flute" />
+<path d="M605.8000000000001,80.08 L609.7,86.32000000000001" class="flute" />
+<path d="M605.8000000000001,230.88 L609.7,237.12" class="flute" />
+<path d="M613.6,80.08 L617.5,86.32000000000001" class="flute" />
+<path d="M613.6,230.88 L617.5,237.12" class="flute" />
+<path d="M621.4,80.08 L625.3000000000001,86.32000000000001" class="flute" />
+<path d="M621.4,230.88 L625.3000000000001,237.12" class="flute" />
+<path d="M629.2,80.08 L633.1,86.32000000000001" class="flute" />
+<path d="M629.2,230.88 L633.1,237.12" class="flute" />
+<path d="M637.0,80.08 L640.9,86.32000000000001" class="flute" />
+<path d="M637.0,230.88 L640.9,237.12" class="flute" />
+<path d="M644.8000000000001,80.08 L648.7,86.32000000000001" class="flute" />
+<path d="M644.8000000000001,230.88 L648.7,237.12" class="flute" />
+<path d="M652.6,80.08 L656.5,86.32000000000001" class="flute" />
+<path d="M652.6,230.88 L656.5,237.12" class="flute" />
+<path d="M660.4,80.08 L664.3000000000001,86.32000000000001" class="flute" />
+<path d="M660.4,230.88 L664.3000000000001,237.12" class="flute" />
+<path d="M668.2,80.08 L672.1,86.32000000000001" class="flute" />
+<path d="M668.2,230.88 L672.1,237.12" class="flute" />
+<path d="M676.0,80.08 L679.9,86.32000000000001" class="flute" />
+<path d="M676.0,230.88 L679.9,237.12" class="flute" />
+<path d="M683.8000000000001,80.08 L687.7,86.32000000000001" class="flute" />
+<path d="M683.8000000000001,230.88 L687.7,237.12" class="flute" />
+<path d="M691.6,80.08 L695.5,86.32000000000001" class="flute" />
+<path d="M691.6,230.88 L695.5,237.12" class="flute" />
+<path d="M699.4,80.08 L703.3000000000001,86.32000000000001" class="flute" />
+<path d="M699.4,230.88 L703.3000000000001,237.12" class="flute" />
+<path d="M707.2,80.08 L711.1,86.32000000000001" class="flute" />
+<path d="M707.2,230.88 L711.1,237.12" class="flute" />
+<path d="M715.0,80.08 L718.9,86.32000000000001" class="flute" />
+<path d="M715.0,230.88 L718.9,237.12" class="flute" />
+<path d="M722.8000000000001,80.08 L726.7,86.32000000000001" class="flute" />
+<path d="M722.8000000000001,230.88 L726.7,237.12" class="flute" />
+<path d="M730.6,80.08 L734.5,86.32000000000001" class="flute" />
+<path d="M730.6,230.88 L734.5,237.12" class="flute" />
+<path d="M738.4,80.08 L742.3000000000001,86.32000000000001" class="flute" />
+<path d="M738.4,230.88 L742.3000000000001,237.12" class="flute" />
+<path d="M746.2,80.08 L750.1,86.32000000000001" class="flute" />
+<path d="M746.2,230.88 L750.1,237.12" class="flute" />
+<path d="M754.0,80.08 L757.9,86.32000000000001" class="flute" />
+<path d="M754.0,230.88 L757.9,237.12" class="flute" />
+<path d="M761.8000000000001,80.08 L765.7,86.32000000000001" class="flute" />
+<path d="M761.8000000000001,230.88 L765.7,237.12" class="flute" />
+<path d="M769.6,80.08 L773.5,86.32000000000001" class="flute" />
+<path d="M769.6,230.88 L773.5,237.12" class="flute" />
+<path d="M777.4,80.08 L781.3000000000001,86.32000000000001" class="flute" />
+<path d="M777.4,230.88 L781.3000000000001,237.12" class="flute" />
+<path d="M785.2,80.08 L789.1,86.32000000000001" class="flute" />
+<path d="M785.2,230.88 L789.1,237.12" class="flute" />
+<path d="M793.0,80.08 L796.9,86.32000000000001" class="flute" />
+<path d="M793.0,230.88 L796.9,237.12" class="flute" />
+<path d="M800.8000000000001,80.08 L804.7,86.32000000000001" class="flute" />
+<path d="M800.8000000000001,230.88 L804.7,237.12" class="flute" />
+<path d="M808.6,80.08 L812.5,86.32000000000001" class="flute" />
+<path d="M808.6,230.88 L812.5,237.12" class="flute" />
+<path d="M816.4,80.08 L820.3000000000001,86.32000000000001" class="flute" />
+<path d="M816.4,230.88 L820.3000000000001,237.12" class="flute" />
+<path d="M824.2,80.08 L828.1,86.32000000000001" class="flute" />
+<path d="M824.2,230.88 L828.1,237.12" class="flute" />
+<path d="M832.0,80.08 L835.9,86.32000000000001" class="flute" />
+<path d="M832.0,230.88 L835.9,237.12" class="flute" />
+<path d="M839.8000000000001,80.08 L843.7,86.32000000000001" class="flute" />
+<path d="M839.8000000000001,230.88 L843.7,237.12" class="flute" />
+<path d="M847.6,80.08 L851.5,86.32000000000001" class="flute" />
+<path d="M847.6,230.88 L851.5,237.12" class="flute" />
+<path d="M855.4,80.08 L859.3000000000001,86.32000000000001" class="flute" />
+<path d="M855.4,230.88 L859.3000000000001,237.12" class="flute" />
+<path d="M863.2,80.08 L867.1,86.32000000000001" class="flute" />
+<path d="M863.2,230.88 L867.1,237.12" class="flute" />
+<path d="M871.0,80.08 L874.9,86.32000000000001" class="flute" />
+<path d="M871.0,230.88 L874.9,237.12" class="flute" />
+<path d="M878.8000000000001,80.08 L882.7,86.32000000000001" class="flute" />
+<path d="M878.8000000000001,230.88 L882.7,237.12" class="flute" />
+<path d="M886.6,80.08 L890.5,86.32000000000001" class="flute" />
+<path d="M886.6,230.88 L890.5,237.12" class="flute" />
+<path d="M894.4,80.08 L898.3000000000001,86.32000000000001" class="flute" />
+<path d="M894.4,230.88 L898.3000000000001,237.12" class="flute" />
+<path d="M902.2,80.08 L906.1,86.32000000000001" class="flute" />
+<path d="M902.2,230.88 L906.1,237.12" class="flute" />
+<rect x="533.0" y="91.0" width="364.0" height="26.0" rx="7.800000000000001" class="fill" />
+<rect x="533.0" y="200.20000000000002" width="364.0" height="26.0" rx="7.800000000000001" class="fill" />
+<rect x="585.0" y="163.8" width="260.0" height="4.16" rx="0.0" class="mask-on-fr4" />
+<rect x="604.24" y="162.76000000000002" width="16.12" height="1.04" rx="0.0" class="solder" />
+<rect x="605.8000000000001" y="157.56" width="13.0" height="5.2" rx="0.0" class="part" />
+<rect x="640.64" y="162.76000000000002" width="21.32" height="1.04" rx="0.0" class="solder" />
+<rect x="642.2" y="159.64000000000001" width="18.2" height="3.12" rx="0.0" class="part" />
+<rect x="671.8399999999999" y="162.76000000000002" width="34.32" height="1.04" rx="0.0" class="solder" />
+<rect x="673.4" y="160.16" width="31.200000000000003" height="2.6" rx="0.0" class="part" />
+<rect x="718.64" y="162.76000000000002" width="26.52" height="1.04" rx="0.0" class="solder" />
+<rect x="720.2" y="153.66" width="23.400000000000002" height="9.1" rx="0.0" class="part" />
+<rect x="765.4399999999999" y="162.76000000000002" width="11.440000000000001" height="1.04" rx="0.0" class="solder" />
+<rect x="767.0" y="158.6" width="8.32" height="4.16" rx="0.0" class="part" />
+<rect x="796.64" y="162.76000000000002" width="29.119999999999997" height="1.04" rx="0.0" class="solder" />
+<rect x="798.2" y="147.16" width="26.0" height="15.600000000000001" rx="0.0" class="part" />
+<rect x="577.2" y="139.36" width="275.6" height="36.399999999999984" rx="3.9000000000000004" class="pinkbag" />
+<path d="M259.6,46.800000000000004 L251.8,62.400000000000006 L264.8,70.2 L254.40000000000003,114.66000000000001 L262.2,122.46000000000001 L268.2,122.46000000000001 L260.40000000000003,114.66000000000001 L270.8,70.2 L257.8,62.400000000000006 Z" class="zap" />
+<path d="M764.0,46.800000000000004 L756.2,62.400000000000006 L769.2,70.2 L758.8000000000001,140.66 L766.6,148.46 L772.6,148.46 L764.8000000000001,140.66 L775.2,70.2 L762.2,62.400000000000006 Z" class="zap" />
+<circle cx="26.0" cy="33.800000000000004" r="7" class="good" />
+<text x="40.0" y="38.800000000000004" font-size="18.67" text-anchor="start" class="ink" font-weight="600">Good: bubble wrap inside a sealed shielding bag</text>
+<circle cx="530.4" cy="33.800000000000004" r="7" class="bad" />
+<text x="544.4" y="38.800000000000004" font-size="18.67" text-anchor="start" class="ink" font-weight="600">Avoid: pink anti-static bag on its own</text>
+<text x="40" y="343.55" font-size="17.69" class="ink" font-weight="600">Key</text>
+<path d="M40,357.475 L480,357.475" class="thin" />
+<circle cx="53.925" cy="388.11" r="12.5325" class="balloon" />
+<text x="53.925" y="393.68" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">1</text>
+<text x="78.99000000000001" y="393.68" font-size="17.2" class="ink">Assembled board, 100 mm long and 1.6 mm thick</text>
+<circle cx="53.925" cy="424.315" r="12.5325" class="balloon" />
+<text x="53.925" y="429.885" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">2</text>
+<text x="78.99000000000001" y="429.885" font-size="17.2" class="ink">Pink anti-static bubble wrap, safe against the board</text>
+<text x="78.99000000000001" y="452.16499999999996" font-size="15.72" class="muted">Low-charging, but it does not shield</text>
+<circle cx="53.925" cy="482.79999999999995" r="12.5325" class="balloon" />
+<text x="53.925" y="488.36999999999995" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">3</text>
+<text x="78.99000000000001" y="488.36999999999995" font-size="17.2" class="ink">Metallized static-shielding bag</text>
+<text x="78.99000000000001" y="510.65" font-size="15.72" class="muted">Stops a discharge from outside, but only while closed</text>
+<path d="M525,357.475 L950,357.475" class="thin" />
+<circle cx="538.925" cy="388.11" r="12.5325" class="balloon" />
+<text x="538.925" y="393.68" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">4</text>
+<text x="563.99" y="393.68" font-size="17.2" class="ink">Top folded over and taped shut</text>
+<circle cx="538.925" cy="424.315" r="12.5325" class="balloon" />
+<text x="538.925" y="429.885" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">5</text>
+<text x="563.99" y="429.885" font-size="17.2" class="ink">Corrugated box with paper filler</text>
+<circle cx="538.925" cy="460.52" r="12.5325" class="balloon" />
+<text x="538.925" y="466.09" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">6</text>
+<text x="563.99" y="466.09" font-size="17.2" class="ink">Pink anti-static bag: low-charging only</text>
+<text x="563.99" y="488.37" font-size="15.72" class="muted">A discharge from outside passes straight through</text>
+<text x="40" y="566.35" font-size="15.72" class="muted">Drawn to scale. The bags are drawn thicker than they are, so they can be seen.</text>
+<path d="M57.2,122.46000000000001 L57.2,246.075" class="lead" fill="none" />
+<circle cx="57.2" cy="122.46000000000001" r="3.0635000000000003" class="dot" />
+<circle cx="57.2" cy="260.0" r="13.925" class="balloon" />
+<text x="57.2" y="265.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">3</text>
+<path d="M158.6,179.92 L158.6,246.075" class="lead" fill="none" />
+<circle cx="158.6" cy="179.92" r="3.0635000000000003" class="dot" />
+<circle cx="158.6" cy="260.0" r="13.925" class="balloon" />
+<text x="158.6" y="265.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">2</text>
+<path d="M215.8,153.66 L215.8,246.075" class="lead" fill="none" />
+<circle cx="215.8" cy="153.66" r="3.0635000000000003" class="dot" />
+<circle cx="215.8" cy="260.0" r="13.925" class="balloon" />
+<text x="215.8" y="265.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">1</text>
+<path d="M367.90000000000003,147.16 L367.90000000000003,228.0375 L366.0475,228.0375 L366.0475,246.075" class="lead" fill="none" />
+<circle cx="367.90000000000003" cy="147.16" r="3.0635000000000003" class="dot" />
+<circle cx="366.0475" cy="260.0" r="13.925" class="balloon" />
+<text x="366.0475" y="265.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">4</text>
+<path d="M400.40000000000003,208.0 L400.40000000000003,228.0375 L402.2525,228.0375 L402.2525,246.075" class="lead" fill="none" />
+<circle cx="400.40000000000003" cy="208.0" r="3.0635000000000003" class="dot" />
+<circle cx="402.2525" cy="260.0" r="13.925" class="balloon" />
+<text x="402.2525" y="265.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">5</text>
+<path d="M577.2,157.56 L577.2,246.075" class="lead" fill="none" />
+<circle cx="577.2" cy="157.56" r="3.0635000000000003" class="dot" />
+<circle cx="577.2" cy="260.0" r="13.925" class="balloon" />
+<text x="577.2" y="265.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">6</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D65</text>
+<text x="96.77874999999999" y="36.205" font-size="17.69" class="muted">PCB-DFA-109 · PCB-DFA-114</text>
+</svg>

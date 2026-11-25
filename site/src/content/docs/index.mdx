@@ -1,0 +1,87 @@
+---
+title: OpenDFX for Printed Circuit Boards
+description: Practical advice for designing printed circuit boards that are easy to make, assemble and test.
+template: splash
+editUrl: false
+head:
+  # schema.org data for search engines and AI tools (Q166); each book page gets its own from tools/build_site.py.
+  - tag: script
+    attrs:
+      type: application/ld+json
+    content: "{\"@context\": \"https://schema.org\", \"@type\": \"Book\", \"@id\": \"https://opendfx.org/#book\", \"name\": \"OpenDFX for Printed Circuit Boards\", \"url\": \"https://opendfx.org\", \"inLanguage\": \"en-US\", \"author\": {\"@type\": \"Person\", \"name\": \"Chris Denney\"}, \"license\": \"https://creativecommons.org/licenses/by-sa/4.0/\", \"isAccessibleForFree\": true, \"description\": \"Practical recommendations for designing printed circuit boards that are easy to make, assemble and test. Each recommendation has a permanent ID, such as PCB-DFA-006, and a permanent address, such as https://opendfx.org/PCB-DFA-006.\"}"
+hero:
+  title: OpenDFX™ for Printed Circuit Boards
+  # The logo's symbol (Q238), from tools/logo/build_brand.py. Decorative, because the title beside it says the name.
+  image:
+    html: '<img src="/brand/opendfx-symbol-green.svg" alt="" width="240" height="240" />'
+  tagline: Practical advice for designing printed circuit boards that are easy to make, assemble and test. Written by people who build boards every day.
+  actions:
+    - text: Start reading
+      link: /00-start-here/01-how-to-use-this-book/
+      icon: right-arrow
+    - text: Pre-release checklist
+      link: /09-appendices/01-checklist/
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+Every piece of advice in this book is a numbered recommendation, such as PCB-DFA-006.
+Each one says what to do, why, and what goes wrong if you don't.
+These are recommendations, not rules, and the book tries to say what you give up when you choose something else.
+
+The book follows the path a board takes through a factory.
+
+<CardGrid>
+  <LinkCard title="Part 0: Start here" href="/00-start-here/01-how-to-use-this-book/" description="How the book works, and the path a board takes from your files to a finished product." />
+  <LinkCard title="Part 1: The design package" href="/01-design-package/01-fabrication-data/" description="The fabrication data, assembly data, BOM and footprints you send." />
+  <LinkCard title="Part 2: The panel" href="/02-the-panel/01-why-panels/" description="Rails, fiducials, breakaway methods and clearance near the edges." />
+  <LinkCard title="Part 3: Bare board fabrication" href="/03-bare-board-fabrication/01-materials-and-stack-up/" description="From stack-up and drilling to solder mask, legend and profiling." />
+  <LinkCard title="Part 4: Components and materials" href="/04-components-and-materials/01-choosing-parts/" description="Choosing parts, packaging, moisture-sensitive parts and sourcing." />
+  <LinkCard title="Part 5: Assembly" href="/05-assembly/01-solder-paste-and-stencils/" description="Paste, placement, reflow, inspection, through-hole, cleaning, coating and rework." />
+  <LinkCard title="Part 6: Test and programming" href="/06-test-and-programming/01-test-points/" description="Test points, flying probe and in-circuit test, programming and functional test." />
+  <LinkCard title="Part 7: Handling, packaging and shipping" href="/07-handling-packaging-and-shipping/01-static-protection/" description="Static, moisture, storage and getting boards there in one piece." />
+  <LinkCard title="Part 8: Working with a manufacturer" href="/08-working-with-a-manufacturer/01-cost-and-lead-time/" description="Cost, lead time, moving from prototype to production, and design reviews." />
+  <LinkCard title="Appendices" href="/09-appendices/01-checklist/" description="The pre-release checklist, an index by design stage, a glossary, standards and sources." />
+</CardGrid>
+
+## Download the book
+
+The whole book is also a single file you can keep, print or send to a colleague.
+Both are made from the same pages as this website, every time it changes.
+
+<CardGrid>
+  <Card title="PDF">
+    [Download the PDF](/opendfx-pcb.pdf), laid out on US Letter pages for reading on a screen or printing.
+    Every recommendation's permanent address is printed under its heading.
+  </Card>
+  <Card title="EPUB">
+    [Download the EPUB](/opendfx-pcb.epub) for e-readers and phones, where the text reflows to fit the screen.
+  </Card>
+</CardGrid>
+
+## For AI tools
+
+The whole book is open, and AI crawlers are welcome.
+Every recommendation is also published as structured data.
+
+<LinkCard title="Set up your AI tool" href="/ai/" description="Three steps for any AI chat tool: download one file, attach it to a new chat, and paste one prompt." />
+
+<CardGrid>
+  <Card title="Agent Skill and whole book">
+    The [Agent Skill](/opendfx-pcb-design.zip) for tools that support skills.
+    The [whole book as one file](/llms-full.txt), to attach to a chat or a project.
+  </Card>
+  <Card title="Recommendations data">
+    Every recommendation as one record, in [JSON](/data/recommendations.json) and [YAML](/data/recommendations.yaml).
+    The [field list](https://github.com/OpenDFX/OpenDFX/blob/main/data/README.md) explains each field.
+    The data is licensed CC BY 4.0.
+  </Card>
+  <Card title="llms.txt">
+    A short index of the book is at [/llms.txt](/llms.txt).
+    The whole book as one Markdown file is at [/llms-full.txt](/llms-full.txt).
+  </Card>
+</CardGrid>
+
+Each recommendation has a short permanent address that never changes, such as [opendfx.org/PCB-DFA-006](/PCB-DFA-006/).
+Use it when you link to a recommendation or cite it.

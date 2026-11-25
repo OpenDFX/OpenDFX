@@ -1,0 +1,20 @@
+{
+  "name": "opendfx-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "python3 ../tools/build_site.py",
+    "build": "astro build",
+    "postbuild": "python3 ../tools/build_site.py --check-dist",
+    "predev": "python3 ../tools/build_site.py",
+    "dev": "astro dev",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.8",
+    "@astrojs/starlight": "^0.42.11",
+    "astro": "^7.4.11",
+    "sharp": "^0.35.5",
+    "starlight-links-validator": "^0.27.0"
+  }
+}

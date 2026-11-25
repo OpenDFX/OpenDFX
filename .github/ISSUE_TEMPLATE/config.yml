@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Something private
+    url: mailto:hello@opendfx.org
+    about: For anything you'd rather not post in public, write to hello@opendfx.org.
+  - name: How to contribute
+    url: https://github.com/OpenDFX/OpenDFX/blob/main/CONTRIBUTING.md
+    about: What a good correction includes, the house style, and how changes are reviewed.

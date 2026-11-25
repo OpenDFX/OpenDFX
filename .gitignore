@@ -1,0 +1,35 @@
+# Private source material: never publish
+/source
+/inventory
+feed.rss
+episodes.csv
+# Marketing plan and drafts, kept in the private sources repository (Q135)
+/marketing
+
+# Build output
+node_modules/
+dist/
+build/
+.astro/
+_site/
+*.pdf
+*.epub
+
+# Clutter
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python and KiCad local files
+__pycache__/
+*.pyc
+*.kicad_prl
+*-backups/
+fp-info-cache
+# Copied in by kicad/tests/test_rules.py on each run
+/kicad/tests/opendfx-test.kicad_dru
+
+# Review copies of the drawings, written by the diagram scripts
+/tools/diagrams/trials/

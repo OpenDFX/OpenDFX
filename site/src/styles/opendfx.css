@@ -1,0 +1,79 @@
+/* OpenDFX colors: solder-mask green from the book's board color key (tools/diagrams/opendfx_draw.py).
+   Text colors meet WCAG 2.2 AA contrast in both themes. */
+/* The book's font (FONT1, Q182): Atkinson Hyperlegible Next, with Atkinson Hyperlegible Mono for code.
+   Variable fonts made by tools/build_fonts.py, in site/static/fonts/. OpenDFX Symbols covers the few
+   symbols Atkinson lacks (check mark, cross, star, warning sign, arrows). */
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/AtkinsonHyperlegibleNext-Variable.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/AtkinsonHyperlegibleNext-Italic-Variable.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/AtkinsonHyperlegibleMono-Variable.woff2') format('woff2');
+}
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 400; font-display: swap; src: url('/fonts/OpenDFXSymbols-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 600; font-display: swap; src: url('/fonts/OpenDFXSymbols-SemiBold.woff2') format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 700; font-display: swap; src: url('/fonts/OpenDFXSymbols-Bold.woff2') format('woff2'); }
+:root {
+  --sl-font: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --sl-font-mono: 'Atkinson Hyperlegible Mono', 'OpenDFX Symbols', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+}
+
+:root {
+  --sl-color-accent-low: #0c2a17;
+  --sl-color-accent: #2f9a55;
+  --sl-color-accent-high: #a6dfb7;
+}
+:root[data-theme='light'] {
+  --sl-color-accent-high: #0f4a24;
+  --sl-color-accent: #1e7a3e;
+  --sl-color-accent-low: #cdebd6;
+}
+
+/* Drawings are wide and drawn to scale: let them use the full column and keep their proportions. */
+.sl-markdown-content img[src$='.svg'] {
+  width: 100%;
+  height: auto;
+}
+
+/* The bold field labels ("Recommendation:", "Why:") read better with a little air between fields. */
+.sl-markdown-content p > strong:first-child {
+  color: var(--sl-color-white);
+}
+
+/* Each drawing links to its full-size copy. */
+.sl-markdown-content a:has(> img) {
+  display: block;
+  cursor: zoom-in;
+}
+
+/* On a phone the full title doesn't fit beside the search and menu buttons: let it wrap at a smaller size. */
+@media (max-width: 50rem) {
+  .site-title {
+    font-size: var(--sl-text-base);
+    line-height: 1.2;
+    white-space: normal;
+  }
+  .site-title span {
+    overflow: visible;
+    white-space: normal;
+  }
+}
+
+/* The logo's symbol on the home page (Q238): smaller on phones, so the title stays on the first screen. */
+@media (max-width: 50rem) {
+  .hero img { width: 8rem; height: 8rem; }
+}

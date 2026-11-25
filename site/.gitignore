@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+# Written by tools/build_site.py from book/, data/ and public/: never edit or commit these.
+src/content/docs/0*/
+src/content/docs/preface.md
+src/content/docs/changelog.md
+src/generated/
+public/

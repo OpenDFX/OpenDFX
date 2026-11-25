@@ -1,0 +1,33 @@
+name: Correction
+description: Something in the book is wrong, out of date or unclear.
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping. Small fixes, such as a typo or a broken link, need only a sentence.
+        Please don't name people or companies in examples; write "a customer" or "one assembler" instead.
+  - type: input
+    id: where
+    attributes:
+      label: Recommendation ID or page
+      description: The ID, such as PCB-DFA-007, or the page's web address.
+      placeholder: PCB-DFA-007
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What it should say
+      description: Your suggested wording or value, if you have one.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A standard, a datasheet, a published guideline from a fab or assembler, or your own experience on the line. Say which it is.

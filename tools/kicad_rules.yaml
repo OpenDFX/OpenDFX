@@ -1,0 +1,204 @@
+# The checks in the OpenDFX KiCad design-rules file (M12).
+#
+# tools/build_kicad_rules.py writes kicad/opendfx.kicad_dru from this list, and
+# tools/build_data.py adds each check's numbers to its recommendations in the data file.
+# Every number must also appear in the text of the recommendation it names, or the build stops,
+# so the rules file can't drift from the book. Edit the book first, then this file.
+#
+# Each check has:
+#   key          a short name, used in rule names and by the test board
+#   ids          the recommendations it comes from; the first is shown in KiCad's messages
+#   what         what is checked, in words
+#   recommended  the value checked across the whole board (mm), as written in the book
+#   minimum      the value checked inside a rule area named "OpenDFX minimum" (mm)
+#   message      the rule name KiCad shows in its DRC report; {value} is filled in
+#   constraint   the KiCad constraint; {value} is filled in (and {pad} from vars, if given)
+#   condition    the KiCad condition: which items the check applies to
+#   severity     error (the default) or warning
+#   rules_file_checks   "minimum" to check the minimum across the whole board instead (noted on the check)
+#   layer        limit the check to one layer
+#   board_setting   a value KiCad takes from Board Setup instead of a rule; no rule is written
+#   extra        further assertion rules for the same check, each with its own constraint and condition
+#
+# Two kinds of constraint never replace a designer's own settings, so the file only adds checks:
+#   assertion            an extra test on one item, checked alongside KiCad's own
+#   physical_clearance   a spacing between items, checked alongside net class clearances
+# The few exceptions are noted on the check.
+
+checks:
+  - key: trace-width
+    ids: [PCB-DFM-020]
+    what: Trace width
+    recommended: "0.15"
+    minimum: "0.1"
+    message: "traces at least {value} mm wide"
+    constraint: 'assertion "A.Width >= {value}mm"'
+    condition: "(A.Type == 'Track' || A.Type == 'Arc')"
+
+  - key: copper-spacing
+    ids: [PCB-DFM-020, PCB-DFM-029]
+    what: Spacing between copper on different nets, including pours
+    recommended: "0.15"
+    minimum: "0.1"
+    message: "copper at least {value} mm from copper on another net"
+    constraint: "physical_clearance (min {value}mm)"
+    condition: "A.Net != B.Net && A.Layer == '*.Cu' && B.Layer == '*.Cu'"
+
+  - key: hole-clearance
+    ids: [PCB-DFM-022, PCB-DFM-007]
+    what: Copper on another net to the edge of a drilled hole, on every layer
+    recommended: "0.25"
+    minimum: "0.2"
+    message: "copper at least {value} mm from the edge of a drilled hole"
+    constraint: "physical_hole_clearance (min {value}mm)"
+    condition: "A.Net != B.Net && L == '*.Cu'"
+
+  - key: drill-size
+    ids: [PCB-DFM-024]
+    what: Finished diameter of a drilled hole, except laser microvias
+    recommended: "0.25"
+    minimum: "0.2"
+    message: "drilled holes at least {value} mm in diameter"
+    constraint: 'assertion "A.Hole >= {value}mm"'
+    condition: "A.Type == 'Via' && !A.isMicroVia()"
+    extra:
+      - constraint: 'assertion "A.Hole_Size_X >= {value}mm && A.Hole_Size_Y >= {value}mm"'
+        condition: "A.Pad_Type == 'Through-hole'"
+
+  - key: annular-ring
+    ids: [PCB-DFM-026]
+    what: Annular ring on plated holes and vias
+    recommended: "0.15"
+    minimum: "0.125"
+    message: "an annular ring of at least {value} mm"
+    constraint: 'assertion "(A.Diameter - A.Hole) / 2 >= {value}mm"'
+    condition: "A.Type == 'Via' && !A.isMicroVia()"
+    extra:
+      - constraint: 'assertion "(A.Size_X - A.Hole_Size_X) / 2 >= {value}mm && (A.Size_Y - A.Hole_Size_Y) / 2 >= {value}mm"'
+        condition: "A.Pad_Type == 'Through-hole'"
+
+  - key: copper-edge
+    ids: [PCB-DFM-002]
+    what: Copper to the board edge
+    recommended: "0.5"
+    minimum: "0.25"
+    message: "copper at least {value} mm from the board edge"
+    # KiCad's own edge check, because it measures to the center of the outline as designers expect.
+    # Exception: it replaces the board edge clearance in Board Setup, which is also 0.5 mm by default.
+    constraint: "edge_clearance (min {value}mm)"
+    condition: "A.Layer == '*.Cu'"
+
+  - key: npth-copper
+    ids: [PCB-DFM-007]
+    what: No copper pad on a non-plated hole
+    message: "no copper pad on a non-plated hole"
+    constraint: 'assertion "A.Size_X <= A.Hole_Size_X && A.Size_Y <= A.Hole_Size_Y"'
+    condition: "A.Pad_Type == 'NPTH, mechanical'"
+
+  - key: slot-npth
+    ids: [PCB-DFM-042]
+    what: Width of a routed non-plated slot
+    recommended: "1"
+    minimum: "1"
+    message: "non-plated slots at least {value} mm wide"
+    constraint: 'assertion "A.Hole_Size_X >= {value}mm && A.Hole_Size_Y >= {value}mm"'
+    condition: "A.Pad_Type == 'NPTH, mechanical' && A.Hole_Size_X != A.Hole_Size_Y"
+
+  - key: slot-plated
+    ids: [PCB-DFM-042]
+    what: Width of a routed plated slot
+    recommended: "1"
+    minimum: "0.5"
+    message: "plated slots at least {value} mm wide"
+    constraint: 'assertion "A.Hole_Size_X >= {value}mm && A.Hole_Size_Y >= {value}mm"'
+    condition: "A.Pad_Type == 'Through-hole' && A.Hole_Size_X != A.Hole_Size_Y"
+
+  - key: mask-web
+    ids: [PCB-DFA-032, PCB-DFA-078]
+    what: Solder mask web between pads, and between a via and a pad
+    recommended: "0.1"
+    minimum: "0.075"
+    # Not a rule: KiCad checks the mask web through Board Setup, Solder Mask/Paste, Minimum web width.
+    # A web narrower than that is merged away, and the design rule check then reports the opening as a
+    # solder mask bridge between nets. The starter project sets it to the recommended value.
+    board_setting: solder_mask_min_width
+
+  - key: legend-height
+    ids: [PCB-DFM-039]
+    what: Height of legend text
+    recommended: "1"
+    minimum: "0.8"
+    message: "legend text at least {value} mm tall"
+    constraint: 'assertion "A.Height >= {value}mm"'
+    condition: "A.Layer == '*.SilkS' && A.Visible"
+
+  - key: legend-line
+    ids: [PCB-DFM-039]
+    what: Line width of legend text
+    recommended: "0.18"
+    minimum: "0.15"
+    # Checked at the book's minimum across the whole board for now (Q150): KiCad's own library
+    # draws reference designators with 0.15 mm lines, so 0.18 mm would flag every standard part.
+    rules_file_checks: minimum
+    message: "legend text drawn with lines at least {value} mm wide"
+    constraint: 'assertion "A.Thickness >= {value}mm"'
+    condition: "A.Layer == '*.SilkS' && A.Visible"
+
+  - key: legend-clearance
+    ids: [PCB-DFM-040, PCB-DFM-045]
+    what: Legend to exposed copper and holes
+    recommended: "0.1"
+    minimum: "0.1"
+    message: "legend at least {value} mm from exposed copper"
+    # Exception: KiCad's own legend check, which replaces the silkscreen clearance in Board Setup (0 mm by default).
+    constraint: "silk_clearance (min {value}mm)"
+    condition: "L == '*.Mask'"
+
+  - key: test-pad-size
+    ids: [PCB-DFT-008]
+    what: Diameter of a test point pad
+    recommended: "1.0"
+    minimum: "0.9"
+    message: "test point pads at least {value} mm in diameter"
+    constraint: 'assertion "A.Size_X >= {value}mm && A.Size_Y >= {value}mm"'
+    condition: "A.Fabrication_Property == 'Test point pad'"
+
+  - key: test-pad-spacing
+    ids: [PCB-DFT-008]
+    what: Spacing of test points, center to center
+    recommended: "2.54"
+    minimum: "1.9"
+    vars:
+      recommended: {pad: "1.0"}
+      minimum: {pad: "0.9"}
+    message: "test points at least {value} mm apart, center to center"
+    constraint: 'physical_clearance (min "{value}mm - {pad}mm")'
+    condition: "A.Fabrication_Property == 'Test point pad' && B.Fabrication_Property == 'Test point pad' && A.Layer == '*.Cu'"
+
+  - key: test-pad-edge
+    ids: [PCB-DFT-009]
+    what: Test point to the board edge
+    recommended: "5"
+    minimum: "3"
+    message: "test points at least {value} mm from the board edge"
+    constraint: "edge_clearance (min {value}mm)"
+    condition: "A.Fabrication_Property == 'Test point pad'"
+
+  - key: smd-near-tht
+    ids: [PCB-DFA-043]
+    what: Bottom surface-mount pads to through-hole pads, for wave or selective soldering
+    recommended: "3"
+    minimum: "2"
+    severity: warning
+    message: "bottom surface-mount pads at least {value} mm from through-hole pads (wave or selective soldering)"
+    constraint: "physical_clearance (min {value}mm)"
+    layer: B.Cu
+    condition: "(A.Pad_Type == 'Through-hole' && B.Pad_Type == 'SMD') || (A.Pad_Type == 'SMD' && B.Pad_Type == 'Through-hole')"
+
+  - key: thermal-relief
+    ids: [PCB-DFA-044]
+    what: Through-hole pads join copper pours through thermal reliefs
+    message: "through-hole pads join pours through thermal reliefs"
+    # A setting, not a check: it tells KiCad how to fill pours around plated through-hole pads.
+    constraint: "zone_connection thermal_reliefs"
+    condition: "A.Pad_Type == 'Through-hole'"

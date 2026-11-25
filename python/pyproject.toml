@@ -1,0 +1,40 @@
+# The opendfx package on PyPI (M42, PYPI1). Built by tools/build_pypi.py, which copies the data file,
+# the KiCad rules file, the release checker and the licenses in beside this file and fills in the version.
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opendfx"
+version = "0.0.0"  # replaced from CITATION.cff by tools/build_pypi.py
+description = "The recommendations of OpenDFX for Printed Circuit Boards, a KiCad rules file and a release-file checker."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE-CODE", "LICENSE-DATA"]
+authors = [{ name = "Chris Denney" }]
+keywords = ["pcb", "dfm", "dfa", "dft", "kicad", "design for manufacturing", "printed circuit board"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://opendfx.org"
+Documentation = "https://opendfx.org/00-start-here/05-using-this-book-with-an-ai-agent/"
+Source = "https://github.com/OpenDFX/OpenDFX"
+Issues = "https://github.com/OpenDFX/OpenDFX/issues"
+
+[project.scripts]
+opendfx = "opendfx.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/opendfx"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/opendfx", "tests", "README.md", "LICENSE-CODE", "LICENSE-DATA"]

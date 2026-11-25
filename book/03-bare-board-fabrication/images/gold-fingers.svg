@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="970.7" viewBox="0 0 980 970.7" role="img" aria-labelledby="title desc">
+<defs>
+</defs>
+<title id="title">Edge-connector fingers: hard gold, no mask, a bevel</title><desc id="desc">Drawn to scale. Top: plan view of the edge of a board with six gold fingers on a 2.54 mm pitch, 1.5 mm wide and 7 mm long, ending 0.6 mm short of the edge. The solder mask is cleared from the whole finger area and the board corners beside the fingers are chamfered. Bottom: side view of the edge of a 1.6 mm board, beveled at 30 degrees on both faces over the last 0.5 mm, with the gold fingers stopping 0.6 mm from the edge, before the bevel.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="970.7" class="bg" />
+<g transform="translate(0,55.7)">
+<path d="M110,90 L782.0,90 L782.0,356.0 L740.0,398.0 L152.0,398.0 L110,356.0 Z" class="mask-on-fr4" />
+<rect x="219.20000000000002" y="157.20000000000002" width="453.59999999999997" height="240.79999999999998" rx="0" class="fr4-exposed" />
+<path d="M219.20000000000002,398.0 L219.20000000000002,157.20000000000002 L672.8000000000001,157.20000000000002 L672.8000000000001,398.0 Z" class="fr4-exposed" />
+<rect x="247.20000000000002" y="185.20000000000002" width="42.0" height="196.0" rx="5.6000000000000005" class="cu-exposed" />
+<rect x="318.32000000000005" y="185.20000000000002" width="42.0" height="196.0" rx="5.6000000000000005" class="cu-exposed" />
+<rect x="389.44" y="185.20000000000002" width="42.0" height="196.0" rx="5.6000000000000005" class="cu-exposed" />
+<rect x="460.56" y="185.20000000000002" width="42.0" height="196.0" rx="5.6000000000000005" class="cu-exposed" />
+<rect x="531.6800000000001" y="185.20000000000002" width="42.0" height="196.0" rx="5.6000000000000005" class="cu-exposed" />
+<rect x="602.8000000000001" y="185.20000000000002" width="42.0" height="196.0" rx="5.6000000000000005" class="cu-exposed" />
+<text x="446.0" y="73.2" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Plan view of the edge</text>
+<path d="M247.20000000000002,385.3775 L247.20000000000002,431.57" class="dim" />
+<path d="M289.20000000000005,385.3775 L289.20000000000005,431.57" class="dim" />
+<path d="M247.20000000000002,426.0 L289.20000000000005,426.0" class="dim" />
+<path d="M247.20000000000002,426.0 L256.25215853528204,422.38445272439697 L256.25215853528204,429.61554727560303 Z" class="arrow" />
+<path d="M289.20000000000005,426.0 L280.147841464718,429.61554727560303 L280.147841464718,422.38445272439697 Z" class="arrow" />
+<text x="268.20000000000005" y="419.0375" font-size="16.71" text-anchor="middle" class="dimtxt">1.5</text>
+<path d="M318.32000000000005,385.3775 L318.32000000000005,431.57" class="dim" />
+<path d="M389.44,385.3775 L389.44,431.57" class="dim" />
+<path d="M318.32000000000005,426.0 L389.44,426.0" class="dim" />
+<path d="M318.32000000000005,426.0 L327.3721585352821,422.38445272439697 L327.3721585352821,429.61554727560303 Z" class="arrow" />
+<path d="M389.44,426.0 L380.38784146471795,429.61554727560303 L380.38784146471795,422.38445272439697 Z" class="arrow" />
+<text x="353.88" y="419.0375" font-size="16.71" text-anchor="middle" class="dimtxt">2.54 pitch</text>
+<path d="M166.0,538.0 L411.0,538.0 L446.0,558.2072594216369 L446.0,629.7927405783631 L411.0,650.0 L166.0,650.0 Z" class="fr4-exposed" />
+<rect x="166.0" y="534.5" width="238.0" height="3.5" rx="0" class="cu-exposed" />
+<rect x="166.0" y="650.0" width="238.0" height="3.5" rx="0" class="cu-exposed" />
+<text x="306.0" y="510.0" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Side view of the edge, enlarged 2.5×</text>
+<text x="452.0" y="574.2072594216369" font-size="16.71" text-anchor="start" class="dimtxt">30°</text>
+<path d="M450.1775,538.0 L507.57,538.0" class="dim" />
+<path d="M450.1775,650.0 L507.57,650.0" class="dim" />
+<path d="M502.0,538.0 L502.0,650.0" class="dim" />
+<path d="M502.0,538.0 L505.61554727560303,547.052158535282 L498.38445272439697,547.052158535282 Z" class="arrow" />
+<path d="M502.0,650.0 L498.38445272439697,640.947841464718 L505.61554727560303,640.947841464718 Z" class="arrow" />
+<text x="510.355" y="599.57" font-size="16.71" text-anchor="start" class="dimtxt">1.6</text>
+<text x="620" y="510.0" font-size="17.69" class="ink" font-weight="600">Key</text>
+<path d="M620,523.925 L950,523.925" class="thin" />
+<circle cx="633.925" cy="554.56" r="12.5325" class="balloon" />
+<text x="633.925" y="560.13" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">1</text>
+<text x="658.99" y="560.13" font-size="17.2" class="ink">Hard gold finger</text>
+<text x="658.99" y="582.41" font-size="15.72" class="muted">Over nickel; see Typical values</text>
+<circle cx="633.925" cy="613.045" r="12.5325" class="balloon" />
+<text x="633.925" y="618.615" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">2</text>
+<text x="658.99" y="618.615" font-size="17.2" class="ink">No mask over the finger area</text>
+<circle cx="633.925" cy="649.25" r="12.5325" class="balloon" />
+<text x="633.925" y="654.82" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">3</text>
+<text x="658.99" y="654.82" font-size="17.2" class="ink">Corners chamfered</text>
+<circle cx="633.925" cy="685.455" r="12.5325" class="balloon" />
+<text x="633.925" y="691.0250000000001" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">4</text>
+<text x="658.99" y="691.0250000000001" font-size="17.2" class="ink">Bevel, 30° here</text>
+<text x="658.99" y="713.3050000000001" font-size="15.72" class="muted">0.5 mm long in this example</text>
+<circle cx="633.925" cy="743.94" r="12.5325" class="balloon" />
+<text x="633.925" y="749.5100000000001" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">5</text>
+<text x="658.99" y="749.5100000000001" font-size="17.2" class="ink">Finger stops short of the edge</text>
+<text x="658.99" y="771.7900000000001" font-size="15.72" class="muted">0.6 mm here, clear of the bevel</text>
+<rect x="40" y="718.2325" width="19.495" height="19.495" class="cu-exposed" />
+<rect x="40" y="718.2325" width="19.495" height="19.495" class="thin" />
+<text x="70.635" y="734.9425" font-size="16.71" text-anchor="start" class="ink">Hard gold over copper</text>
+<rect x="40" y="751.6524999999999" width="19.495" height="19.495" class="fr4-exposed" />
+<rect x="40" y="751.6524999999999" width="19.495" height="19.495" class="thin" />
+<text x="70.635" y="768.3625" font-size="16.71" text-anchor="start" class="ink">Exposed FR4</text>
+<rect x="40" y="785.0724999999999" width="19.495" height="19.495" class="mask-on-fr4" />
+<rect x="40" y="785.0724999999999" width="19.495" height="19.495" class="thin" />
+<text x="70.635" y="801.7824999999999" font-size="16.71" text-anchor="start" class="ink">Mask over FR4</text>
+<text x="40" y="861.6599999999999" font-size="15.72" class="muted">Drawn to scale, with the side view enlarged 2.5×. Example sizes.</text>
+<text x="40" y="889.5099999999999" font-size="15.72" class="muted">Bevel 30° or 45°, 0.5 to 1.0 mm deep. Ask your fab.</text>
+<path d="M300.40000000000003,230.0 L191.12500000000003,230.0" class="lead" fill="none" />
+<circle cx="300.40000000000003" cy="230.0" r="3.0635000000000003" class="dot" />
+<circle cx="177.20000000000002" cy="230.0" r="13.925" class="balloon" />
+<text x="177.20000000000002" y="235.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">2</text>
+<path d="M268.20000000000005,286.0 L191.12500000000003,286.0" class="lead" fill="none" />
+<circle cx="268.20000000000005" cy="286.0" r="3.0635000000000003" class="dot" />
+<circle cx="177.20000000000002" cy="286.0" r="13.925" class="balloon" />
+<text x="177.20000000000002" y="291.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">1</text>
+<path d="M765.1999999999999,381.2 L765.1999999999999,327.925" class="lead" fill="none" />
+<circle cx="765.1999999999999" cy="381.2" r="3.0635000000000003" class="dot" />
+<circle cx="765.1999999999999" cy="314.0" r="13.925" class="balloon" />
+<text x="765.1999999999999" y="319.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">3</text>
+<path d="M428.5,548.1036297108185 L532.875,548.1036297108185" class="lead" fill="none" />
+<circle cx="428.5" cy="548.1036297108185" r="3.0635000000000003" class="dot" />
+<circle cx="546.8" cy="548.1036297108185" r="13.925" class="balloon" />
+<text x="546.8" y="553.6736297108185" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">4</text>
+<path d="M398.40000000000003,536.25 L149.925,536.25" class="lead" fill="none" />
+<circle cx="398.40000000000003" cy="536.25" r="3.0635000000000003" class="dot" />
+<circle cx="136.0" cy="536.25" r="13.925" class="balloon" />
+<text x="136.0" y="541.82" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">5</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D52</text>
+<text x="96.77874999999999" y="36.205" font-size="17.69" class="muted">PCB-DFM-038</text>
+</svg>

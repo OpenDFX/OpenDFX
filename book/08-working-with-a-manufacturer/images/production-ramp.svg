@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="637.7" viewBox="0 0 980 637.7" role="img" aria-labelledby="title desc">
+<defs>
+</defs>
+<title id="title">D66: From prototype to production in steps</title><desc id="desc">D66 is a flow diagram, not to scale. Five steps run left to right: 5 prototypes that prove the design; a pilot build of 20; 200 boards with first articles at the start; 1,000 boards, the first large batch, which runs slower while the assembler learns the board; then full volume, released in batches of whole panels, shown as batches of 27 boards from a 9-up panel. Each step is wider than the last, because it builds more boards.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="637.7" class="bg" />
+<g transform="translate(0,55.7)">
+<style>
+.step    { fill: #e6eef8; stroke: #2563a8; stroke-width: 2.16; }
+.stepfa  { fill: #fdf0d8; stroke: #a8741a; stroke-width: 2.16; }
+.flow    { stroke: #5b636b; stroke-width: 2.36; fill: none; }
+.flowhd  { fill: #5b636b; }
+.fa      { fill: #a8741a; }
+.batch   { fill: #1e7a3e; stroke: #ffffff; stroke-width: 1.77; }
+@media (prefers-color-scheme: dark) {
+  .step   { fill: #1d2a3a; stroke: #79aef0; }
+  .stepfa { fill: #3a2f1a; stroke: #e0b062; }
+  .flow   { stroke: #a3abb3; }
+  .flowhd { fill: #a3abb3; }
+  .fa     { fill: #e0b062; }
+  .batch  { stroke: #16191c; }
+}
+</style>
+<rect x="30" y="50" width="88" height="92" rx="8" class="step" />
+<text x="74.0" y="94" font-size="30.46" text-anchor="middle" class="ink" font-weight="700">5</text>
+<text x="74.0" y="116" font-size="17.2" text-anchor="middle" class="muted">boards</text>
+<text x="74.0" y="38" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Prototypes</text>
+<path d="M122,96.0 L142,96.0" class="flow" />
+<path d="M144,96.0 L136,91.0 L136,101.0 Z" class="flowhd" />
+<rect x="148" y="50" width="112" height="92" rx="8" class="step" />
+<text x="204.0" y="94" font-size="30.46" text-anchor="middle" class="ink" font-weight="700">20</text>
+<text x="204.0" y="116" font-size="17.2" text-anchor="middle" class="muted">boards</text>
+<text x="204.0" y="38" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Pilot build</text>
+<path d="M264,96.0 L284,96.0" class="flow" />
+<path d="M286,96.0 L278,91.0 L278,101.0 Z" class="flowhd" />
+<rect x="290" y="50" width="140" height="92" rx="8" class="stepfa" />
+<text x="360.0" y="94" font-size="30.46" text-anchor="middle" class="ink" font-weight="700">200</text>
+<text x="360.0" y="116" font-size="17.2" text-anchor="middle" class="muted">boards</text>
+<text x="360.0" y="38" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">First articles first</text>
+<path d="M434,96.0 L454,96.0" class="flow" />
+<path d="M456,96.0 L448,91.0 L448,101.0 Z" class="flowhd" />
+<rect x="460" y="50" width="168" height="92" rx="8" class="step" />
+<text x="544.0" y="94" font-size="30.46" text-anchor="middle" class="ink" font-weight="700">1,000</text>
+<text x="544.0" y="116" font-size="17.2" text-anchor="middle" class="muted">boards</text>
+<text x="544.0" y="38" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">First large batch</text>
+<path d="M632,96.0 L652,96.0" class="flow" />
+<path d="M654,96.0 L646,91.0 L646,101.0 Z" class="flowhd" />
+<rect x="658" y="50" width="230" height="92" rx="8" class="step" />
+<text x="773.0" y="94" font-size="30.46" text-anchor="middle" class="ink" font-weight="700">2,000 +</text>
+<text x="773.0" y="116" font-size="17.2" text-anchor="middle" class="muted">boards</text>
+<text x="773.0" y="38" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Full volume</text>
+<rect x="672" y="126" width="12" height="12" class="batch" />
+<rect x="686" y="126" width="12" height="12" class="batch" />
+<rect x="700" y="126" width="12" height="12" class="batch" />
+<rect x="724" y="126" width="12" height="12" class="batch" />
+<rect x="738" y="126" width="12" height="12" class="batch" />
+<rect x="752" y="126" width="12" height="12" class="batch" />
+<rect x="776" y="126" width="12" height="12" class="batch" />
+<rect x="790" y="126" width="12" height="12" class="batch" />
+<rect x="804" y="126" width="12" height="12" class="batch" />
+<rect x="828" y="126" width="12" height="12" class="batch" />
+<rect x="842" y="126" width="12" height="12" class="batch" />
+<rect x="856" y="126" width="12" height="12" class="batch" />
+<text x="40" y="261.625" font-size="17.69" class="ink" font-weight="600">Key</text>
+<path d="M40,275.55 L640,275.55" class="thin" />
+<circle cx="53.925" cy="306.185" r="12.5325" class="balloon" />
+<text x="53.925" y="311.755" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">1</text>
+<text x="78.99000000000001" y="311.755" font-size="17.2" class="ink">Prototypes prove the design works</text>
+<circle cx="53.925" cy="342.39" r="12.5325" class="balloon" />
+<text x="53.925" y="347.96" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">2</text>
+<text x="78.99000000000001" y="347.96" font-size="17.2" class="ink">A pilot build shows what was done by hand</text>
+<text x="78.99000000000001" y="370.24" font-size="15.72" class="muted">Replace hand-fitted and hard-to-find parts now</text>
+<circle cx="53.925" cy="400.875" r="12.5325" class="balloon" />
+<text x="53.925" y="406.445" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">3</text>
+<text x="78.99000000000001" y="406.445" font-size="17.2" class="ink">First articles, if anything changed since the last build</text>
+<text x="78.99000000000001" y="428.725" font-size="15.72" class="muted">One panel at least, checked before the rest are built</text>
+<circle cx="53.925" cy="459.36" r="12.5325" class="balloon" />
+<text x="53.925" y="464.93" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">4</text>
+<text x="78.99000000000001" y="464.93" font-size="17.2" class="ink">The first large batch runs slower</text>
+<text x="78.99000000000001" y="487.21000000000004" font-size="15.72" class="muted">The assembler learns the board; expect a few more issues</text>
+<circle cx="53.925" cy="517.845" r="12.5325" class="balloon" />
+<text x="53.925" y="523.4150000000001" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">5</text>
+<text x="78.99000000000001" y="523.4150000000001" font-size="17.2" class="ink">Full volume, released in batches of whole panels</text>
+<text x="78.99000000000001" y="545.695" font-size="15.72" class="muted">Each square is one 9-up panel; a batch of 3 panels is 27 boards</text>
+<path d="M74.0,142.0 L74.0,178.075" class="lead" fill="none" />
+<circle cx="74.0" cy="142.0" r="3.0635000000000003" class="dot" />
+<circle cx="74.0" cy="192.0" r="13.925" class="balloon" />
+<text x="74.0" y="197.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">1</text>
+<path d="M204.0,142.0 L204.0,178.075" class="lead" fill="none" />
+<circle cx="204.0" cy="142.0" r="3.0635000000000003" class="dot" />
+<circle cx="204.0" cy="192.0" r="13.925" class="balloon" />
+<text x="204.0" y="197.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">2</text>
+<path d="M360.0,142.0 L360.0,178.075" class="lead" fill="none" />
+<circle cx="360.0" cy="142.0" r="3.0635000000000003" class="dot" />
+<circle cx="360.0" cy="192.0" r="13.925" class="balloon" />
+<text x="360.0" y="197.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">3</text>
+<path d="M544.0,142.0 L544.0,178.075" class="lead" fill="none" />
+<circle cx="544.0" cy="142.0" r="3.0635000000000003" class="dot" />
+<circle cx="544.0" cy="192.0" r="13.925" class="balloon" />
+<text x="544.0" y="197.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">4</text>
+<path d="M773.0,142.0 L773.0,178.075" class="lead" fill="none" />
+<circle cx="773.0" cy="142.0" r="3.0635000000000003" class="dot" />
+<circle cx="773.0" cy="192.0" r="13.925" class="balloon" />
+<text x="773.0" y="197.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">5</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D66</text>
+<text x="96.77874999999999" y="36.205" font-size="17.69" class="muted">PCB-DFA-122 · PCB-DFA-123</text>
+</svg>

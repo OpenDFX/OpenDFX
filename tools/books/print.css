@@ -1,0 +1,30 @@
+/* The print version (Q164): the same pages, with a wider inside margin for the binding,
+   mirrored running heads, and each part starting on a right-hand page. Links can't be clicked on paper,
+   so they print in the text color; each recommendation's permanent address is still printed under its heading. */
+/* The margins themselves are set by build_books.py from PRINT_MARGINS, so check_print() checks the same numbers.
+   Running heads sit at the inner edge of the top and bottom margins, so they stay inside the 0.5 in safety margin. */
+@page :left {
+  @top-left { content: counter(page); font: 600 8.5pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #1d2125; }
+  @top-right { content: string(part); font: 500 8pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #5b636b; }
+  @bottom-left { content: "OpenDFX for Printed Circuit Boards"; font: 8pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #5b636b; }
+  @bottom-right { content: none; }
+}
+@page :right {
+  @top-left { content: string(part); font: 500 8pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #5b636b; }
+  @top-right { content: counter(page); font: 600 8.5pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #1d2125; }
+  @bottom-left { content: none; }
+  @bottom-right { content: "Chris Denney · CC BY-SA 4.0 · opendfx.org"; font: 8pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #5b636b; }
+}
+@page :left { @top-left { vertical-align: bottom; padding-bottom: 6mm; } @top-right { vertical-align: bottom; padding-bottom: 6mm; } @bottom-left { vertical-align: top; padding-top: 6mm; } @bottom-right { vertical-align: top; padding-top: 6mm; } }
+@page :right { @top-left { vertical-align: bottom; padding-bottom: 6mm; } @top-right { vertical-align: bottom; padding-bottom: 6mm; } @bottom-left { vertical-align: top; padding-top: 6mm; } @bottom-right { vertical-align: top; padding-top: 6mm; } }
+section.part, section.preface { break-before: right; }
+section.titlepage, section.copyright, section.dedication { break-after: right; }
+a { color: inherit; }
+p.permalink a { color: #5b636b; }
+
+/* KDP: lines at least 0.75 pt. */
+th { border-bottom-width: 0.8pt; }
+td { border-bottom-width: 0.75pt; }
+hr { border-top-width: 0.75pt; }
+pre { border-width: 0.75pt; }
+section.page h3.rec { border-top-width: 1.2pt; }

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1040" height="1089.1" viewBox="0 0 1040 1089.1" role="img" aria-labelledby="title desc">
+<defs>
+<clipPath id="d0">
+<rect x="60" y="130" width="390" height="338" rx="0" class="bg" />
+</clipPath>
+<clipPath id="d1">
+<rect x="554" y="130" width="442" height="338" rx="0" class="bg" />
+</clipPath>
+</defs>
+<title id="title">A connector overhanging a breakaway edge</title><desc id="desc">Drawn to scale, plan views with side views below. Left, marked wrong: boards A and B meet at a V-score line, and a coax connector on board A hangs 7 mm past it, over board B. In the side view, board B is bent up to snap the score and meets the underside of the connector, marked in red, before the score can break. Right, marked right: board A's edge is routed and held by two tabs with mouse bites, and a routed relief cut-out in the panel leaves 10 mm from board A's edge, so nothing is in the way. The connector's silkscreen outline includes the part past the edge.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAAOMAAsAAAAABugAAANBAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMhGyAcKgZgADwBNgIkAwwEBgWGDgcgGyAGEdWbNMXPw9hY1nha3Iyt4wXJzYjKL2oRlo7mN700nILnX/++3+cmGVHVfAgVhBJSSa/epaupPqDkaYYx4HoAXeSLuU2BRCZxH3FJIlan/sNzINIS9fX5+2uriEUPBXZWM6X8vRNPNJN1oiXxkBghUSHUq4jGn1DJgXUO2w1BvhZffYWpgvYQkfQRS2Yu6tt/4llMeu0lRpAAu7vLxSXF5cfgwHOFKvAzRtmCGJ03cP3OPTt2mLuKCbfLbK+csMk5+rqxB+IvutQkeyRRuEh0elbfBRv2z7BnT5vcPlaGwR+5eMWalrqG53n7C8YN+qkhJ7vmLlcLGIdVDUPLli9cXtdwWNoTY+fMzMXPTv4fyjxLegFvL6gVeUaIbBGUiKpf8zbO3bY9/1Gxy3LMOmWX+RpT3ebgRuMv9heaQKyNNqELoTMmmOiiTA7z/eId4or8e5Q7EYKUdTJdunEZwXRjY2ysCWa4NBOD8kNgNDOYTgAjEVLLacQUfHzc8pP+3yftz5NheY2lD7piIk/ERO2IibYtUXZYdI7+kNoIEogiRxLZt//QscTQAF1dAEgVKpNCjRdfMHXFIhJpzUzWplD2MmCa9UPguI/hPWSnN4tRcJCfANbyPYzesDH8ypPL08NvdyYhwm/Ld0AA9CTzDCgQAzxAASloBEjBUIEgDI3glQOwOF++43vHl5IwAQE0pPxnT3z7v5iKAODV2sMuXHnOcy6H0ddrCnoAPCw5PY3p1gBIrEJlesrA8GSM0mHIboxEKCCSZWhERwIjESGEkGdLeMSxiFC0+xCaOl/C0OZPhFGTHCJWCmTg/xNHS+cw4HA9+TQKFQIVJWUN4EglATM2JPGBLZ9DJxEg0BNCKocvsOGS2IbGrsDBk4XnMAX2JIqQiePnqCX0yuMeXbGZ2nqBKJ8xQDTWOGygpqBkL9Ol0KA8Tl1FWVV017VbBxL6S9XqV8c1GSNw4JChe7qABLY1aQQSW0AiAiGb2Ms69rx8EJNLAKW6/O5lOaZcbTZNZXDxI1m3dh5SBc4NR2MmxjPj5bsIYECH2mM9u5DfPeoAKoRcHUVFAYFP40KBgoDGVODwKYo2xpY5IzRWuM5TdgIAAAA=) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAAOgAAsAAAAABuAAAANYAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMxGyAcKgZgADwBNgIkAwwEBgWFdgcgGxgGAC4KbGP6GM2Wo726i1pqjJHVltEQHvATPP+/1u6b+YhJYjdh4klMk2qGSKaSlywWGpXOmXU21oZYIhN3HZUkYu2N8b8XHVY5ciBVzLb9GG/QHZ54NEqo5krd5FDGAYthjGNinS9si3TIcKq/vFuI62AV0ioY0q4TyfTpT9WMJTyWBTikEfn30rVxTAx9D3VMoF6Bqi1osBerlrrPSwWrQAE7jF3GABIFpSEi0W0u2oPR5UFMYW6PFl1zhfK3qLBKYJWKVWZY5cmqUKsyOyamht1UYv3HF/R6/cVYuME4p3sedeSFnjmLoa5G4QK8RfyiYqvNbzTmdKmy0IeBxPjf6/Crmk9/Re8mHKf/apiSCgVF6Hlc17DjB1aQ73as3jvdGtaTnkDTf6Kc7q0yUAnGlQNp5OT+ZUKvOxFAF9HTtv4l6s6ZK3Gmx5/0zrzcZk2vGF/mqafD7ja6Qp+X79t9z2JtVc/0qcdrqlHIE0WzgqSVXomcAYd2OulCLnZQdDjckWNzghVW1Bx2iGrzVGXMeoPA1YfXKeuHwiY13fJiQRZ5b9SF0YZ7N2KHWP02COBLvERSXbs4hFIogP8/AEBoKcy0w9Jzw2yHMv40AOVRqPUTB48s9Qa4Szu0Nzw2OcRLh6BuA9h1KTq/3Id+utsU5WX5K/CyyAAIgBrw+AYk8+ZxoAPhdAQ7FWbg2RS0pqCrUuhm3dFdAwIACKDgOUQGg4r/CPUG4MdzP4h28AHs7Ci326NqAGmUD6uCudgCIaB1j3Kp9wqGpKozZIxQu5AO+LAiiigfoF0obwjp2g2NQHYNnVLXy8oaHuR6NTxJjWYESLKkf2Ig2W2nz+F68xGVhoFM6TLkStZNg0ADG0M+0M7n0CEFAxXumMbhC6y5kG1g5AJ0ebPIHKagGIst0uPfuNpBqjuTxG/COOadW9epp3WC3RFPHDaQLVV6+EsWmURYzrCaTBmyZMhRIKe9GCpF6ptibZswFKJdHDfs2R8dBFWFc4jS/AQBdAXW2a7Dsrw2fPNdvLsA3TLa9NXmpjDZ8f3JZCBOj6+J7U530VHDHiTEJJGZZVubqFtQBdrd6trm/+esLdkUxlxtadKsUviIiwXyVhFT3iKfqqDNyKK+liiBn7uEBw==) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAANcAAsAAAAABswAAAMUAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMeGyAcKgZgADwBNgIkAwwEBgWFdgcgGwUGERWcJwh+JMYOk5mVF7Cr9L8jD54n/97OHQR0lV1XgCvIFYESRLepVp73lQTAwtyQVFavBknE2t2GNSxbzu6jXiJk/WY1xpDhj9KaasJgSxeKIBQWjG1Foui2OYuQWNQuQHtx8qu/sFQwChFJ6TrRL6bz52FMLmbNFdKv0czLxcsTLz8Gr0B5hdpLMYE3Mdr1iDF57eatWL18uXummHDX50tO2JYc89a61fEnvMQktz6RcJHo9KxWY/+rh44PHbN7Vh2TP7XEr1xZ+4LeUejd/qeGqs6PmuIuaDtWNUxMnpK3LDgW92yvkX4+Nj/ZP5RZq7wga6BZ2gM7iCwWtIiuNfN9nHfuS46ZKa5Pjn2mXR9fZKp3OnjU+jv4W9tAX9fHhuaFZtnAR1dl83AXaLyjKlSepr0TX4yE9bRTNUFtHR8KmmhHmKq1gX4WXhcWtDZIlu8bII+M0zJ9QdyU/f7f+93Pw2F5Ze1q910dE7k9Jmp5TLRbFeVuROeYX6kIEEUOeUirNttrJwIDUFMDAM1YRgVqtrixg7DoZJD3AzC2s7qIBVvPPAK2hZWoR1xWu0tEaCSUIABzeB169NxdOnvKk8vTw69WJ0H4VfkOCIDpb58DBUQACtBAChoBUjBUAGEYBFUSwNRw7e33t18oi5V5rIH7B4hNA+Ib/YvQEQB8mHNZKax6wx0Ghm0xbxE0KjcDcyaSaMYYBE+9ts2kXXg8d4gnSBfoBhqIZDIaMZFAN4gThDy6CYoIxguahkwXDBWcECwNeSmEUSZRQqwUSO1nx1FfdaOlsqx+TRxGCCIvqHCNfFgV6DdwbMpEdbu5zjt6YVQ27aHyi+n8CZdf7pRZOw4P8cjNFD/DDxmqndThB9V9B57XxmUBMsv7folhGCNjK6IgCYqhoGFg3HGtNMfgAGdpGeDHbnwgVrPYLXtJ63vwKrzh9OIQOy9qbgsYjTUMbksiunkXSYCfTVnL+hnUXPttx5ntZATnRwUOSKg/PTrF/e9xABFiNeC41m3iClu2jTO2bELuMN/mDfc95qovXQY=) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.98; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.29; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.5; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.29; }
+.score   { stroke: #b23a2b; stroke-width: 2.71; stroke-dasharray: 10.34 5.91; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.98; stroke-dasharray: 4.43 4.43; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.98; stroke-dasharray: 4.43 4.43; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.29; }
+.lead    { stroke: #1d2125; stroke-width: 1.98; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.98; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.67; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.67; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.88; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.88; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.55; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.19; stroke-dasharray: 7.39 4.43; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.34; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.19; stroke-dasharray: 5.91 4.43; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.29; stroke-dasharray: 8.87 4.43; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.67; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 3.13; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.71; stroke-dasharray: 10.34 5.91; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.71; stroke-dasharray: 4.43 4.43; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="1040" height="1089.1" class="bg" />
+<g transform="translate(0,59.1)">
+<g clip-path="url(#d0)">
+<rect x="60" y="130" width="390" height="338" rx="0" class="mask-on-fr4" />
+<path d="M128.89999999999998,286.0 L99.0,286.0 L79.5,266.5 L79.5,117" class="s-mask-on-cu" stroke-width="3.9" />
+<path d="M128.89999999999998,312.0 L99.0,312.0 L79.5,331.5 L79.5,481" class="s-mask-on-cu" stroke-width="3.9" />
+<rect x="119.8" y="279.5" width="18.2" height="13.0" rx="1.3" class="fr4-exposed" />
+<rect x="120.775" y="280.475" width="16.25" height="11.049999999999999" rx="1.04" class="cu-exposed" />
+<rect x="119.8" y="305.5" width="18.2" height="13.0" rx="1.3" class="fr4-exposed" />
+<rect x="120.775" y="306.475" width="16.25" height="11.049999999999999" rx="1.04" class="cu-exposed" />
+<rect x="104.19999999999999" y="182.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="123.7" y="182.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="104.19999999999999" y="403.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="123.7" y="403.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="346" y="182" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="365.5" y="182" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="372" y="403" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="391.5" y="403" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<path d="M391.5,188.5 L424,188.5 L463,149.5" class="s-mask-on-cu" stroke-width="3.9" />
+</g>
+<path d="M242,114.4 L242,483.59999999999997" class="score" />
+<path d="M145.8,252.2 L338.2,252.2 L338.2,345.79999999999995 L145.8,345.79999999999995 L145.8,252.2" class="s-silkscreen" stroke-width="1.95" />
+<rect x="151" y="257.4" width="91" height="83.19999999999999" rx="0" class="foil" />
+<rect x="242" y="269.1" width="91" height="59.80000000000002" rx="3.9" class="foil" />
+<path d="M257.6,269.1 L257.6,328.9" class="thin" />
+<path d="M270.6,269.1 L270.6,328.9" class="thin" />
+<path d="M283.6,269.1 L283.6,328.9" class="thin" />
+<path d="M296.6,269.1 L296.6,328.9" class="thin" />
+<path d="M309.6,269.1 L309.6,328.9" class="thin" />
+<path d="M322.59999999999997,269.1 L322.59999999999997,328.9" class="thin" />
+<text x="196.5" y="244.4" font-size="15.64" text-anchor="middle" class="silk">J1</text>
+<text x="115.9" y="174.2" font-size="15.64" text-anchor="middle" class="silk">C1</text>
+<text x="115.9" y="396.5" font-size="15.64" text-anchor="middle" class="silk">C2</text>
+<text x="119.8" y="455.0" font-size="16.69" text-anchor="middle" class="silk">Board A</text>
+<text x="390.2" y="455.0" font-size="16.69" text-anchor="middle" class="silk">Board B</text>
+<text x="255" y="52.0" font-size="20.86" text-anchor="middle" class="ink" font-weight="600">✗ Overhang across a V-score</text>
+<path d="M242,264.6675 L242,103.29" class="dim" />
+<path d="M333,264.6675 L333,103.29" class="dim" />
+<path d="M242,109.2 L333,109.2" class="dim" />
+<path d="M242,109.2 L251.60471399345005,105.36375504509623 L251.60471399345005,113.03624495490378 Z" class="arrow" />
+<path d="M333,109.2 L323.39528600654995,113.03624495490378 L323.39528600654995,105.36375504509623 Z" class="arrow" />
+<text x="287.5" y="101.8125" font-size="17.73" text-anchor="middle" class="dimtxt">7 mm overhang</text>
+<path d="M60,611.0 L238.1,611.0 L242,617.5 L242,625.3 L238.1,631.8 L60,631.8 Z" class="mask-on-fr4" />
+<path d="M241.45277824906282,617.5385820796887 L244.40215991781213,610.5556637948993 L446.48303108077005,581.917725495853 L449.4015470857684,602.51195440418 L247.32067592281047,631.1498927032262 L242.54722175093718,625.2614179203113 Z" class="mask-on-fr4" />
+<rect x="151" y="533" width="91" height="78" rx="0" class="foil" />
+<rect x="242" y="542.0999999999999" width="91" height="55.9" rx="3.9" class="foil" />
+<path d="M257.6,542.0999999999999 L257.6,598.0" class="thin" />
+<path d="M270.6,542.0999999999999 L270.6,598.0" class="thin" />
+<path d="M283.6,542.0999999999999 L283.6,598.0" class="thin" />
+<path d="M296.6,542.0999999999999 L296.6,598.0" class="thin" />
+<path d="M309.6,542.0999999999999 L309.6,598.0" class="thin" />
+<path d="M322.59999999999997,542.0999999999999 L322.59999999999997,598.0" class="thin" />
+<circle cx="333.0" cy="598.0" r="6.5" class="contact" />
+<text x="60" y="665.6" font-size="17.73" text-anchor="start" class="muted">Side view: board B bent to snap the score</text>
+<g clip-path="url(#d1)">
+<rect x="554" y="130" width="442" height="338" rx="0" class="mask-on-fr4" />
+<path d="M622.9,286.0 L593.0,286.0 L573.5,266.5 L573.5,117" class="s-mask-on-cu" stroke-width="3.9" />
+<path d="M622.9,312.0 L593.0,312.0 L573.5,331.5 L573.5,481" class="s-mask-on-cu" stroke-width="3.9" />
+<rect x="613.8000000000001" y="279.5" width="18.2" height="13.0" rx="1.3" class="fr4-exposed" />
+<rect x="614.775" y="280.475" width="16.25" height="11.049999999999999" rx="1.04" class="cu-exposed" />
+<rect x="613.8000000000001" y="305.5" width="18.2" height="13.0" rx="1.3" class="fr4-exposed" />
+<rect x="614.775" y="306.475" width="16.25" height="11.049999999999999" rx="1.04" class="cu-exposed" />
+<rect x="598.1999999999999" y="182.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="617.6999999999999" y="182.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="598.1999999999999" y="403.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="617.6999999999999" y="403.0" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<path d="M749,104 L749,143" class="s-offboard" stroke-width="26" />
+<path d="M749,208 L749,390" class="s-offboard" stroke-width="26" />
+<path d="M749,455 L749,494" class="s-offboard" stroke-width="26" />
+<rect x="736" y="235.3" width="130" height="127.4" rx="13" class="offboard" />
+<circle cx="731.4499999999999" cy="161.2" r="3.25" class="drill" />
+<circle cx="731.4499999999999" cy="170.95" r="3.25" class="drill" />
+<circle cx="731.4499999999999" cy="180.7" r="3.25" class="drill" />
+<circle cx="731.4499999999999" cy="190.45" r="3.25" class="drill" />
+<circle cx="731.4499999999999" cy="408.2" r="3.25" class="drill" />
+<circle cx="731.4499999999999" cy="417.95" r="3.25" class="drill" />
+<circle cx="731.4499999999999" cy="427.7" r="3.25" class="drill" />
+<circle cx="731.4499999999999" cy="437.45" r="3.25" class="drill" />
+<rect x="947.9" y="182" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="967.4" y="182" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="947.9" y="403" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+<rect x="967.4" y="403" width="11.700000000000001" height="13.0" rx="1.3" class="cu-exposed" />
+</g>
+<path d="M918,114.4 L918,483.59999999999997" class="score" />
+<path d="M639.8000000000001,252.2 L832.1999999999999,252.2 L832.1999999999999,345.79999999999995 L639.8000000000001,345.79999999999995 L639.8000000000001,252.2" class="s-silkscreen" stroke-width="1.95" />
+<rect x="645" y="257.4" width="91" height="83.19999999999999" rx="0" class="foil" />
+<rect x="736" y="269.1" width="91" height="59.80000000000002" rx="3.9" class="foil" />
+<path d="M751.6,269.1 L751.6,328.9" class="thin" />
+<path d="M764.6,269.1 L764.6,328.9" class="thin" />
+<path d="M777.6,269.1 L777.6,328.9" class="thin" />
+<path d="M790.6,269.1 L790.6,328.9" class="thin" />
+<path d="M803.6,269.1 L803.6,328.9" class="thin" />
+<path d="M816.6,269.1 L816.6,328.9" class="thin" />
+<text x="690.5" y="244.4" font-size="15.64" text-anchor="middle" class="silk">J1</text>
+<text x="609.9" y="174.2" font-size="15.64" text-anchor="middle" class="silk">C1</text>
+<text x="609.9" y="396.5" font-size="15.64" text-anchor="middle" class="silk">C2</text>
+<text x="613.8000000000001" y="455.0" font-size="16.69" text-anchor="middle" class="silk">Board A</text>
+<text x="957" y="455.0" font-size="16.69" text-anchor="middle" class="silk">Board B</text>
+<text x="775" y="52.0" font-size="20.86" text-anchor="middle" class="ink" font-weight="600">✓ Routed edge with a relief cut-out</text>
+<path d="M736,367.1325 L736,497.31000000000006" class="dim" />
+<path d="M866,367.1325 L866,497.31000000000006" class="dim" />
+<path d="M736,491.40000000000003 L866,491.40000000000003" class="dim" />
+<path d="M736,491.40000000000003 L745.6047139934501,487.5637550450963 L745.6047139934501,495.2362449549038 Z" class="arrow" />
+<path d="M866,491.40000000000003 L856.3952860065499,495.2362449549038 L856.3952860065499,487.5637550450963 Z" class="arrow" />
+<text x="801.0" y="513.5625" font-size="17.73" text-anchor="middle" class="dimtxt">10 mm clearance</text>
+<rect x="554" y="611" width="182" height="20.8" rx="0" class="mask-on-fr4" />
+<rect x="866" y="611" width="52" height="20.8" rx="0" class="mask-on-fr4" />
+<rect x="918" y="611" width="78" height="20.8" rx="0" class="mask-on-fr4" />
+<path d="M918,605.8 L918,637.0" class="score" />
+<rect x="645" y="533" width="91" height="78" rx="0" class="foil" />
+<rect x="736" y="542.0999999999999" width="91" height="55.9" rx="3.9" class="foil" />
+<path d="M751.6,542.0999999999999 L751.6,598.0" class="thin" />
+<path d="M764.6,542.0999999999999 L764.6,598.0" class="thin" />
+<path d="M777.6,542.0999999999999 L777.6,598.0" class="thin" />
+<path d="M790.6,542.0999999999999 L790.6,598.0" class="thin" />
+<path d="M803.6,542.0999999999999 L803.6,598.0" class="thin" />
+<path d="M816.6,542.0999999999999 L816.6,598.0" class="thin" />
+<text x="554" y="665.6" font-size="17.73" text-anchor="start" class="muted">Side view, through the cut-out:</text>
+<text x="554" y="698.105" font-size="17.73" text-anchor="start" class="muted">nothing under the connector</text>
+<text x="60" y="760.1600000000001" font-size="18.77" class="ink" font-weight="600">Key</text>
+<path d="M60,774.9350000000001 L490,774.9350000000001" class="thin" />
+<circle cx="74.775" cy="807.44" r="13.2975" class="balloon" />
+<text x="74.775" y="813.35" font-size="16.16" text-anchor="middle" class="ink" font-weight="600">1</text>
+<text x="101.37" y="813.35" font-size="18.25" class="ink">V-score line</text>
+<circle cx="74.775" cy="845.855" r="13.2975" class="balloon" />
+<text x="74.775" y="851.765" font-size="16.16" text-anchor="middle" class="ink" font-weight="600">2</text>
+<text x="101.37" y="851.765" font-size="18.25" class="ink">Connector hangs 7 mm past board A</text>
+<text x="101.37" y="875.405" font-size="16.69" class="muted">Over board B</text>
+<circle cx="74.775" cy="907.91" r="13.2975" class="balloon" />
+<text x="74.775" y="913.8199999999999" font-size="16.16" text-anchor="middle" class="ink" font-weight="600">3</text>
+<text x="101.37" y="913.8199999999999" font-size="18.25" class="ink">Board B meets the connector</text>
+<text x="101.37" y="937.4599999999999" font-size="16.69" class="muted">The score can't be snapped</text>
+<path d="M560,774.9350000000001 L990,774.9350000000001" class="thin" />
+<circle cx="574.775" cy="807.44" r="13.2975" class="balloon" />
+<text x="574.775" y="813.35" font-size="16.16" text-anchor="middle" class="ink" font-weight="600">4</text>
+<text x="601.37" y="813.35" font-size="18.25" class="ink">Routed relief cut-out</text>
+<text x="601.37" y="836.99" font-size="16.69" class="muted">About 10 mm from the edge for a 7 mm overhang</text>
+<circle cx="574.775" cy="869.495" r="13.2975" class="balloon" />
+<text x="574.775" y="875.405" font-size="16.16" text-anchor="middle" class="ink" font-weight="600">5</text>
+<text x="601.37" y="875.405" font-size="18.25" class="ink">Edge routed and held by tabs</text>
+<text x="601.37" y="899.045" font-size="16.69" class="muted">Mouse bites just inside the edge</text>
+<circle cx="574.775" cy="931.55" r="13.2975" class="balloon" />
+<text x="574.775" y="937.4599999999999" font-size="16.16" text-anchor="middle" class="ink" font-weight="600">6</text>
+<text x="601.37" y="937.4599999999999" font-size="18.25" class="ink">Silkscreen outline of the whole part</text>
+<text x="601.37" y="961.0999999999999" font-size="16.69" class="muted">Including the overhang (PCB-DFA-036)</text>
+<text x="60" y="1011.3349999999999" font-size="16.69" class="muted">Drawn to scale. Dimensions in mm. Values from PCB-DFA-010.</text>
+<path d="M242,435.5 L242.0,503.46000000000004" class="lead" fill="none" />
+<circle cx="242" cy="435.5" r="3.2505" class="dot" />
+<circle cx="242" cy="518.235" r="14.775" class="balloon" />
+<text x="242" y="524.145" font-size="17.21" text-anchor="middle" class="ink" font-weight="600">1</text>
+<path d="M307,328.9 L307.0,503.46000000000004" class="lead" fill="none" />
+<circle cx="307" cy="328.9" r="3.2505" class="dot" />
+<circle cx="307" cy="518.235" r="14.775" class="balloon" />
+<text x="307" y="524.145" font-size="17.21" text-anchor="middle" class="ink" font-weight="600">2</text>
+<path d="M333.0,598.0 L333.0,505.775" class="lead" fill="none" />
+<circle cx="333.0" cy="598.0" r="3.2505" class="dot" />
+<circle cx="333.0" cy="491.0" r="14.775" class="balloon" />
+<text x="333.0" y="496.91" font-size="17.21" text-anchor="middle" class="ink" font-weight="600">3</text>
+<path d="M731.4499999999999,170.95 L731.4499999999999,126.575" class="lead" fill="none" />
+<circle cx="731.4499999999999" cy="170.95" r="3.2505" class="dot" />
+<circle cx="731.4499999999999" cy="111.8" r="14.775" class="balloon" />
+<text x="731.4499999999999" y="117.71" font-size="17.21" text-anchor="middle" class="ink" font-weight="600">5</text>
+<path d="M832.1999999999999,252.2 L832.1999999999999,147.7625 L820.1424999999999,147.7625 L820.1424999999999,126.575" class="lead" fill="none" />
+<circle cx="832.1999999999999" cy="252.2" r="3.2505" class="dot" />
+<circle cx="820.1424999999999" cy="111.8" r="14.775" class="balloon" />
+<text x="820.1424999999999" y="117.71" font-size="17.21" text-anchor="middle" class="ink" font-weight="600">6</text>
+<path d="M846.5,247.0 L846.5,147.7625 L858.5575,147.7625 L858.5575,126.575" class="lead" fill="none" />
+<circle cx="846.5" cy="247.0" r="3.2505" class="dot" />
+<circle cx="858.5575" cy="111.8" r="14.775" class="balloon" />
+<text x="858.5575" y="117.71" font-size="17.21" text-anchor="middle" class="ink" font-weight="600">4</text>
+</g>
+<rect x="17.73" y="11.82" width="70.18125" height="38.415" rx="8.865" class="figbox" />
+<text x="52.82062500000001" y="39.8925" font-size="21.9" text-anchor="middle" font-weight="700" class="ink">D24</text>
+<text x="102.68625000000002" y="38.415" font-size="18.77" class="muted">PCB-DFA-010</text>
+</svg>

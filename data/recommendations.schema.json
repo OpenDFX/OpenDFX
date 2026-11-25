@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opendfx.org/data/recommendations.schema.json",
+  "title": "OpenDFX recommendations data",
+  "description": "The recommendations of OpenDFX for Printed Circuit Boards as structured data (recommendations.json). The fields are explained in words in data/README.md. Text fields are Markdown, with links written as full website addresses. Written by hand; tools/build_data.py checks the data against it.",
+  "type": "object",
+  "required": ["title", "author", "schema_version", "license", "license_url", "attribution", "citation", "note", "website", "repository", "count", "recommendations"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {"type": "string", "format": "uri"},
+    "title": {"type": "string"},
+    "author": {"type": "string"},
+    "schema_version": {"type": "string", "description": "The version of this structure. It changes only when a field is removed or changes meaning."},
+    "license": {"const": "CC BY 4.0"},
+    "license_url": {"type": "string", "format": "uri"},
+    "attribution": {"type": "string", "description": "The credit line to use when reusing the data."},
+    "citation": {"type": "string", "description": "The full citation of the book."},
+    "note": {"type": "string"},
+    "website": {"type": "string", "format": "uri"},
+    "repository": {"type": "string", "format": "uri"},
+    "count": {"type": "integer", "minimum": 1, "description": "The number of records in recommendations."},
+    "recommendations": {"type": "array", "items": {"$ref": "#/$defs/recommendation"}}
+  },
+  "$defs": {
+    "recommendation": {
+      "type": "object",
+      "required": ["id", "title", "category", "category_name", "part", "part_title", "page_title", "permalink", "url", "source_file", "design_stages", "recommendation", "why", "applies_to", "figures", "sources", "last_reviewed"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^PCB-(DFA|DFM|DFT)-[0-9]{3}$", "description": "The permanent ID. It never changes and is never reused."},
+        "title": {"type": "string", "minLength": 1},
+        "category": {"enum": ["DFA", "DFM", "DFT"], "description": "DFA is assembly, DFM is bare-board fabrication, DFT is test."},
+        "category_name": {"type": "string"},
+        "part": {"type": "integer", "minimum": 0, "maximum": 9},
+        "part_title": {"type": "string"},
+        "page_title": {"type": "string"},
+        "permalink": {"type": "string", "pattern": "^https://opendfx\\.org/PCB-(DFA|DFM|DFT)-[0-9]{3}$", "description": "The short permanent address. Use it to link and cite."},
+        "url": {"type": "string", "format": "uri", "description": "The recommendation's place on its page. It can change if the page moves."},
+        "source_file": {"type": "string", "pattern": "^book/.+\\.md$"},
+        "design_stages": {"type": "array", "uniqueItems": true, "items": {"enum": ["parts", "library", "placement", "routing", "outline", "release", "production"]}},
+        "recommendation": {"type": "string", "minLength": 1, "description": "What to do."},
+        "why": {"type": "string", "minLength": 1, "description": "How the problem happens."},
+        "typical_values": {"type": "string", "description": "The numbers, as written text."},
+        "what_goes_wrong": {"type": "string"},
+        "example": {"type": "string"},
+        "applies_to": {"type": "string", "minLength": 1, "description": "Whether it is general practice or varies by manufacturer."},
+        "checks": {
+          "type": "array",
+          "description": "Only on recommendations the OpenDFX KiCad design-rules file checks.",
+          "items": {
+            "type": "object",
+            "required": ["check", "minimum", "recommended", "unit"],
+            "additionalProperties": false,
+            "properties": {
+              "check": {"type": "string"},
+              "minimum": {"type": "number"},
+              "recommended": {"type": "number"},
+              "unit": {"type": "string"}
+            }
+          }
+        },
+        "figures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "alt", "url"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string", "pattern": "^D[0-9]+$"},
+              "alt": {"type": "string"},
+              "url": {"type": "string", "format": "uri"}
+            }
+          }
+        },
+        "sources": {
+          "type": "object",
+          "required": ["text", "episodes", "standards", "other"],
+          "additionalProperties": false,
+          "properties": {
+            "text": {"type": "string"},
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["title", "url", "date", "timestamps"],
+                "additionalProperties": false,
+                "properties": {
+                  "title": {"type": "string"},
+                  "url": {"type": "string", "format": "uri"},
+                  "date": {"type": "string"},
+                  "timestamps": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": ["start_seconds", "url"],
+                      "additionalProperties": false,
+                      "properties": {
+                        "start_seconds": {"type": "integer", "minimum": 0},
+                        "end_seconds": {"type": ["integer", "null"], "minimum": 0},
+                        "url": {"type": "string", "format": "uri"}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "standards": {"type": "array", "items": {"type": "string"}},
+            "other": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["title"],
+                "additionalProperties": false,
+                "properties": {
+                  "title": {"type": "string"},
+                  "url": {"type": ["string", "null"], "format": "uri"}
+                }
+              }
+            }
+          }
+        },
+        "last_reviewed": {"type": ["string", "null"], "format": "date", "description": "The date the author last reviewed it."}
+      }
+    }
+  }
+}

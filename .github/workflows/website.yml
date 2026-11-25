@@ -1,0 +1,131 @@
+# Builds the website (M9) from the book on every pull request, so a broken link or anchor fails the check,
+# and publishes it to GitHub Pages (opendfx.org) whenever main changes.
+name: Website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    # Pinned to Ubuntu 24.04 (Q271): ubuntu-latest moved to 26.04 in November 2026,
+    # which has no Python 3.9 and a pandoc whose EPUB fails EPUBCheck.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml jsonschema fonttools==4.68.0 brotli==1.2.1  # build_fonts.py --check compares bytes, so pin both
+      - name: Check the generated files are up to date with the book
+        run: |
+          python3 tools/build_appendices.py --check
+          python3 tools/build_kicad_rules.py --check
+          python3 tools/build_data.py --check
+          python3 tools/build_skill.py --check
+          python3 tools/build_fonts.py --check
+      # M14: only in the private record, which holds tools/public_tree.py. It checks no working note would go public,
+      # and that the public files alone still build.
+      - name: Check the public repository's files
+        if: hashFiles('tools/public_tree.py') != ''
+        run: python3 tools/public_tree.py --check
+      # The logo (M44) needs uharfbuzz to shape its text. It is installed only after the font check, because when
+      # fontTools finds uharfbuzz it packs font tables with HarfBuzz, which writes different bytes.
+      - name: Check the press kit is up to date with the logo
+        run: |
+          pip install uharfbuzz==0.57.0
+          python3 tools/logo/build_brand.py --check
+      # The PDF and EPUB (M13): built from the book, then checked for valid EPUB, EPUB accessibility and PDF/UA.
+      # The book's own fonts come from fonts/ (FONT1); DejaVu is only the last fallback for a rare symbol.
+      - name: Install pandoc, WeasyPrint and the fallback font
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc poppler-utils fonts-dejavu-core
+          pip install weasyprint pypdf pillow
+      # The print PDF's drawings are drawn by Chromium (tools/books/render_many.js), the website's own engine.
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Build the PDF, the print PDF and the EPUB
+        run: python3 tools/build_books.py --print
+      - name: Check the EPUB with EPUBCheck
+        run: |
+          curl -sSL -o epubcheck.zip https://github.com/w3c/epubcheck/releases/download/v5.1.0/epubcheck-5.1.0.zip
+          unzip -q epubcheck.zip
+          java -jar epubcheck-5.1.0/epubcheck.jar build/opendfx-pcb-*.epub
+      - name: Check the EPUB's accessibility with DAISY Ace
+        run: |
+          # Ace drives the browser that puppeteer downloads with it, which matches its version.
+          npm install --global @daisy/ace@1.3.5
+          ace-puppeteer --force --verbose -o ace-report build/opendfx-pcb-*.epub
+          python3 -c "import json,sys; r=json.load(open('ace-report/report.json')); print('Ace:', r['earl:result']['earl:outcome']); sys.exit(r['earl:result']['earl:outcome'] != 'pass')"
+      # Only the screen PDF is tagged for accessibility: KDP asks for no bookmarks, annotations or metadata in a print file.
+      - name: Check the screen PDF against PDF/UA-1 with veraPDF
+        if: success() || failure()
+        run: |
+          mkdir -p vera
+          n=$(basename build/opendfx-pcb-*[0-9].pdf .pdf)
+          docker run --rm -v "$PWD/build:/data" verapdf/cli:latest --flavour ua1 --format json "/data/$n.pdf" > "vera/$n.json" || true
+          python3 tools/books/vera_summary.py vera/*.json
+      # Kept 7 days, not GitHub's default 90: each copy is about 50 MB, and the private
+      # repository has 0.5 GB of free Actions storage (Q270).
+      # When that storage is full, the upload fails but the check doesn't: the books were
+      # already built and checked above, and the copy is only for review (Q279).
+      - uses: actions/upload-artifact@v4
+        if: always()
+        continue-on-error: true
+        with:
+          name: opendfx-pcb-books
+          retention-days: 7
+          path: |
+            build/
+            ace-report/
+            vera/
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+        working-directory: site
+      - name: Build the site, check every link and permanent address
+        run: npm run build
+        working-directory: site
+      - name: Add the PDF and EPUB to the site
+        run: python3 tools/build_books.py --site site/dist
+      # M13a: axe on every page in light and dark mode, reflow at 320 px, and text contrast inside the drawings.
+      # Playwright is named again so npm keeps it beside axe-core (there is no package.json at the top).
+      - name: Check accessibility (WCAG 2.2 AA)
+        run: |
+          npm install --no-save --no-package-lock playwright@1.63.0 axe-core@4.10.3
+          node tools/check_accessibility.js site/dist
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request' && vars.PAGES_ENABLED == 'true'
+        with:
+          path: site/dist
+
+  # Publishing waits for the repository variable PAGES_ENABLED = true (Settings, Secrets and variables, Actions,
+  # Variables). Set it when GitHub Pages is turned on, after the repository goes public (Q144).
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.PAGES_ENABLED == 'true'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

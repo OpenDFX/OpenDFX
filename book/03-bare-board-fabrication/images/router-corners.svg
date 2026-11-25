@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="892.7" viewBox="0 0 980 892.7" role="img" aria-labelledby="title desc">
+<defs>
+</defs>
+<title id="title">Allowing for the router: inside corners, slots and corner relief</title><desc id="desc">Drawn to scale, plan view of part of a board. Left: a 10 by 6 mm cut-out routed with a 2 mm bit; every inside corner has a 1 mm radius, the bit's own, and a 2 mm circle shows the bit in one corner. Middle: a slot 1 mm wide with round ends. Right: a cut-out for a square part 8 by 6 mm, with a round relief drilled into each corner so the part's square corners fit.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="892.7" class="bg" />
+<g transform="translate(0,55.7)">
+<rect x="40" y="80" width="900" height="300" rx="0" class="mask-on-fr4" />
+<rect x="100" y="140" width="300" height="180" rx="30.0" class="bg" />
+<circle cx="130.0" cy="170.0" r="30.0" class="ray" />
+<rect x="490" y="140" width="30.0" height="180" rx="15.0" class="bg" />
+<rect x="640" y="140" width="240" height="180" rx="0" class="bg" />
+<circle cx="650.5" cy="150.5" r="18.0" class="bg" />
+<circle cx="869.5" cy="150.5" r="18.0" class="bg" />
+<circle cx="650.5" cy="309.5" r="18.0" class="bg" />
+<circle cx="869.5" cy="309.5" r="18.0" class="bg" />
+<rect x="640" y="140" width="240" height="180" rx="0" class="asm" />
+<text x="250" y="62.0" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Cut-out, 2 mm bit</text>
+<text x="505.0" y="62.0" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Slot</text>
+<text x="760" y="62.0" font-size="17.69" text-anchor="middle" class="ink" font-weight="600">Square part: corner relief</text>
+<path d="M490,324.1775 L490,355.57" class="dim" />
+<path d="M520,324.1775 L520,355.57" class="dim" />
+<path d="M490,350.0 L520,350.0" class="dim" />
+<path d="M470.505,350.0 L490,350.0" class="dim" />
+<path d="M520,350.0 L539.495,350.0" class="dim" />
+<path d="M490,350.0 L480.94784146471795,353.61554727560303 L480.94784146471795,346.38445272439697 Z" class="arrow" />
+<path d="M520,350.0 L529.052158535282,346.38445272439697 L529.052158535282,353.61554727560303 Z" class="arrow" />
+<text x="545.065" y="355.57" font-size="16.71" text-anchor="start" class="dimtxt">1.0</text>
+<path d="M100,324.1775 L100,355.57" class="dim" />
+<path d="M400,324.1775 L400,355.57" class="dim" />
+<path d="M100,350.0 L400,350.0" class="dim" />
+<path d="M100,350.0 L109.05215853528203,346.38445272439697 L109.05215853528203,353.61554727560303 Z" class="arrow" />
+<path d="M400,350.0 L390.94784146471795,353.61554727560303 L390.94784146471795,346.38445272439697 Z" class="arrow" />
+<text x="250.0" y="343.0375" font-size="16.71" text-anchor="middle" class="dimtxt">10</text>
+<text x="40" y="521.625" font-size="17.69" class="ink" font-weight="600">Key</text>
+<path d="M40,535.55 L462.15,535.55" class="thin" />
+<circle cx="53.925" cy="566.185" r="12.5325" class="balloon" />
+<text x="53.925" y="571.755" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">1</text>
+<text x="78.99000000000001" y="571.755" font-size="17.2" class="ink">Inside corner radius 1 mm</text>
+<text x="78.99000000000001" y="594.035" font-size="15.72" class="muted">The radius of a 2 mm router bit</text>
+<circle cx="53.925" cy="624.67" r="12.5325" class="balloon" />
+<text x="53.925" y="630.24" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">2</text>
+<text x="78.99000000000001" y="630.24" font-size="17.2" class="ink">The router bit, 2 mm</text>
+<text x="78.99000000000001" y="652.52" font-size="15.72" class="muted">Can't reach further into the corner</text>
+<path d="M517.85,535.55 L940.0,535.55" class="thin" />
+<circle cx="531.775" cy="566.185" r="12.5325" class="balloon" />
+<text x="531.775" y="571.755" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">3</text>
+<text x="556.84" y="571.755" font-size="17.2" class="ink">Slot at least 1 mm wide</text>
+<text x="556.84" y="594.035" font-size="15.72" class="muted">Round ends, the bit's radius</text>
+<circle cx="531.775" cy="624.67" r="12.5325" class="balloon" />
+<text x="531.775" y="630.24" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">4</text>
+<text x="556.84" y="630.24" font-size="17.2" class="ink">Relief in each corner</text>
+<text x="556.84" y="652.52" font-size="15.72" class="muted">The part's square corner fits</text>
+<circle cx="531.775" cy="683.155" r="12.5325" class="balloon" />
+<text x="531.775" y="688.725" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">5</text>
+<text x="556.84" y="688.725" font-size="17.2" class="ink">Square part's outline</text>
+<rect x="40" y="731.8925" width="19.495" height="19.495" class="mask-on-fr4" />
+<rect x="40" y="731.8925" width="19.495" height="19.495" class="thin" />
+<text x="70.635" y="748.6025000000001" font-size="16.71" text-anchor="start" class="ink">Board (mask over FR4)</text>
+<rect x="297.05550000000005" y="731.8925" width="19.495" height="19.495" class="bg" />
+<rect x="297.05550000000005" y="731.8925" width="19.495" height="19.495" class="thin" />
+<text x="327.69050000000004" y="748.6025000000001" font-size="16.71" text-anchor="start" class="ink">Cut away</text>
+<text x="40" y="783.4150000000001" font-size="15.72" class="muted">Drawn to scale. Dimensions in mm.</text>
+<text x="40" y="811.2650000000001" font-size="15.72" class="muted">A 1 mm bit leaves a 0.5 mm radius, on request. Routed edges hold about ±0.1 mm.</text>
+<path d="M108.7,148.7 L108.7,335.0375 L101.2475,335.0375 L101.2475,438.075" class="lead" fill="none" />
+<circle cx="108.7" cy="148.7" r="3.0635000000000003" class="dot" />
+<circle cx="101.2475" cy="452.0" r="13.925" class="balloon" />
+<text x="101.2475" y="457.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">1</text>
+<path d="M130.0,191.0 L130.0,335.0375 L137.4525,335.0375 L137.4525,438.075" class="lead" fill="none" />
+<circle cx="130.0" cy="191.0" r="3.0635000000000003" class="dot" />
+<circle cx="137.4525" cy="452.0" r="13.925" class="balloon" />
+<text x="137.4525" y="457.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">2</text>
+<path d="M505.0,230 L505.0,438.075" class="lead" fill="none" />
+<circle cx="505.0" cy="230" r="3.0635000000000003" class="dot" />
+<circle cx="505.0" cy="452.0" r="13.925" class="balloon" />
+<text x="505.0" y="457.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">3</text>
+<path d="M643.0,143.0 L643.0,438.075" class="lead" fill="none" />
+<circle cx="643.0" cy="143.0" r="3.0635000000000003" class="dot" />
+<circle cx="643.0" cy="452.0" r="13.925" class="balloon" />
+<text x="643.0" y="457.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">4</text>
+<path d="M880,230 L880.0,438.075" class="lead" fill="none" />
+<circle cx="880" cy="230" r="3.0635000000000003" class="dot" />
+<circle cx="880" cy="452.0" r="13.925" class="balloon" />
+<text x="880" y="457.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">5</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D51</text>
+<text x="96.77874999999999" y="36.205" font-size="17.69" class="muted">PCB-DFM-042</text>
+</svg>

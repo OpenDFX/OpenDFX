@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="529.7" viewBox="0 0 980 529.7" role="img" aria-labelledby="title desc">
+<defs>
+</defs>
+<title id="title">D67: The path a board takes</title><desc id="desc">D67 is a flow diagram, not to scale. Six steps run left to right, each with the Part of the book that covers it: the design package (Part 1), the panel (Part 2), bare-board fabrication (Part 3), assembly (Part 5), test and programming (Part 6), and packing and shipping (Part 7). Components and materials (Part 4) feed into assembly from above, alongside the bare boards. A bar under every step shows working with a manufacturer (Part 8), which runs through the whole path.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,d09GMgABAAAAAA8sABAAAAAAIGQAAA7OAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGiIbkB4ccgZgP1NUQVREAIEUEQgKnkSXXAE2AiQDgVQLbAAEIAWINgcgDAcbeBszo8LGAQCUfuco/usEesB+1Q4JBU9KlDhRFHX7aNU7VY5rnRpjo94znPdawMtTwmdONKm2SH5FbZRcST0Ytg/yYMoRkswSVGv/9sxBvdoPGEAqT2Cj0BG4xEbHRcWbKNQIAxHtx2/2bp+IflFBo7ZKI2UiMTA8bfMfusYl6FfiiEMQ5KDlTo487qgjUj82YdQYuTX7W+OK7UdFN8D/n8Chdca0tNDK6gMc4PsJuLSZuzbvSn4/ARTVfwgkHQWhS0q+9m4yPRIYuiJJAQDAo21OUrmIWYI09/yKesh9f6352t37BQCZXgmMq6XxZMzmbZK93ZcNqaT3gWkvZVbRUZ3vy4rJpUYAWRKuxtXXmwpbIV2Nq1Xs3omn2bLvm07mMC81SwihCkUxvz51zFv/6QVMAyRLNESnJ0YHhEBz7Jk9c46OA/adQm4GsB+OleYBm4L6E4gHtwrzYBkkgeSO9zB8RmibiCmEkhBHRG9mhrsohtcjajEAqAkAqBtqhNoALFLwyPGtRrXca9v8+g0VADVol1k3UyB6HrxuF/VBmRzUD0D9gdArRe2YYrLurUci2Cf1ENQlrS0MUjITcCKk5txxOubZjBe4UtMd9ThY8KzgYtQNSAcvbX5VbF3bHoJKs5/Q/0wd9M3BqLZ5po2vy4w1ULxCA6LHmSYKwF7hgUVeAn6KQeHzsQxERn2BweQ6NCVM+ri8wmjOD3QASwHqERi0UQCVrCgZPKFg8YwrC1WSMFzjW1ZPbCLatEAdmI6qr9hXqEAPgdO6UqOH2la/XpCVDdNsA/5PT4HCn8btksmbXKftqi/jjYU7q8SZnxQCGheRepBO6exWO1jyb8II01WsPmYDrzyVUCiibbwKQsPh82ysdoWgBIgsnbfowOI+gW1elRqUdVTrImE1TAWUjpT9gyrEcnA5lvvDdMuHWk1jY5uBdXReLXsrDWCiV7rVjeEy4/HgJhbOdw0U5MvvDAwHRpjIeAq1TK9XGR2rCezTEj0f1kiBtQKZkMOKIE1yHsACrFLzeCyrkSi5lJqpVqxSGKosA13dyuZp5MZkJzuv4+mtl2FawecTDR9eGfgaV8+NNEFD+TE+4z9Q+MBoAoEobDNtt3lERm26oSEgUBu0oCnsNdHqQeNKwdpniLV6ieOEs7NJ1MDeL5hyl4wjx3DQLUMciwjAhEdZLocw/UhsmesYhQIOpWr7GsH3TUoTrnp1MLb9BmA4eZUUgu3T0fh2+mVHasYVR3x81B/1KmLhwyeZWYyV1oz66NqBot1e05j3cJAvsh9wORtJ3IRGE0jrB/jn6HcGF9j0u3vjfwzduzgbsU983Dmw2Veg+C6Wm2R7n2d3JksMgD/UKoalApWz5dgjq7NMLFcWUOIyAbLfwuoPrJezYpvOPPqKEhAW12fKtLxNFWx26sonFFpITJ8x02YUKn59+xQq2F3d2e3d2jVd1/VdR6Q3HaT+Mgh3wH3AOaB/iXE/bIfNwMA4Ay4MzalYgSysYBBaCYbR3wARkihh++b5fVnWvFY/lG6WkhIym5Xp8ZRs4UrZUiXr0pVtmepERsie6opspcgMVlYlpSgviQlBDeMc7WwWyYZsluMytkG6tuduj9t1nuC1vJqMUBa7HJdhPQ/XZj43r5wjw6H3JvoFIqROMJHAvPUBKCSdIuPNtLoBKKhj8FE2FCdf1mshznGdCwWuclPnZxF98KNAxHEJAhp+MBGT65jjNRek+CpaE5PmAo6pYSRuErQHxpIE0QqLI+DWjlmH/Z8t+GV31ny4WmB8u1F1xP5AQewa7J/U76/Cuh6EJUAxXvMHmDM/27W1snzWBqkac3d2U+j66Voau5YzYfYuop2vsNYHmR91iuIcOVr8ahlGLMFon893VDyojmRUTI2ZWOyt19eO7KVJxYNRjtnJVjL1WRhmhYxRt3yLOMw9vs8Qu6PVq5zLJ3jZNs84SsjEGIOYIqGdirB3DFmHb5i8iZj3pn5riyMHaznXT74vf9ko3owKtkJRH34xQwp9Iwo5JI5ilK3ogse3WDlklgEH4A7GOXaQYgaOshY6z+DNopzIq3y3ANmkwTMPdZyAJ2wCEfFl6jjryBV1xNHgBQ8K5GbHSfiQewVFQepOduxgT5kH4M0CRzul1IQpKKzX3JHCQOMMBcEZdBS//1roOYfRHAYJdqFB+wkf9iPXZs+wDqe/0sihcbW++uznuRZ69o60dSGCfpXDMuypUBZKWBsEZBIkfscnRCoUVWr7nqHzc5hjjMUZHvOMINdiKqM8pyRgr047dG5ml3/yoT6lk+HhyMg1mLvtGZ73Ur6NRIFbOcJAsIWxjcafzjtvs4q0ytBHNcaTINRVvSCEoeCIXZTLtZxlPvQdeadACdt4Zy28ItdygdjzecMNQ6eSa7XcZy/0HiRPLPPP+njs2dVnhyp2PXK/qr47cLffd1ffc717PLEbEv+Pnv539ETfnlSfU7Il8pM1uBrg50ChORlGo2qV+7GCNWi2WvpKSOz0jedIPslxOs0952xoIG+I4N+Qo2CSOdGIB86emo6cdSI+PliPdlI1VX9QhmiDBlXW40GyYYOOd+Snb2oqGXU0AvBzXk0swLlgz/bBIVNtnD4oTjg3k7rYmndEUadTFPsmulZHot1fq7nOtdfs/2NKGjx3bXfF9499ffzrd8850noJe8vqSq2gxMydkUycPTGRGZE5gSZpsnu2qo/rtRmfLzAS0+u81EWqeysBfo7AU1aSw7SfHCl3ew59O3VQ/YVO96X6INAzqbw05DPsVh++6jep6IgBgrPfRNe8k1SrvHq1wu/Tp7moMc0LWhy71XtHbEKR7YV23kWTqbX/Zrt6/TYqMLpVCz7jvVEjam/ywE0Xnn088/74+2e1bOcc55LnTX+y/A0CDzPVATFiR8wR9+nS7NJVyF+IePX2ijydd4Rn8sPr58XNnh3kTuS0uHjRqND4MtKaWpKBuzjXgUEm/xjrL5ar+kid8zerwbemLWghEkEraevkrJoIez0ErdY6PSED5LSBNmZ43oFVAgFrKW/3d0fbXaahsvw+roBPCx0mk8iJ88VfvVaQb6IMkTbwW2RNW02VSMRUSFusSFw+yak3w0uyZ+xm2T+PSOZEashpCDk9Gg1Be7xEGMiY4arNUQ6HqGLF5sZHlY4QNBsqDx/k1NkS4wd5Wc8G4wPGn8F3HSJ+nAZDe6IzUR8msQc77MR6pWwDZJuZmdkD4CfkUTal9RVUj1vknI/ekfW9HpEhPWMYPutP4vMjPQZtXHEFmyy/EMXH59U+UoB9rdd/3SvQEA6SIkiAPVJvv/jiJ2Q2jxoacGgWVsJ1lkyncVNNILc3PP3ODxAXrjdBf97V/ln9L7PSGe8wM3N++tUPXXr/cy8IL913r2cPeLGXYL+F4gsc8QmpvAiwH6os4uLjd3T2UoplT/bJDTb3LUidnN1MrXK5li4w/bawpMKjNLL4op0xciUBUz8AeWzyMcK1YYQJCb3uoE8x5iIU3bRzAhpymNC4Fi0Q4gIHauqHA/TCRoVNdvV0G1r8r0MpbbHyG61/fTXXpCZon4cIqbVOKhR0+gD2wywntfi9l0cXcuRJCu3PgCHQYT5paq8qjpBihfQsDgt9PLTyCwo+INdbyKy4l9qov6equCol7bqzdd3L0uiqq2hxP9Jj9U5KwJ/PBPsp7J/oTHRrfevszOybkhMSVRG8z7R7NdCgA6mvgLeJpbrn3UsXfqiyyZgDAXff8P2xudRc6tiN34MjO76vBxJUYg+VCCQWtn9/WmAmMANWPGBc8e2Zg6cMnHLWld/exjhz6rTp04DjwgkJtNiVpe/+9rScM+M89a6fV7bc/J4KWI/o9762UyiNSzsT0uVCmfcewLmnaquCgpV/Jh86gw/th/gHQI2A18KSNbAESOC14Imnz80bPMxl3IlzAFTyGnZm0oNosktRl4t/vXAH0k7upPuJyW48YTMoRxKpctLT7SkDAbM3J/K6xDuUN1BKBG67W8g//fE74Y5ch8bVNg3xPmHwFX+ctw1Z67NnBKgqwXYpuhwqzEI3fYIndJTn5DICRhvUJHlh/Uh6S7qBtVz/Buhk4mmYctk2d7/457Hk3KWKbnSzkHNDyyVblfLEzSX7mv0F3zoJPqV3jAdo70TVAKzMVDmOHhv0Q7uduZneQHTMfHSb8rQ/BdKrBFHupgBssGWx3qyTtM8Ucd+UwexCTWbSaLAQGGpxgeRa6cnlb8uLpMDEpDdrqWECN8e3LcWERk0yoUPRhE6TNAqxpdvMcZyghjdp6WLn/m/40Fd7Ozv3fgXxv9kvMaTQVJ/ZbZ9YrU31qY39mQXcnVoYnW4bTjg5Eh5OfgoJMDwHVsAv32ngk2fL17A3mr6r/+/3nwTS52vXVl+tzfBvfnPzF+BNuM8BwNvMv0X5Mtnx/I5wGSDwvkg+RYgCuGZ6kBO5GlznZdzc5TUbtvIGIns2pCvepbz8yqDlK6V15IhVXcUawC+0jMPiP2tkG6JvEXOYGQnSbBYpNYMZzf/74uv2ra3uugKMWJZ2kJDcGFL/qMgvrCVNHnKdMD+RJVeYy0EYKGIOnEYZF/bD/rjDSRKg7AdnHidHKLOgJztkmacgcMIrx8gQKXDwTjP+sqRfDjD5Pxywxa2/bfihsa1fgdrqPfbbjjEes13P8YGdhBhnUeq+w1dhAFq6wl5LVOKMZebo7a+2HITdQYRcYVQJ+QINYDEaWs1rHOANUJabhUYslKnlMmBvVGAqCcYXwv224IoZZOUdaZuLMOTgrRdajUCuUgOCfqpR9HUunS4GtOu1MA2RS0/JPKCvgtzEyBo1HbK2Oapgtio7/KIjuQw/UYKyaAwGk+fq5mrDI7tTEzGJqP09EK6QwC+5oBauhMU9ZQvKjmGJcDsAVfpalmv0EBgK0GRCXIJptWQo0ApI1wjFRCbR9+AM3BQMQ37fswxRvJ1RExocyLTqwlIK6WJTKIGGuocKKKDuLjwOMIO43giGc5sCNA811OA9Ej636IdVnDwEjcj4BL0Jycy/VTgRKrW+Q/7fI+ohAAA=) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="529.7" class="bg" />
+<g transform="translate(0,55.7)">
+<style>
+.step    { fill: #e6eef8; stroke: #2563a8; stroke-width: 2.16; }
+.stepin  { fill: #fdf0d8; stroke: #a8741a; stroke-width: 2.16; }
+.span    { fill: #eef0f2; stroke: #5b636b; stroke-width: 2.16; }
+.flow    { stroke: #5b636b; stroke-width: 2.36; fill: none; }
+.flowhd  { fill: #5b636b; }
+@media (prefers-color-scheme: dark) {
+  .step   { fill: #1d2a3a; stroke: #79aef0; }
+  .stepin { fill: #3a2f1a; stroke: #e0b062; }
+  .span   { fill: #24282d; stroke: #a3abb3; }
+  .flow   { stroke: #a3abb3; }
+  .flowhd { fill: #a3abb3; }
+}
+</style>
+<rect x="14" y="186" width="148" height="152" rx="8" class="step" />
+<text x="88.0" y="210" font-size="15.23" text-anchor="middle" class="muted">Part 1</text>
+<text x="88.0" y="236" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">The design</text>
+<text x="88.0" y="257" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">package</text>
+<text x="88.0" y="284" font-size="15.23" text-anchor="middle" class="muted">Files, drawings</text>
+<text x="88.0" y="303" font-size="15.23" text-anchor="middle" class="muted">and the BOM</text>
+<path d="M163,262.0 L175,262.0" class="flow" />
+<path d="M175,262.0 L163.86,255.0375 L163.86,268.9625 Z" class="flowhd" />
+<rect x="176" y="186" width="148" height="152" rx="8" class="step" />
+<text x="250.0" y="210" font-size="15.23" text-anchor="middle" class="muted">Part 2</text>
+<text x="250.0" y="236" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">The panel</text>
+<text x="250.0" y="263" font-size="15.23" text-anchor="middle" class="muted">PCBs joined</text>
+<text x="250.0" y="282" font-size="15.23" text-anchor="middle" class="muted">for machine</text>
+<text x="250.0" y="301" font-size="15.23" text-anchor="middle" class="muted">assembly</text>
+<path d="M325,262.0 L337,262.0" class="flow" />
+<path d="M337,262.0 L325.86,255.0375 L325.86,268.9625 Z" class="flowhd" />
+<rect x="338" y="186" width="148" height="152" rx="8" class="step" />
+<text x="412.0" y="210" font-size="15.23" text-anchor="middle" class="muted">Part 3</text>
+<text x="412.0" y="236" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">Bare-board</text>
+<text x="412.0" y="257" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">fabrication</text>
+<text x="412.0" y="284" font-size="15.23" text-anchor="middle" class="muted">Layers, holes,</text>
+<text x="412.0" y="303" font-size="15.23" text-anchor="middle" class="muted">mask and finish</text>
+<path d="M487,262.0 L499,262.0" class="flow" />
+<path d="M499,262.0 L487.86,255.0375 L487.86,268.9625 Z" class="flowhd" />
+<rect x="500" y="186" width="148" height="152" rx="8" class="step" />
+<text x="574.0" y="210" font-size="15.23" text-anchor="middle" class="muted">Part 5</text>
+<text x="574.0" y="236" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">Assembly</text>
+<text x="574.0" y="263" font-size="15.23" text-anchor="middle" class="muted">Paste, placement,</text>
+<text x="574.0" y="282" font-size="15.23" text-anchor="middle" class="muted">soldering,</text>
+<text x="574.0" y="301" font-size="15.23" text-anchor="middle" class="muted">inspection</text>
+<path d="M649,262.0 L661,262.0" class="flow" />
+<path d="M661,262.0 L649.86,255.0375 L649.86,268.9625 Z" class="flowhd" />
+<rect x="662" y="186" width="148" height="152" rx="8" class="step" />
+<text x="736.0" y="210" font-size="15.23" text-anchor="middle" class="muted">Part 6</text>
+<text x="736.0" y="236" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">Test and</text>
+<text x="736.0" y="257" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">programming</text>
+<text x="736.0" y="284" font-size="15.23" text-anchor="middle" class="muted">Test points,</text>
+<text x="736.0" y="303" font-size="15.23" text-anchor="middle" class="muted">fixtures,</text>
+<text x="736.0" y="322" font-size="15.23" text-anchor="middle" class="muted">firmware</text>
+<path d="M811,262.0 L823,262.0" class="flow" />
+<path d="M823,262.0 L811.86,255.0375 L811.86,268.9625 Z" class="flowhd" />
+<rect x="824" y="186" width="148" height="152" rx="8" class="step" />
+<text x="898.0" y="210" font-size="15.23" text-anchor="middle" class="muted">Part 7</text>
+<text x="898.0" y="236" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">Packing and</text>
+<text x="898.0" y="257" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">shipping</text>
+<text x="898.0" y="284" font-size="15.23" text-anchor="middle" class="muted">Static, moisture</text>
+<text x="898.0" y="303" font-size="15.23" text-anchor="middle" class="muted">and boxes</text>
+<rect x="500" y="4" width="148" height="156" rx="8" class="stepin" />
+<text x="574.0" y="28" font-size="15.23" text-anchor="middle" class="muted">Part 4</text>
+<text x="574.0" y="54" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">Components</text>
+<text x="574.0" y="75" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">and materials</text>
+<text x="574.0" y="102" font-size="15.23" text-anchor="middle" class="muted">Buying, storing</text>
+<text x="574.0" y="121" font-size="15.23" text-anchor="middle" class="muted">and supplying</text>
+<text x="574.0" y="140" font-size="15.23" text-anchor="middle" class="muted">parts</text>
+<path d="M574.0,162 L574.0,184" class="flow" />
+<path d="M574.0,184 L567.0375,172.86 L580.9625,172.86 Z" class="flowhd" />
+<rect x="14" y="364" width="958" height="100" rx="8" class="span" />
+<text x="493.0" y="388" font-size="15.23" text-anchor="middle" class="muted">Part 8</text>
+<text x="493.0" y="416" font-size="17.69" text-anchor="middle" class="ink" font-weight="700">Working with a manufacturer, at every step</text>
+<text x="493.0" y="444" font-size="16.71" text-anchor="middle" class="muted">Cost, lead time, prototype to production, and design reviews</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D67</text>
+</svg>

@@ -1,0 +1,197 @@
+# Design stages for Appendix B (Q125, 2026-11-12).
+# One or two stages per recommendation, in book order. Stages:
+#   parts, library, placement, routing, outline, release, production
+# tools/build_appendices.py checks every recommendation is here exactly once.
+
+PCB-DFM-008: [release]  # Send one complete fabrication package, in one format, from one revision
+PCB-DFM-009: [release]  # Always send a netlist, made from the same revision as the Gerbers
+PCB-DFM-010: [routing, release]  # Tell the fab where you join nets on purpose
+PCB-DFM-011: [library, release]  # Separate plated and non-plated holes, and use an unambiguous drill format
+PCB-DFM-012: [outline, release]  # Dimension the holes that matter, with their real tolerance
+PCB-DFM-013: [release]  # Put your intent in the data, not in a note that contradicts it
+PCB-DFM-014: [release]  # Put everything the Gerbers can't say on the fabrication drawing
+PCB-DFM-015: [release]  # Check a copied fabrication drawing line by line
+PCB-DFM-016: [routing, release]  # Clear every design-rule error before you make the outputs
+PCB-DFA-064: [release]  # Always send the XY file, and send native design files and the schematic when you can
+PCB-DFA-065: [library, release]  # Draw footprints to the IPC zero rotation, and write your convention down
+PCB-DFA-066: [placement]  # Give every part a unique reference designator, placed next to its own part
+PCB-DFA-067: [release]  # Put everything the data can't show on an assembly drawing
+PCB-DFA-068: [parts, release]  # Give every BOM line the designators, quantity, maker and full part number
+PCB-DFA-069: [parts, release]  # Say which lines are locked to one part, and why; list alternates for the rest
+PCB-DFA-070: [parts, release]  # Check every value and part number before release, and check each part is still made
+PCB-DFA-071: [parts, release]  # Mark do-not-place and customer-supplied lines clearly
+PCB-DFA-072: [parts]  # For small builds, keep the number of unique BOM lines down
+PCB-DFA-029: [library]  # Use proven footprints for chip resistors and capacitors
+PCB-DFA-030: [library]  # Use one footprint per package size, not one per part maker
+PCB-DFA-031: [library]  # Check every footprint you didn't draw yourself, against the datasheet and a real part
+PCB-DFA-032: [library]  # Put a solder mask dam between every pad of a fine-pitch part
+PCB-DFA-033: [library]  # Set the solder mask expansion of fine-pitch pads yourself
+PCB-DFA-034: [library]  # Make pin 1 impossible to miss
+PCB-DFA-035: [library]  # Mark diode and LED polarity so it can't be misread
+PCB-DFA-036: [library]  # Draw the real outline of each part in silkscreen, including anything that hangs over the edge
+PCB-DFA-037: [library]  # Size plated through-holes and their pads from the lead
+PCB-DFM-007: [library]  # Don't put copper on non-plated holes
+PCB-DFA-001: [outline]  # Let your manufacturer design the panel, and approve it before you order bare boards
+PCB-DFA-002: [outline]  # Make sure small boards can be panelized, and never send them loose
+PCB-DFA-003: [outline, production]  # Expect panels of about 200 × 150 mm, and plan quantities in whole panels
+PCB-DFA-004: [outline]  # Keep panels stiff: small panels for thin boards, and no long floppy rows
+PCB-DFA-005: [outline, placement]  # Expect rails along the long edges unless you design them out
+PCB-DFA-006: [library, routing]  # Make fiducials simple copper dots, round or square, with a clear ring around them
+PCB-DFA-007: [placement]  # Put at least two fiducials on each board, far apart, on every side that has surface-mount parts
+PCB-DFA-008: [placement]  # Add local fiducials beside expensive or very fine-pitch parts
+PCB-DFA-009: [routing]  # Don't use drilled holes instead of fiducials
+PCB-DFA-076: [placement]  # Make each fiducial show which side and which corner it is
+PCB-DFA-077: [outline]  # Print the board's part number and the side on the panel rails
+PCB-DFT-001: [outline]  # Give the board its own tooling holes if it will go into a test fixture
+PCB-DFM-001: [outline]  # Use straight-edged, rectangular board outlines when you can
+PCB-DFA-010: [placement, outline]  # Keep overhanging parts away from breakaway edges, and draw the overhang on the silkscreen
+PCB-DFA-011: [outline, release]  # Mark critical edges on a drawing, and leave room around the board in the enclosure
+PCB-DFA-012: [outline]  # If you need tabs and a clean outline, recess the edge where each tab joins
+PCB-DFA-013: [outline]  # Agree the number and position of tabs on round or odd-shaped boards
+PCB-DFA-014: [outline]  # Talk to your assembler before panelizing boards thicker than about 2 mm
+PCB-DFA-015: [placement, outline]  # Keep parts and exposed copper at least 3 mm from the edges, 5 mm if you can
+PCB-DFM-002: [routing, outline]  # Keep copper back from the board edge, further for V-score than for routing
+PCB-DFA-016: [placement]  # Keep components back from breakaway edges, and ceramic capacitors further still
+PCB-DFA-017: [placement]  # Turn ceramic capacitors and other chip parts near a break line parallel to it
+PCB-DFM-003: [routing, release]  # If copper must run to the board edge, say so
+PCB-DFM-004: [release, production]  # Accept X-outs unless you have a real reason not to
+PCB-DFM-005: [routing]  # Design with margin above the fab's minimums to avoid X-outs in the first place
+PCB-DFM-006: [outline, production]  # Prefer smaller panels for designs that are hard to make
+PCB-DFM-017: [routing, release]  # Use standard FR-4 unless the product needs something else
+PCB-DFM-018: [routing, release]  # Start from your fab's standard stack-up, or give them what they need to build one
+PCB-DFM-019: [routing, release]  # Specify controlled impedance fully, make the traces easy to find, and leave room to widen them
+PCB-DFM-020: [routing]  # Size traces and gaps for the finished copper weight
+PCB-DFM-021: [routing]  # Use as few layers as the circuit needs
+PCB-DFA-073: [outline]  # Expect thin boards to need a carrier during assembly
+PCB-DFM-022: [routing]  # Keep copper 0.25 mm or more from drilled holes on every layer
+PCB-DFA-074: [outline, release]  # On very large boards, expect the fab to scale the outer layers, and tell the assembler
+PCB-DFM-023: [library, release]  # Give hole sizes as finished sizes
+PCB-DFM-024: [routing]  # Keep the aspect ratio at 8:1 or less, and holes 0.25 mm or larger where you can
+PCB-DFM-025: [library, routing]  # Use as few different hole sizes as you can
+PCB-DFM-026: [library, routing]  # Give every plated hole an annular ring with margin above the IPC minimum
+PCB-DFM-027: [routing]  # Use microvias and blind or buried vias only when you need them
+PCB-DFM-028: [library, routing]  # Know what plating does to your holes and outer copper
+PCB-DFM-029: [routing]  # Avoid acute angles, keep pour clearances to your trace rules, and fan out fine-pitch parts through vias
+PCB-DFM-030: [routing]  # Tent vias by default, on both sides, if they're 0.3 mm or smaller
+PCB-DFM-031: [routing, release]  # Plug or fill vias that must be sealed, or that would trap chemistry
+PCB-DFM-032: [routing]  # For via-in-pad, fill with non-conductive epoxy and plate over it
+PCB-DFA-075: [library, routing]  # Never put solder mask on thermal vias under a QFN
+PCB-DFM-033: [release]  # Choose green solder mask and white legend unless you have a reason not to
+PCB-DFA-078: [routing]  # Keep a solder mask web between every via and the pad beside it, or tent the via
+PCB-DFM-034: [library]  # Clear solder mask from non-plated holes by about 0.1 mm, with no thin ring left
+PCB-DFM-035: [library, release]  # Expect the fab to trim pads to keep mask dams, and check what they changed
+PCB-DFA-079: [library]  # For BGAs, use copper-defined pads unless the part maker says otherwise
+PCB-DFA-082: [routing]  # Join BGA and leadless pads to copper pours with a short trace, not straight into the pour
+PCB-DFM-036: [release]  # Always name the surface finish on the fabrication drawing
+PCB-DFM-037: [release]  # Choose ENIG for most boards; lead-free HASL only for coarse pitch; OSP or immersion silver for high volume with tight process control
+PCB-DFM-038: [library, outline]  # Give edge-connector fingers hard gold and a bevel, with mask and legend kept off them
+PCB-DFA-080: [production]  # Keep bare boards sealed, use them within the finish's shelf life, and expect a bake if they've taken on moisture
+PCB-DFM-039: [routing]  # Make legend text about 1 mm tall, with lines of 0.15 mm or more
+PCB-DFM-040: [routing, release]  # Send only the legend you want printed, keep it off exposed copper, and expect the fab to clip and resize it
+PCB-DFA-081: [routing]  # Leave legend out where it won't fit, but keep it complete in your data
+PCB-DFM-045: [routing]  # Keep legend off vias, even tented ones
+PCB-DFA-127: [routing]  # Turn legend text so it reads from only two edges of the board
+PCB-DFA-128: [routing]  # Use a callout box where parts are packed too tightly for their designators
+PCB-DFM-041: [outline]  # Draw the outline, slots and cut-outs as closed shapes on one layer
+PCB-DFM-042: [outline]  # Allow for the router: a radius in every inside corner and slots at least 1 mm wide
+PCB-DFM-043: [outline, release]  # Dimension castellations, edge plating, countersinks and bevels on the drawing, and expect them to cost more
+PCB-DFT-002: [release]  # Have every bare board electrically tested against your netlist
+PCB-DFT-003: [release]  # Ask for IPC Class 2 unless the product needs Class 3, and know Class 3 is a design standard too
+PCB-DFT-004: [release, production]  # For boards that matter, ask for the fab's evidence
+PCB-DFA-083: [parts]  # Choose parts that are active, widely stocked, and made by more than one maker where you can
+PCB-DFA-084: [parts, library]  # For parts at risk of shortage, give the board a way to take an alternate
+PCB-DFA-085: [parts]  # In production, use the original maker's part on reel, not hobby modules or reseller strips
+PCB-DFA-086: [parts]  # Check that board-mount connectors suit your board thickness and the product
+PCB-DFA-087: [parts, release]  # For LEDs and other parts sold in bins, choose the bin, or test each bin and say how to handle it
+PCB-DFA-088: [release]  # Don't name a brand of solder, flux or other process material unless the product needs it
+PCB-DFA-089: [parts]  # Choose tape and reel, and use tubes only as a last resort
+PCB-DFA-090: [parts]  # Choose connectors packaged for machine placement: on tape, with a flat top or a pick-up cap
+PCB-DFA-091: [parts, release]  # Put each part's moisture sensitivity level on the BOM, from its datasheet
+PCB-DFA-092: [parts, placement]  # Prefer a lower moisture level when you have the choice, and remember a double-sided build uses one floor life for both sides
+PCB-DFA-093: [parts, production]  # Expect cheap addressable RGB LEDs and similar parts to need baking, and budget for it
+PCB-DFA-094: [production]  # Keep your own moisture-sensitive stock sealed, and let your assembler bake anything that's been exposed
+PCB-DFA-095: [parts, production]  # Buy parts only from authorized distributors or the maker
+PCB-DFA-096: [production]  # If you must buy from a broker or an unfamiliar source, ask for traceability, have the parts inspected, and try them on a small build first
+PCB-DFA-097: [parts, production]  # Find your long-lead and single-source parts early and buy them ahead, without hoarding
+PCB-DFA-098: [production]  # Tell your assembler or distributor your expected volumes
+PCB-DFA-099: [production]  # Don't set a fixed date-code limit; store parts well, and have old or doubtful stock tested for solderability
+PCB-DFA-100: [production]  # Let your assembler buy the parts, and consign only the few you must
+PCB-DFA-101: [production]  # Send consigned parts ready for the machines
+PCB-DFA-102: [production]  # Ship consigned parts in static-shielding packaging, and moisture-sensitive ones sealed
+PCB-DFA-103: [production]  # Label every package with its part number, and every shipment with your order details
+PCB-DFA-104: [production]  # Get consigned parts to the assembler at least the quoted assembly time before the ship date
+PCB-DFA-105: [production]  # Send spares: plenty of cheap parts, at least one of each expensive one, and say when you can't
+PCB-DFA-106: [production]  # Tell your assembler before a substitute part number arrives
+PCB-DFA-018: [library, release]  # Send the paste layer 1:1 with your copper pads
+PCB-DFA-019: [library, release]  # Put paste on every pad you want soldered, and only those
+PCB-DFA-020: [parts, placement]  # Don't put one very fine-pitch part on a board of large parts
+PCB-DFA-021: [parts, placement]  # Use the largest package the board has room for
+PCB-DFA-022: [parts]  # At fine pitch, choose a BGA or QFN over a leaded QFP
+PCB-DFA-023: [placement]  # Leave room around every part, and keep tall parts away from tiny ones
+PCB-DFA-024: [placement]  # On a double-sided board, put small, light parts on one side and heavy parts on the other
+PCB-DFA-025: [placement]  # Don't put a few parts on the second side just because there's room
+PCB-DFA-026: [parts]  # Check that every part can survive a standard lead-free reflow, and flag any that can't
+PCB-DFA-027: [placement]  # Spread the heat load: don't put huge parts right beside tiny ones
+PCB-DFA-028: [outline]  # Talk to your assembler first about very thin boards and large, heavy double-sided panels
+PCB-DFA-038: [routing]  # Join neighbouring pins in copper, and keep a solder mask dam between them
+PCB-DFA-039: [parts]  # Use surface mount by default, and through-hole only where a part takes force
+PCB-DFA-040: [parts]  # Prefer hybrid parts: surface-mount signals with through-hole pegs
+PCB-DFA-041: [placement]  # Leave room around pin-in-paste parts for extra paste
+PCB-DFA-042: [parts]  # Choose through-hole parts rated for the soldering process they'll see
+PCB-DFA-043: [placement]  # Keep surface-mount parts away from through-hole pins on the solder side
+PCB-DFA-044: [library, routing]  # Use thermal relief on through-hole pads connected to planes
+PCB-DFA-045: [parts]  # Match through-hole lead length to the board and the pitch
+PCB-DFA-046: [parts]  # Choose through-hole parts that hold themselves in place
+PCB-DFA-047: [parts]  # Talk to your assembler before designing in press-fit parts
+PCB-DFA-048: [release]  # Give a torque for every screw and nut, and fasten hardware before soldering
+PCB-DFA-049: [parts]  # Avoid soldering a connector made only for press-fit
+PCB-DFA-050: [parts]  # Choose a two-piece or clip-on RF shield for low volumes, and a one-piece shield for high volumes
+PCB-DFA-051: [parts, release]  # Hold heavy parts down against vibration, and fit the hold-down before soldering
+PCB-DFA-052: [parts]  # Check part numbers so you don't order glue-mounted parts by mistake
+PCB-DFA-053: [parts]  # Expect adhesive-mounted dome switches to need tooling
+PCB-DFA-054: [parts, release]  # Consider underfill or corner bonding for BGAs in products that take repeated shock
+PCB-DFA-055: [release]  # Use no-clean flux unless your product needs cleaning, and say so if it does
+PCB-DFA-056: [production]  # If a product works with no-clean, don't add cleaning or change the flux without a reason
+PCB-DFA-057: [placement]  # Design boards that need cleaning so the fluid can get underneath
+PCB-DFA-058: [parts, release]  # Flag parts that can't be washed, and don't wash rigid-flex boards with chemicals
+PCB-DFA-059: [outline]  # Keep small boards that need washing in their panel
+PCB-DFA-060: [release]  # Clean boards before they're coated, where you can
+PCB-DFA-061: [release]  # Mark on the drawing the areas that must not be coated
+PCB-DFA-062: [outline]  # Ask how flexible boards will be separated
+PCB-DFA-063: [production]  # Before sending boards back for repair, find the failing part and get a return number
+PCB-DFT-005: [parts]  # Decide how each board will be tested while you design it, and test boards before they go into anything expensive
+PCB-DFT-006: [release]  # Write the test plan yourself, as numbered requirements tied to named test points
+PCB-DFT-007: [placement, routing]  # Put a test point on every net you want to test, and on every net if you want in-circuit test
+PCB-DFT-008: [library]  # Make test points surface-mount pads at least 0.9 mm in diameter and 1.9 mm apart, with no paste
+PCB-DFT-009: [placement]  # Keep test points on one side, clear of tall parts and the board edge, and off connector solder joints
+PCB-DFT-010: [parts]  # Avoid potentiometers, DIP switches and jumpers that someone has to set by hand
+PCB-DFT-011: [placement]  # Choose flying probe or a bed-of-nails fixture by volume, and design for the one you'll use
+PCB-DFT-012: [parts, routing]  # Where test points won't fit, use boundary scan: choose parts that support it and bring the chain to a connector
+PCB-DFT-013: [placement]  # Give every programmable part a programming connection the assembler can reach: pads for a spring-pin cable, or a test fixture
+PCB-DFT-014: [release]  # Say where each chip gets programmed, and give the exact file, version and checksum
+PCB-DFT-015: [parts]  # Build a test mode into the production firmware rather than a separate test image
+PCB-DFT-016: [parts]  # Make every test failure point to a place on the board
+PCB-DFT-017: [production]  # Match the fixture to the volume, and send spare boards to the people building it
+PCB-DFT-018: [production]  # Agree with your assembler what happens to boards that fail
+PCB-DFT-019: [release]  # Decide whether your product needs thermal cycling or burn-in, ask for it by name, and don't mistake a line test for validation
+PCB-DFA-107: [production]  # Use first articles to check a proven design before a big run, not as a prototype
+PCB-DFA-108: [production]  # Check first articles against a known-good board, and don't expect the line to wait while you do
+PCB-DFA-109: [production]  # Ship and store assembled boards in static-shielding bags, not in plain anti-static bags
+PCB-DFA-110: [production]  # Open and handle boards only at a grounded workstation, and hold them by the edges
+PCB-DFA-111: [production]  # Choose an assembler with a documented static control programme, such as one that meets ANSI/ESD S20.20
+PCB-DFA-112: [parts, placement]  # Put ESD protection on every connector that people or cables can touch, as close to the connector as you can
+PCB-DFA-113: [production]  # Store spare boards and parts sealed in bags that block both static and moisture, with desiccant and a humidity card
+PCB-DFA-114: [production]  # Agree with your assembler how boards will be packed: in the panel or separated, how many to a bag, and in what box
+PCB-DFA-115: [production]  # For international shipments, give the right tariff code, a plain description of the goods and a contact telephone number
+PCB-DFA-116: [parts]  # Know what drives the price of an assembly, and design with it in mind
+PCB-DFA-117: [production]  # Get your quote from real design data, and expect a repeat build to be priced differently
+PCB-DFM-044: [production]  # Ask your board fab how many boards its minimum lot charge buys
+PCB-DFA-118: [production]  # Order a few more boards than you need: 105 to 110 when you need 100
+PCB-DFA-119: [production]  # Leave at least two weeks of margin in your schedule, and plan round long factory holidays
+PCB-DFA-120: [production]  # Answer your manufacturer's questions quickly, and keep an engineer reachable by telephone
+PCB-DFA-121: [production]  # Check your order before you place it, and report a mistake at once
+PCB-DFA-122: [production]  # Plan the move from prototype to production as a ramp, not a jump
+PCB-DFA-123: [production]  # For large orders, release boards in batches matched to the panel, and agree who holds the parts and the risk
+PCB-DFA-124: [release]  # Bring your manufacturer into the design review before the design is final
+PCB-DFA-125: [production]  # Ask for feedback after every build, and fix recurring problems before you reorder
+PCB-DFA-126: [parts]  # Talk to your manufacturer before designing in anything unusual, and don't assume standard pricing

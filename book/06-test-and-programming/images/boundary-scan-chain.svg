@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="809.7" viewBox="0 0 980 809.7" role="img" aria-labelledby="title desc">
+<defs>
+</defs>
+<title id="title">A boundary-scan (JTAG) chain</title><desc id="desc">Block diagram, not to scale. A six-pin connector J1 carries TCK, TMS, TRST, TDI, TDO and ground. TDI from the connector goes into the first chip, U1; U1's TDO goes into U2's TDI; U2's TDO into U3's TDI; and U3's TDO back to the connector, making one chain. TCK, TMS and TRST run to all three chips in parallel. TMS and TDI have pull-up resistors and TRST a pull-down, as the chip makers advise. A memory chip next to U1 doesn't support boundary scan, but its connections to U1 can still be tested through U1's pins.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAANwAAsAAAAABqwAAAMnAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYJzGyAcKgZgADQBNgIkAwgEBgWGDgcgG+YFAD4MmHLbCyjKcrDUJtoYMEAWe52QSx75OQMxiGos61kIIjuSYUlkBLAGtDEmGlCdDQuV2svj5dr7uQLhFgHcwxw8yk2SlhUAeBaykoVu1Qd0yIiD2w+gKRZVIYDl81+YmtnxQVpmzcUwOv/X1IvEtLNYWCFO7ActCqNouPZooBvYeEDnt2EGD3WAe75leMmHV5c3CkYhIrH9KrbVNw4/iCme8Qwj0PjqZm8EP4g3Kghvygv69wf2DoJMSt/M2t7WVvaeIF+3t5Xk5ElyjLNuPvTSvfX7vhSOnEQCQ+omxxZ0lJKxYS/mZ2a/j9cOAy0/ZohqCAqLQkzBRQxLlFlZJqBgXV7ol3E3eGrEv52M4xAHzkK/Rg9ACFnDTkQPv/L62XU2+uP3UnF7SY4e/evZauBPyGfsX5367YKPdHTSb/at8ntg+nsurQeVR5WrLv8OtuzW71L7K3PwbD166JLb8rutVF5eV0B9PmT1+Nen7kOflPKE+1wPgwK2ggJdfoDrCEwyX9FIAAJIEkXoamzvRy4YgP8RgHaMHMnsVvOa03EbCmmTZL2x6bKPI9hKcwcOyv3UHdfTKlbDRIMOpDnA0HT0oSs7+Trnq39+IPMWeQcEwIw7PoM0LoACNBDFHqGSA2mkaRdI//9x2BNCANjWQMEOmzXeTd8u9n4AvOxbx9teCICPx4aA0CgABKCpXQhct2En5ACp2jahj2wNA5AC/Flhjxh/YACqtoQU3ZYihAVL02TaMpS4tCw13lg+FCXJCpY06ft/QqjqFKpDqCZQComMA7my5SgE+skw0MKGwyjQjSJMMAMO1BjByQiK6aLCbOo1Ggb6TLDSIyyYXphkhIUObb+fmJeB55TJUYY1D2R0EH43RkHYgHyZsvPfXBmJgsugUyBXjjw5CpQogBGkVlQZerRxOFEOVysh4sba0jDY1kJhgNkwmBEYYWNM4zhP9+4+LdoBJL19n23vC5HeP5ZEDiji8Thw2BgiVzqjdBQWOnqWpoFjFJwMIMnV6Kn+3XOlgIzjVKWyZGEMKIWKYzIxCotMBCXJ0qVRe3dZe3KR/s0aAA==) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAAOQAAsAAAAABqQAAANIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYMBGyAcKgZgADQBNgIkAwgEBgWFdgcgG9wFCL4ON66uPYAEJ2WQZJFkWIYUjkq0Zi20d/ncRz98wfM0h76fXMpECtgT6LqyI9ymxsJOA5CdMJfy5JrmSygHFFemAZEsZf2U8oGRZXZ253d+wpMbl0ArwuamYAjJ3GzCQ32shzfDYtjjRpiqLlchgDX0nV+ZmtnxUdsQHHa0eg1enl5KjJrW87/V36v+UjEeKo0DFtKI7eQopWFplHkU6lQ60A9YOEAPU6lrBQwFLAIBzFK7AC3tFF79hb2CMhCRoBkF1QeHVw9jYr4FVMPrrgB5RZUtP8SOcMPOsKNMO1pd/qHW1RYVMbpz9gq5HPVWf5jua5i22bIP9nz0Pf3oTS/i6lGU3Tq82iwjm0TMR/3Bi3mtcGnsh4Zh28A8AlnGaoYFxmvcTzEW9fyijJrRvKT/JxMzMahrsFc5tJQvL18NALIMiJi9/2y/bT9rJL0VVl/Nv6f9/r9zsbT22r7BZfKl09KL/2l/ln7bPK8M1fuh7V833JSsa9f/0V7Yqz+uf5HS/09SV7fhciH2DlqPuXt/pd0hwnHVcC45H1pc1i2uetqkj1zDNP/9gQS4EKadVNcwuQgMKIDbAMCcCZxUy9nGx0QdNIJFdiurRNWLFqxczStwoPoZr7iq0wqOJpqpsANRHOjpqQXw5CZWo392A+A8RD6AAKhh6z2IYgAMwAT8qBHVpiFKVEwgeuiCEvAIkABOVXC/6Wcv+zSonQD4102l84sEbulerDEMhwFAFFXvSvAcZCWIQKlYVdKknAxdgAE4M0uNKGegC8hzC1lm3QYeLLlNKlxMKqjbosCz24GMMNzuEiVlfaIHednFAEKxjcFKZAIUFhQSBy2SIdCYOgFhoFkMUYYUCFCfdYKMYLgZCqRu0LBV0IJtNXlEFc8XURbrN79RNA8pWVeVwzrpZQT3zco0iyxTuo3DiDooyi8Y+yUzSjDBJycmLCQiJCYlho2BiWCOIsNopwnQAmKNsCmHQSCQVWEFDB4OKYLW5YlFkcXEENcvGDMJ0tONMD3ZkejtyasQQpymrC8+UbVVzoYcrConrwrIbsL0AAT8bJ+5vP+9kAbJBEGRFhDAFTCYQuD8OKzKj2BKAmYMm2yaURMJdTMB) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'OpenDFX Symbols'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,d09GMk9UVE8AAANgAAsAAAAABpAAAAMYAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYJvGyAcKgZgADQBNgIkAwgEBgWFdgcgG8oFKB6D426JuvH6H30vQxNoph08T/ujP3fezMqRQNqkDpXAtk2o2+EMpv1Q/NHz1j+/v/f+QTxx/GKiZnzcfdynUYloYmkLVX1piUmMAdcD6Gz7D+fS/dF0wGse4sTe4qooPVOjgQLo+ERvo0tNwBM9wCM4g9w9w2RdeWoVPAWtEJGwLsobMZhaz2IK1m64QuQ7qt0SfiLELfPDjVIuOG6Ofn5Jibb1fjqyeWF1Y2XFeE6Kp92tLYl7CDdDxi4E7tjXLLscTJyIb0DxILfYxzBktPJNKV/4IO86NFn/Zmj5cZgNQVuxjmGHYcMsv65YzPONAW8mez7aP0+2WxEBycKoiJsRQqZRIk7fx4Bfo3ttF8XuhpsH5++gNvcXW2nzOqTf4Vn1rDR25nnaPFTaROFPk1fVIn/RuJLwlrJi5p8XzZP+offzb0fPRwnp9f+p/DpdwvP085QJmNr++z6zn1cekYkWYedGiveyn8+8n69d97EPySX6Vy48wIdwZXj1jY5GlIAGeH8HQCIhUYWo/dKGh7gIKkhKuGvToY4wYPL0FbDENOqKE7XeiZcDqOwSEG2gd84GdByzYDXEn71lgZxPkXdAAHS/uQeiJQAKcIAw0QjnY4gmXRCIOZTFdF8JPIBzNRx9I+s96eX/EqK9APgx17DGzn0R9L4b92D64OGgABDAKWwJnCfZgmCWlamWZnou3ZACvJkUjWhvoBsKkIRIHknhxajkUGhE0iS7lwyFHiUPEuMj+Uu0ZP8zAeS3Gz2CMo6B+QVwgJiQiBxoFOAFrCI4XgzgwSCGeA3gAK1hnACCwXKjeEUYmLQCDcaF9SNCWDpEyGDSUUqslq7QqNNUEAM11Ix7iIUREUCKT2j9Ehp+GKdWHxkxEQkRGRUZGPolhKskE/oGMF6ED2dUH4YXJCuHYAMFu7C8BoFhEYN6M8L1cG8DKweAGC5+2VEM1YxsISOCwx6xsZU7SOk+IzyNhVTqR3R2FIZBElSe1aoLKHPUYE6kORQ9RkCANYCBUTgsPsj3D+EjGH4CbiaOjKloTKO3Y04A) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="809.7" class="bg" />
+<g transform="translate(0,55.7)">
+<style>
+.plate  { fill: #c9b98f; stroke: #8a7a52; stroke-width: 1.97; }
+.probe  { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.recept { fill: #d9b44a; stroke: #8a6d45; stroke-width: 1.77; }
+.chip   { fill: #3b3f45; }
+.chipin { fill: #ffffff; }
+.pin    { fill: #c9ccd1; }
+.wire   { stroke: #1d2125; stroke-width: 2.56; fill: none; }
+.wire2  { stroke: #2563a8; stroke-width: 2.56; fill: none; }
+.wire3  { stroke: #b23a2b; stroke-width: 2.56; fill: none; }
+.good   { fill: #2f9e4f; }
+.bad    { fill: #b23a2b; }
+.bad-s  { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.capcan { fill: #2c3e66; stroke: #1b2744; stroke-width: 1.77; }
+.capsleeve { fill: #c9ccd1; }
+.conn   { fill: #26292d; }
+.membox { fill: #c9ccd1; }   /* a chip without boundary scan: light gray in both modes */
+.memtxt { fill: #1d2125; }   /* dark text on it in both modes, 10 to 1 (M13a) */
+@media (prefers-color-scheme: dark) {
+  .plate  { fill: #8a7a52; stroke: #c9b98f; }
+  .chip   { fill: #5d646d; }
+  .wire   { stroke: #e8eaed; }
+  .wire2  { stroke: #79aef0; }
+  .wire3  { stroke: #f08a7a; }
+  .good   { fill: #5cc47d; }
+  .bad    { fill: #f08a7a; }
+  .bad-s  { stroke: #f08a7a; }
+  .capcan { fill: #4a6296; stroke: #9fb3dd; }
+  .conn   { fill: #4a5058; }
+}
+</style>
+<rect x="80" y="130" width="60" height="222" rx="4" class="conn" />
+<circle cx="122" cy="155" r="7" class="pin" />
+<text x="72" y="159" font-size="16.71" text-anchor="end" class="ink">TCK</text>
+<circle cx="122" cy="191" r="7" class="pin" />
+<text x="72" y="195" font-size="16.71" text-anchor="end" class="ink">TMS</text>
+<circle cx="122" cy="227" r="7" class="pin" />
+<text x="72" y="231" font-size="16.71" text-anchor="end" class="ink">TRST</text>
+<circle cx="122" cy="263" r="7" class="pin" />
+<text x="72" y="267" font-size="16.71" text-anchor="end" class="ink">TDI</text>
+<circle cx="122" cy="299" r="7" class="pin" />
+<text x="72" y="303" font-size="16.71" text-anchor="end" class="ink">TDO</text>
+<circle cx="122" cy="335" r="7" class="pin" />
+<text x="72" y="339" font-size="16.71" text-anchor="end" class="ink">GND</text>
+<text x="110" y="120" font-size="18.67" text-anchor="middle" class="ink" font-weight="600">J1</text>
+<rect x="400" y="130" width="110" height="222" rx="6" class="chip" />
+<text x="455.0" y="266" font-size="20.64" text-anchor="middle" class="chipin" font-weight="700">U1</text>
+<text x="455.0" y="286" font-size="16.21" text-anchor="middle" class="chipin">Processor</text>
+<text x="408" y="164" font-size="15.72" class="chipin">TCK</text>
+<text x="408" y="196" font-size="15.72" class="chipin">TMS</text>
+<text x="408" y="228" font-size="15.72" class="chipin">TRST</text>
+<text x="408" y="324" font-size="15.72" class="chipin">TDI</text>
+<text x="502" y="324" font-size="15.72" text-anchor="end" class="chipin">TDO</text>
+<rect x="590" y="130" width="110" height="222" rx="6" class="chip" />
+<text x="645.0" y="266" font-size="20.64" text-anchor="middle" class="chipin" font-weight="700">U2</text>
+<text x="645.0" y="286" font-size="16.21" text-anchor="middle" class="chipin">FPGA</text>
+<text x="598" y="164" font-size="15.72" class="chipin">TCK</text>
+<text x="598" y="196" font-size="15.72" class="chipin">TMS</text>
+<text x="598" y="228" font-size="15.72" class="chipin">TRST</text>
+<text x="598" y="324" font-size="15.72" class="chipin">TDI</text>
+<text x="692" y="324" font-size="15.72" text-anchor="end" class="chipin">TDO</text>
+<rect x="780" y="130" width="110" height="222" rx="6" class="chip" />
+<text x="835.0" y="266" font-size="20.64" text-anchor="middle" class="chipin" font-weight="700">U3</text>
+<text x="835.0" y="286" font-size="16.21" text-anchor="middle" class="chipin">CPLD</text>
+<text x="788" y="164" font-size="15.72" class="chipin">TCK</text>
+<text x="788" y="196" font-size="15.72" class="chipin">TMS</text>
+<text x="788" y="228" font-size="15.72" class="chipin">TRST</text>
+<text x="788" y="324" font-size="15.72" class="chipin">TDI</text>
+<text x="882" y="324" font-size="15.72" text-anchor="end" class="chipin">TDO</text>
+<path d="M129,263 L300,263" class="wire3" />
+<path d="M300,263 L300,320" class="wire3" />
+<path d="M300,320 L400,320" class="wire3" />
+<path d="M510,320 L590,320" class="wire3" />
+<path d="M700,320 L780,320" class="wire3" />
+<path d="M890,320 L925,320" class="wire3" />
+<path d="M925,320 L925,490" class="wire3" />
+<path d="M925,490 L180,490" class="wire3" />
+<path d="M180,490 L180,299" class="wire3" />
+<path d="M180,299 L129,299" class="wire3" />
+<path d="M129,155 L200,155" class="wire2" />
+<path d="M200,155 L200,114" class="wire2" />
+<path d="M200,114 L764,114" class="wire2" />
+<path d="M384,114 L384,160" class="wire2" />
+<path d="M384,160 L400,160" class="wire2" />
+<path d="M574,114 L574,160" class="wire2" />
+<path d="M574,160 L590,160" class="wire2" />
+<path d="M764,114 L764,160" class="wire2" />
+<path d="M764,160 L780,160" class="wire2" />
+<path d="M129,191 L215,191" class="wire2" />
+<path d="M215,191 L215,119 A5,5,0,0,0,215,109 L215,98" class="wire2" />
+<path d="M215,98 L748,98" class="wire2" />
+<path d="M368,98 L368,109 A5,5,0,0,1,368,119 L368,192" class="wire2" />
+<path d="M368,192 L400,192" class="wire2" />
+<path d="M558,98 L558,109 A5,5,0,0,1,558,119 L558,192" class="wire2" />
+<path d="M558,192 L590,192" class="wire2" />
+<path d="M748,98 L748,109 A5,5,0,0,1,748,119 L748,192" class="wire2" />
+<path d="M748,192 L780,192" class="wire2" />
+<path d="M129,227 L230,227" class="wire2" />
+<path d="M230,227 L230,119 A5,5,0,0,0,230,109 L230,103 A5,5,0,0,0,230,93 L230,82" class="wire2" />
+<path d="M230,82 L732,82" class="wire2" />
+<path d="M352,82 L352,93 A5,5,0,0,1,352,103 L352,109 A5,5,0,0,1,352,119 L352,224" class="wire2" />
+<path d="M352,224 L400,224" class="wire2" />
+<path d="M542,82 L542,93 A5,5,0,0,1,542,103 L542,109 A5,5,0,0,1,542,119 L542,224" class="wire2" />
+<path d="M542,224 L590,224" class="wire2" />
+<path d="M732,82 L732,93 A5,5,0,0,1,732,103 L732,109 A5,5,0,0,1,732,119 L732,224" class="wire2" />
+<path d="M732,224 L780,224" class="wire2" />
+<circle cx="384" cy="114" r="3.6" class="dot" />
+<circle cx="574" cy="114" r="3.6" class="dot" />
+<circle cx="368" cy="98" r="3.6" class="dot" />
+<circle cx="558" cy="98" r="3.6" class="dot" />
+<circle cx="352" cy="82" r="3.6" class="dot" />
+<circle cx="542" cy="82" r="3.6" class="dot" />
+<text x="147" y="186" font-size="15.23" class="muted">pull-up</text>
+<text x="147" y="258" font-size="15.23" class="muted">pull-up</text>
+<text x="147" y="222" font-size="15.23" class="muted">pull-down</text>
+<rect x="380" y="400" width="150" height="44" rx="6" class="membox" />
+<text x="455" y="420" font-size="16.71" text-anchor="middle" class="memtxt">Memory</text>
+<text x="455" y="436" font-size="15.23" text-anchor="middle" class="memtxt">(no boundary scan)</text>
+<path d="M420,352 L420,400" class="wire" />
+<path d="M445,352 L445,400" class="wire" />
+<path d="M470,352 L470,400" class="wire" />
+<path d="M80,567.9799999999999 L120,567.9799999999999" class="wire3" />
+<text x="132" y="573.55" font-size="17.2" class="ink">Chain: TDI → each chip → TDO, back to J1</text>
+<path d="M80,591.1999999999999 L120,591.1999999999999" class="wire2" />
+<text x="132" y="596.77" font-size="17.2" class="ink">TCK, TMS, TRST: shared by every chip</text>
+<path d="M80,614.42 L120,614.42" class="wire" />
+<text x="132" y="619.99" font-size="17.2" class="ink">Ordinary connections, tested through U1's pins</text>
+<text x="80" y="675.69" font-size="15.72" class="muted">Block diagram, not to scale.</text>
+<text x="80" y="696.912" font-size="15.72" class="muted">Resistor values and TCK termination: follow each chip maker's guidance.</text>
+<text x="80" y="718.134" font-size="15.72" class="muted">Ground sits beside the signals in J1.</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D64</text>
+<text x="96.77874999999999" y="36.205" font-size="17.69" class="muted">PCB-DFT-012</text>
+</svg>

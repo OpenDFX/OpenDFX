@@ -1,0 +1,42 @@
+# How to cite OpenDFX for Printed Circuit Boards (M11).
+# GitHub reads this file and shows a "Cite this repository" button.
+# The same citations, in plain words, are on https://opendfx.org/cite/
+# Add the DOI here once it is registered (M15).
+cff-version: 1.2.0
+message: "If you use this book or its recommendations, please cite it as below."
+title: "OpenDFX for Printed Circuit Boards"
+type: dataset
+authors:
+  - family-names: Denney
+    given-names: Chris
+version: "1.0"
+date-released: "2026-11-25"
+license: CC-BY-SA-4.0
+url: "https://opendfx.org"
+repository-code: "https://github.com/OpenDFX/OpenDFX"
+abstract: >-
+  An open book of practical design-for-manufacturing, assembly and test
+  recommendations for printed circuit boards. Each recommendation has a
+  permanent ID, such as PCB-DFA-006, and a permanent address, such as
+  https://opendfx.org/PCB-DFA-006. The text and drawings are licensed
+  CC BY-SA 4.0. The recommendations data files are licensed CC BY 4.0.
+keywords:
+  - printed circuit board
+  - PCB
+  - design for manufacturing
+  - design for assembly
+  - design for test
+  - DFM
+  - DFA
+  - DFT
+  - electronics manufacturing
+preferred-citation:
+  type: book
+  title: "OpenDFX for Printed Circuit Boards"
+  authors:
+    - family-names: Denney
+      given-names: Chris
+  year: 2026
+  edition: "Version 1.0"
+  url: "https://opendfx.org"
+  license: CC-BY-SA-4.0

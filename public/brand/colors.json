@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Solder-mask green",
+    "hex": "#1e7a3e",
+    "rgb": [
+      30,
+      122,
+      62
+    ],
+    "use": "The green board, and the main brand color."
+  },
+  {
+    "name": "Charcoal",
+    "hex": "#262a2f",
+    "rgb": [
+      38,
+      42,
+      47
+    ],
+    "use": "The dark board."
+  },
+  {
+    "name": "Copper",
+    "hex": "#d9b44a",
+    "rgb": [
+      217,
+      180,
+      74
+    ],
+    "use": "The two pads of the jumper."
+  },
+  {
+    "name": "Silkscreen white",
+    "hex": "#f2f2ef",
+    "rgb": [
+      242,
+      242,
+      239
+    ],
+    "use": "The legend outline around the pads."
+  },
+  {
+    "name": "Ink",
+    "hex": "#1d2125",
+    "rgb": [
+      29,
+      33,
+      37
+    ],
+    "use": "The wordmark on light backgrounds."
+  },
+  {
+    "name": "Light ink",
+    "hex": "#e8eaed",
+    "rgb": [
+      232,
+      234,
+      237
+    ],
+    "use": "The wordmark on dark backgrounds."
+  }
+]

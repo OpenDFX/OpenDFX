@@ -1,0 +1,27 @@
+/* The EPUB's styles: light, so the e-reader's own settings (type size, night mode) still work. */
+/* The book's font, embedded by tools/build_books.py (FONT1). The e-reader's own font setting still wins. */
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: normal; font-style: normal; src: url("../fonts/AtkinsonHyperlegibleNext-Regular.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: bold; font-style: normal; src: url("../fonts/AtkinsonHyperlegibleNext-Bold.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: normal; font-style: italic; src: url("../fonts/AtkinsonHyperlegibleNext-Italic.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: bold; font-style: italic; src: url("../fonts/AtkinsonHyperlegibleNext-BoldItalic.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Mono"; font-weight: normal; font-style: normal; src: url("../fonts/AtkinsonHyperlegibleMono-Regular.ttf"); }
+@font-face { font-family: "OpenDFX Symbols"; font-weight: normal; font-style: normal; src: url("../fonts/OpenDFXSymbols-Regular.otf"); }
+@font-face { font-family: "OpenDFX Symbols"; font-weight: bold; font-style: normal; src: url("../fonts/OpenDFXSymbols-Bold.otf"); }
+body { font-family: "Atkinson Hyperlegible Next", "OpenDFX Symbols", sans-serif; line-height: 1.5; }
+h1.part-title { color: #1e7a3e; font-size: 1.1em; margin-bottom: 0.2em; }
+h3.rec { border-top: 2px solid #1e7a3e; padding-top: 0.3em; }
+p.permalink { font-size: 0.85em; margin-top: -0.3em; }
+figure { margin: 1em 0; }
+figure img { width: 100%; height: auto; background: #fff; }
+figcaption { font-size: 0.9em; font-style: italic; }
+table { border-collapse: collapse; font-size: 0.9em; }
+th, td { border-bottom: 1px solid #ccc; padding: 0.2em 0.4em; text-align: left; vertical-align: top; }
+code, pre { font-family: "Atkinson Hyperlegible Mono", "OpenDFX Symbols", monospace; }
+pre { white-space: pre-wrap; font-size: 0.85em; }
+section.titlepage { text-align: center; margin-top: 3em; }
+.titlepage .titleblock { display: flex; justify-content: center; align-items: center; gap: 0.6em; margin-bottom: 1.5em; }
+.titlepage img.titlelogo { width: 4.2em; height: 4.2em; }
+h1.booktitle { font-size: 2em; text-align: left; margin: 0; }
+h1.booktitle .name, h1.booktitle .line2 { display: block; }
+h1.booktitle .line2 { font-size: 0.42em; font-weight: 600; }
+h1.booktitle .tm { font-size: 0.34em; vertical-align: super; line-height: 0; }

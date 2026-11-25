@@ -1,0 +1,60 @@
+# Builds and tests the opendfx package (M42, tools/build_pypi.py) on every pull request,
+# and publishes it to PyPI when a release is published on GitHub.
+# Publishing uses PyPI's trusted publishing, so no password or token is stored here.
+# Until the repository variable PYPI_ENABLED is set to true, nothing is published.
+name: PyPI package
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    # Pinned to Ubuntu 24.04 (Q271): ubuntu-latest moved to 26.04 in November 2026,
+    # which has no Python 3.9 and a pandoc whose EPUB fails EPUBCheck.
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.13']  # the oldest Python the package supports, and a current one
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install build twine
+      - name: Build the package and test it in a fresh virtual environment
+        run: python3 tools/build_pypi.py
+      - name: Check the package's description renders on PyPI
+        run: twine check --strict build/pypi/dist/*
+      # Except on a release, the package is only kept for review, so a full Actions storage
+      # mustn't fail the check (Q279). On a release, the publish job needs it, so it must fail.
+      - if: matrix.python-version == '3.13'
+        uses: actions/upload-artifact@v4
+        continue-on-error: ${{ github.event_name != 'release' }}
+        with:
+          name: opendfx-pypi
+          path: build/pypi/dist/
+          if-no-files-found: error
+
+  publish:
+    needs: build
+    if: github.event_name == 'release' && vars.PYPI_ENABLED == 'true'
+    runs-on: ubuntu-24.04
+    environment:
+      name: pypi
+      url: https://pypi.org/project/opendfx/
+    permissions:
+      id-token: write  # trusted publishing
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: opendfx-pypi
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

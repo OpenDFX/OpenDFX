@@ -1,0 +1,34 @@
+name: We do it differently
+description: Your factory or design team does something differently from the book, and it works.
+labels: ["different practice"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Many recommendations are the practice of one factory. When good practices differ, the book should say so, and say what each choice gives up.
+        Please don't name your company or anyone else's; describe the kind of work instead.
+  - type: input
+    id: where
+    attributes:
+      label: Recommendation ID or page
+      placeholder: PCB-DFA-015
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How you do it
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why you do it that way
+      description: What it gains you, and what it gives up.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: The kind of boards you build
+      description: For example the board technology, the volumes, the industry or the IPC class.

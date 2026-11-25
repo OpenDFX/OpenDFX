@@ -1,0 +1,25 @@
+---
+// Starlight's own footer (edit link, previous and next page), plus the book's author line (M6).
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default />
+<p class="credit">
+  <cite>OpenDFX for Printed Circuit Boards</cite>, by Chris Denney. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. The <a href="https://github.com/OpenDFX/OpenDFX/tree/main/data">recommendations data</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. OpenDFX is a trademark of Chris Denney. Please share the book widely; see <a href="/about/#trademark">how to use the name</a> and the <a href="/brand/">logo and press kit</a>.
+</p>
+
+<style>
+  .credit {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--sl-color-hairline);
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+  }
+  .credit a {
+    color: var(--sl-color-text-accent);
+  }
+  .credit cite {
+    font-style: italic;
+  }
+</style>

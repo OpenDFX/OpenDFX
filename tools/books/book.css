@@ -1,0 +1,99 @@
+/* The PDF's layout (M13): US Letter, laid out for reading on a screen first (Q160, Q162).
+   tools/books/print.css adds the print version's changes. Colors and type match the website and the drawings. */
+/* The book's fonts (FONT1, Q182): Atkinson Hyperlegible Next, with Atkinson Hyperlegible Mono for code and
+   OpenDFX Symbols for the few symbols Atkinson lacks. Loaded from fonts/ (made by tools/build_fonts.py), so nothing needs installing. */
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: 400; font-style: normal; src: url("fonts/AtkinsonHyperlegibleNext-Regular.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: 500; font-style: normal; src: url("fonts/AtkinsonHyperlegibleNext-Medium.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: 600; font-style: normal; src: url("fonts/AtkinsonHyperlegibleNext-SemiBold.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: 700; font-style: normal; src: url("fonts/AtkinsonHyperlegibleNext-Bold.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: 800; font-style: normal; src: url("fonts/AtkinsonHyperlegibleNext-ExtraBold.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: 400; font-style: italic; src: url("fonts/AtkinsonHyperlegibleNext-Italic.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Next"; font-weight: 700; font-style: italic; src: url("fonts/AtkinsonHyperlegibleNext-BoldItalic.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Mono"; font-weight: 400; font-style: normal; src: url("fonts/AtkinsonHyperlegibleMono-Regular.ttf"); }
+@font-face { font-family: "Atkinson Hyperlegible Mono"; font-weight: 700; font-style: normal; src: url("fonts/AtkinsonHyperlegibleMono-Bold.ttf"); }
+@font-face { font-family: "OpenDFX Symbols"; font-weight: 400; font-style: normal; src: url("fonts/OpenDFXSymbols-Regular.otf"); }
+@font-face { font-family: "OpenDFX Symbols"; font-weight: 500; font-style: normal; src: url("fonts/OpenDFXSymbols-Medium.otf"); }
+@font-face { font-family: "OpenDFX Symbols"; font-weight: 600; font-style: normal; src: url("fonts/OpenDFXSymbols-SemiBold.otf"); }
+@font-face { font-family: "OpenDFX Symbols"; font-weight: 700; font-style: normal; src: url("fonts/OpenDFXSymbols-Bold.otf"); }
+@font-face { font-family: "OpenDFX Symbols"; font-weight: 800; font-style: normal; src: url("fonts/OpenDFXSymbols-ExtraBold.otf"); }
+
+@page {
+  size: letter;
+  margin: 20mm 19mm 20mm 19mm;
+  @top-left { content: string(part); font: 500 8pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #5b636b; }
+  @top-right { content: "OpenDFX for Printed Circuit Boards"; font: 500 8pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #5b636b; }
+  @bottom-left { content: "Chris Denney · CC BY-SA 4.0 · opendfx.org"; font: 8pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #5b636b; }
+  @bottom-right { content: counter(page); font: 600 8.5pt "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; color: #1d2125; }
+}
+@page cover { margin: 0; @top-left { content: none; } @top-right { content: none; } @bottom-left { content: none; } @bottom-right { content: none; } }
+@page front { @top-left { content: none; } @top-right { content: none; } }
+
+html { font-family: "Atkinson Hyperlegible Next", "OpenDFX Symbols", "DejaVu Sans", sans-serif; font-size: 10pt; line-height: 1.5; color: #1d2125; }
+body { margin: 0; }
+p { margin: 0 0 0.6em; orphans: 2; widows: 2; }
+a { color: #1f5f99; text-decoration: none; }
+strong { font-weight: 650; }
+/* The warning sign, in amber (Q211): 5.0 to 1 contrast on white, above WCAG AA's 4.5 to 1 for text. */
+.warn-sign { color: #b45309; }
+code { font-family: "Atkinson Hyperlegible Mono", "OpenDFX Symbols", "DejaVu Sans Mono", monospace; font-size: 0.88em; background: #f1f2f3; padding: 0 0.2em; border-radius: 2px; }
+pre { font-family: "Atkinson Hyperlegible Mono", "OpenDFX Symbols", "DejaVu Sans Mono", monospace; font-size: 8pt; line-height: 1.35; background: #f4f5f6; border: 0.5pt solid #d8dbde; border-radius: 3px; padding: 6pt 8pt; white-space: pre-wrap; break-inside: avoid; }
+pre code { background: none; padding: 0; font-size: inherit; }
+ul, ol { margin: 0 0 0.6em; padding-left: 1.4em; }
+li { margin: 0.15em 0; }
+blockquote { margin: 0 0 0.6em; padding-left: 0.8em; border-left: 2pt solid #d8dbde; color: #3b3f45; }
+hr { border: none; border-top: 0.5pt solid #d8dbde; margin: 1em 0; }
+
+/* Cover and front matter */
+section.cover { page: cover; break-after: page; }
+section.cover img { display: block; width: 215.9mm; height: 279.4mm; }
+section.titlepage, section.copyright, section.about, nav.toc { page: front; }
+/* The title page (Q242): centered, with the logo's symbol drawn down beside the two title lines, as on the cover. */
+section.titlepage { break-after: page; padding-top: 62mm; text-align: center; }
+.titlepage .titleblock { display: flex; justify-content: center; align-items: center; gap: 5mm; margin-bottom: 12mm; }
+.titlepage img.titlelogo { display: block; width: 22.3mm; height: 22.3mm; flex: none; position: relative; top: 0.6mm; }
+h1.front.booktitle { text-align: left; margin: 0; font-weight: 700; }
+h1.front.booktitle .name { display: block; font-size: 52pt; line-height: 0.95; letter-spacing: -0.5pt; }
+h1.front.booktitle .tm { font-size: 0.34em; vertical-align: 1.3em; line-height: 0; margin-left: 0.08em; letter-spacing: 0; }
+h1.front.booktitle .line2 { display: block; font-size: 21.6pt; line-height: 1.2; font-weight: 600; margin-top: 1mm; }
+.titlepage .subtitle { font-size: 13pt; color: #3b3f45; margin: 0 0 62mm; }
+.titlepage .author { font-size: 17pt; font-weight: 700; margin: 0; }
+.titlepage .edition { font-size: 11pt; color: #5b636b; }
+section.copyright { break-after: page; padding-top: 150mm; font-size: 8.5pt; color: #3b3f45; }
+section.about { break-after: page; }
+section.dedication { page: front; break-after: page; padding-top: 60mm; }
+section.dedication p { font-size: 11pt; font-style: italic; }
+section.preface { page: front; break-before: page; break-after: page; }
+h1.front { font-size: 22pt; font-weight: 800; margin: 0 0 14pt; bookmark-level: 1; }
+section.about h2 { font-size: 13pt; margin: 14pt 0 4pt; bookmark-level: 2; }
+
+/* Contents, with page numbers from the PDF engine */
+nav.toc ol { list-style: none; padding: 0; margin: 0; }
+nav.toc li.toc-part { margin-top: 8pt; break-inside: avoid; }
+nav.toc li.toc-part > a { font-weight: 700; font-size: 10.5pt; }
+nav.toc li.toc-part li { margin: 1pt 0 1pt 12pt; font-size: 9.5pt; }
+nav.toc a { color: #1d2125; }
+nav.toc a::after { content: leader(dotted) " " target-counter(attr(href), page); color: #5b636b; }
+
+/* Parts and pages */
+section.part { break-before: page; }
+h1.part-title { string-set: part content(); bookmark-level: 1; font-size: 13pt; font-weight: 700; color: #1e7a3e; text-transform: none; margin: 0 0 4pt; letter-spacing: 0.2pt; }
+section.page { break-before: page; }
+h1.part-title + section.page { break-before: auto; }
+section.page h2 { font-size: 22pt; line-height: 1.15; font-weight: 800; margin: 0 0 12pt; bookmark-level: 2; break-after: avoid; }
+section.page h3 { font-size: 12pt; line-height: 1.3; font-weight: 700; margin: 16pt 0 5pt; bookmark-level: none; break-after: avoid; }
+section.page h3.rec { bookmark-level: 3; border-top: 1.2pt solid #1e7a3e; padding-top: 6pt; margin-top: 18pt; }
+section.page h4 { font-size: 10.5pt; margin: 10pt 0 4pt; bookmark-level: none; break-after: avoid; }
+p.permalink { font-size: 8.5pt; margin: -2pt 0 8pt; break-before: avoid; break-after: avoid; }
+p.permalink a { color: #5b636b; }
+
+/* Drawings: kept whole and with their caption */
+figure { margin: 8pt 0 12pt; break-inside: avoid; }
+figure img { display: block; width: 100%; height: auto; max-height: 200mm; object-fit: contain; }
+figcaption { font-size: 8.5pt; line-height: 1.45; font-style: italic; color: #3b3f45; margin-top: 5pt; }
+
+/* Tables */
+table { border-collapse: collapse; width: 100%; margin: 4pt 0 10pt; font-size: 8.5pt; line-height: 1.4; }
+thead { display: table-header-group; }
+th { text-align: left; font-weight: 650; background: #eef0f1; border-bottom: 0.8pt solid #9aa1a8; padding: 3pt 5pt; }
+td { border-bottom: 0.4pt solid #d8dbde; padding: 3pt 5pt; vertical-align: top; }
+tr { break-inside: avoid; }

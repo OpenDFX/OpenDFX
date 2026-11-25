@@ -1,0 +1,111 @@
+# OpenDFX for Printed Circuit Boards
+
+> An open book of practical design-for-manufacturing, assembly and test recommendations for printed circuit boards, by Chris Denney of Worthington Assembly and CircuitHub. It holds 192 recommendations, each with a permanent ID such as PCB-DFA-006, the reason behind it, typical values and its sources. The text is CC BY-SA 4.0 and the recommendations data is CC BY 4.0.
+
+The recommendations are advice, not rules: each says what to do, why, and which values are common industry practice and which vary by manufacturer. When you use one, cite its ID and link to its permanent address, which is the website followed by the ID, for example https://opendfx.org/PCB-DFA-006. To cite the whole book: Denney, C. (2026). OpenDFX for Printed Circuit Boards (Version 1.0). https://opendfx.org. More ways to cite it are at https://opendfx.org/cite/.
+
+## Data
+
+- [Recommendations (JSON)](https://opendfx.org/data/recommendations.json): every recommendation as structured data, with its page address, design stages and sources
+- [Recommendations (YAML)](https://opendfx.org/data/recommendations.yaml): the same records as YAML
+- [The whole book in one file](https://opendfx.org/llms-full.txt): every page as Markdown, in reading order
+- [Data file schema](https://opendfx.org/data/recommendations.schema.json): a JSON Schema describing every field of the recommendations data
+
+Every page is also published as Markdown at its address with `.md` in place of the final slash, for example https://opendfx.org/02-the-panel/04-edge-clearance.md. Every recommendation is published on its own as Markdown at its permanent address with `.md` added, for example https://opendfx.org/PCB-DFA-006.md. Fetch these when you need one page or one recommendation, instead of the whole book.
+
+## Designing a board with an AI agent
+
+Start with [Using this book with an AI agent](https://opendfx.org/00-start-here/05-using-this-book-with-an-ai-agent/): what to ask the person first, how to work through the recommendations stage by stage, and the table of every recommendation to hand back. The book is also packaged as an Agent Skill, with the data file, the KiCad rules file and a script that prints the recommendations for each design stage: https://opendfx.org/opendfx-pcb-design.zip
+
+## Checking a KiCad design
+
+If you design or review a board in KiCad, check it against this book with KiCad's design rule check. Copy [the OpenDFX rules file](https://opendfx.org/opendfx.kicad_dru) into the project folder, named after the project (myboard.kicad_dru next to myboard.kicad_pro), and set Board Setup, Solder Mask/Paste, Minimum web width to 0.1 mm. If the project already has a rules file, keep it: follow the steps at https://opendfx.org/00-start-here/05-using-this-book-with-an-ai-agent/#if-the-project-already-has-a-rules-file to find where the two files overlap, agree a combined file with the person, try it on a copy of the project with the zones refilled, and report the changes in the check and in the copper before you replace the original. Run the check after placing parts and again after routing, for example with `kicad-cli pcb drc --format json --severity-all`. Each report names the recommendation it comes from and its permanent address, such as opendfx.org/PCB-DFM-020; read that recommendation before you change the board. The rules check recommended values across the board, and minimum values only inside rule areas named "OpenDFX minimum", so keep to the recommended values unless the design needs less, and then draw a small rule area there. The rules file checks only what the board data shows; the rest of the book still applies. How to use it: https://opendfx.org/kicad/ Before release, check the exported files (Gerber, drill, netlist, placement file and BOM) with https://opendfx.org/check_release.py; its help text lists the KiCad export commands that follow the book.
+
+## Part 0: Start here
+
+- [How to use this book](https://opendfx.org/00-start-here/01-how-to-use-this-book/)
+- [How recommendations are numbered and tagged](https://opendfx.org/00-start-here/02-numbering-and-tags/)
+- [The path a board takes](https://opendfx.org/00-start-here/03-the-path-a-board-takes/)
+- [Classes and standards in one page](https://opendfx.org/00-start-here/04-classes-and-standards/)
+- [Using this book with an AI agent](https://opendfx.org/00-start-here/05-using-this-book-with-an-ai-agent/)
+
+## Part 1: The design package (what you send)
+
+- [Fabrication data](https://opendfx.org/01-design-package/01-fabrication-data/): 9 recommendations
+- [Assembly data](https://opendfx.org/01-design-package/02-assembly-data/): 4 recommendations
+- [The BOM](https://opendfx.org/01-design-package/03-bom/): 5 recommendations
+- [Footprints and the component library](https://opendfx.org/01-design-package/04-footprints/): 10 recommendations
+
+## Part 2: The panel (where fabrication meets assembly)
+
+- [Why boards are built in panels](https://opendfx.org/02-the-panel/01-why-panels/): 4 recommendations
+- [Rails, tooling holes and fiducials](https://opendfx.org/02-the-panel/02-rails-tooling-holes-fiducials/): 8 recommendations
+- [Breakaway methods: V-score, tabs and mouse bites](https://opendfx.org/02-the-panel/03-breakaway-methods/): 6 recommendations
+- [Clearance near board and panel edges](https://opendfx.org/02-the-panel/04-edge-clearance/): 5 recommendations
+- [X-outs: accepting panels with a bad board](https://opendfx.org/02-the-panel/05-x-outs/): 3 recommendations
+
+## Part 3: Bare board fabrication
+
+- [Materials and stack-up](https://opendfx.org/03-bare-board-fabrication/01-materials-and-stack-up/): 6 recommendations
+- [Inner layers and lamination](https://opendfx.org/03-bare-board-fabrication/02-inner-layers-and-lamination/): 2 recommendations
+- [Drilling](https://opendfx.org/03-bare-board-fabrication/03-drilling/): 5 recommendations
+- [Plating](https://opendfx.org/03-bare-board-fabrication/04-plating/): 1 recommendation
+- [Outer layers](https://opendfx.org/03-bare-board-fabrication/05-outer-layers/): 1 recommendation
+- [Via treatments](https://opendfx.org/03-bare-board-fabrication/06-via-treatments/): 4 recommendations
+- [Solder mask](https://opendfx.org/03-bare-board-fabrication/07-solder-mask/): 6 recommendations
+- [Surface finish](https://opendfx.org/03-bare-board-fabrication/08-surface-finish/): 4 recommendations
+- [Legend (silkscreen)](https://opendfx.org/03-bare-board-fabrication/09-legend/): 6 recommendations
+- [Profiling: routing, scoring, slots and cut-outs](https://opendfx.org/03-bare-board-fabrication/10-profiling/): 3 recommendations
+- [Bare board electrical test and inspection](https://opendfx.org/03-bare-board-fabrication/11-bare-board-test/): 3 recommendations
+
+## Part 4: Components and materials
+
+- [Choosing parts that can be bought and built](https://opendfx.org/04-components-and-materials/01-choosing-parts/): 6 recommendations
+- [Packaging: reels, cut tape, tubes, trays](https://opendfx.org/04-components-and-materials/02-packaging/): 2 recommendations
+- [Moisture-sensitive parts](https://opendfx.org/04-components-and-materials/03-moisture-sensitive-parts/): 4 recommendations
+- [Sourcing, counterfeits and obsolescence](https://opendfx.org/04-components-and-materials/04-sourcing/): 5 recommendations
+- [Supplying your own parts (consignment) and spares](https://opendfx.org/04-components-and-materials/05-consignment-and-spares/): 7 recommendations
+
+## Part 5: Assembly
+
+- [Solder paste printing and stencils](https://opendfx.org/05-assembly/01-solder-paste-and-stencils/): 3 recommendations
+- [Component placement](https://opendfx.org/05-assembly/02-component-placement/): 3 recommendations
+- [Reflow soldering](https://opendfx.org/05-assembly/03-reflow-soldering/): 5 recommendations
+- [Optical and X-ray inspection](https://opendfx.org/05-assembly/04-inspection/): 1 recommendation
+- [Through-hole soldering](https://opendfx.org/05-assembly/05-through-hole-soldering/): 8 recommendations
+- [Press-fit and mechanical parts](https://opendfx.org/05-assembly/06-press-fit-and-mechanical/): 3 recommendations
+- [Shields, adhesives and underfill](https://opendfx.org/05-assembly/07-shields-adhesives-underfill/): 5 recommendations
+- [Cleaning](https://opendfx.org/05-assembly/08-cleaning/): 5 recommendations
+- [Conformal coating](https://opendfx.org/05-assembly/09-conformal-coating/): 2 recommendations
+- [Depaneling](https://opendfx.org/05-assembly/10-depaneling/): 1 recommendation
+- [Rework and repair](https://opendfx.org/05-assembly/11-rework/): 1 recommendation
+
+## Part 6: Test and programming
+
+- [Design for test: test points and access](https://opendfx.org/06-test-and-programming/01-test-points/): 6 recommendations
+- [Flying probe and in-circuit test](https://opendfx.org/06-test-and-programming/02-flying-probe-and-ict/): 1 recommendation
+- [Boundary scan](https://opendfx.org/06-test-and-programming/03-boundary-scan/): 1 recommendation
+- [Programming](https://opendfx.org/06-test-and-programming/04-programming/): 3 recommendations
+- [Functional test and fixtures](https://opendfx.org/06-test-and-programming/05-functional-test-and-fixtures/): 3 recommendations
+- [Burn-in, stress testing and early failures](https://opendfx.org/06-test-and-programming/06-burn-in-and-stress/): 1 recommendation
+- [First articles](https://opendfx.org/06-test-and-programming/07-first-articles/): 2 recommendations
+
+## Part 7: Handling, packaging and shipping
+
+- [Static (ESD) protection](https://opendfx.org/07-handling-packaging-and-shipping/01-static-protection/): 4 recommendations
+- [Moisture and storage](https://opendfx.org/07-handling-packaging-and-shipping/02-moisture-and-storage/): 1 recommendation
+- [Packaging and shipping assembled boards](https://opendfx.org/07-handling-packaging-and-shipping/03-packaging-and-shipping/): 2 recommendations
+
+## Part 8: Working with a manufacturer
+
+- [What drives cost and lead time](https://opendfx.org/08-working-with-a-manufacturer/01-cost-and-lead-time/): 7 recommendations
+- [Prototype versus production](https://opendfx.org/08-working-with-a-manufacturer/02-prototype-to-production/): 2 recommendations
+- [Design reviews and communicating intent](https://opendfx.org/08-working-with-a-manufacturer/03-design-reviews-and-communication/): 3 recommendations
+
+## Appendices
+
+- [Appendix A: Pre-release checklist](https://opendfx.org/09-appendices/01-checklist/)
+- [Appendix B: Index by design stage](https://opendfx.org/09-appendices/02-design-stage-index/)
+- [Appendix C: Glossary](https://opendfx.org/09-appendices/03-glossary/)
+- [Appendix D: Standards referenced](https://opendfx.org/09-appendices/04-standards/)
+- [Appendix E: Sources](https://opendfx.org/09-appendices/05-sources/)

@@ -1,0 +1,109 @@
+---
+title: Set up your AI tool
+description: Give OpenDFX for Printed Circuit Boards to any AI chat tool in three steps. Download one file, attach it to a new chat, and paste one prompt.
+editUrl: false
+---
+
+import { LinkButton } from '@astrojs/starlight/components';
+
+You can give the whole book to any AI chat tool that accepts files, such as ChatGPT or Claude.
+It takes three steps.
+How the tool should then work through the book is on the book's page [Using this book with an AI agent](/00-start-here/05-using-this-book-with-an-ai-agent/).
+
+## Three steps
+
+1. Download the book as one file.
+   It is a plain text file of about 780 KB, called `llms-full.txt`.
+2. Start a new chat in your AI tool, and attach the file to it.
+3. Copy the prompt below, paste it into the chat, and send it.
+
+<LinkButton href="/llms-full.txt" download="llms-full.txt">Download the book as one file</LinkButton>
+
+```text title="Prompt to paste" wrap
+The attached file is OpenDFX for Printed Circuit Boards (https://opendfx.org), a book of recommendations for designing circuit boards that are easy to fabricate, assemble and test.
+Use it to help me with my board.
+
+- Search the file for each recommendation you use. Give its ID, such as PCB-DFA-006, and its permanent address, such as https://opendfx.org/PCB-DFA-006.
+- Where a recommendation gives a minimum value and a recommended value, give both, and say which one my design needs.
+- Before you advise on my board, ask me who will make and assemble it, how many will be built, the IPC class, the board thickness and copper weight, how through-hole parts will be soldered, and how the board will be tested.
+- Say a recommendation is met only when you can name the evidence, such as a file I gave you or a measurement I confirmed.
+- Tell me what you couldn't check, and what I should check myself.
+- If you can't find something in the file, say so. Don't answer from memory as if it came from the book.
+```
+
+The tool will start by asking about your board.
+If you don't know an answer yet, tell it to use the book's defaults.
+Then ask your question, for example "What annular ring should the plated holes on my board have?"
+
+*What we tried: on 2026-11-18, with book version 1.0, we used this file and this prompt in ChatGPT and in Claude.
+Both found the right recommendations and quoted their values correctly.
+Neither marked a recommendation as met without evidence.
+Our test prompt also told the tool not to search the web, so that it answered from the file alone.
+We haven't yet tried downloading the file from this website.*
+
+If something here no longer matches what you see, please [tell us](https://github.com/OpenDFX/OpenDFX/issues/new/choose).
+
+## Give the tool your board
+
+The book's page explains [what to give the agent](/00-start-here/05-using-this-book-with-an-ai-agent/#give-the-agent-your-board): your answers to its questions, your KiCad project or release files, and the reports from the design rule check and the release checker.
+For a question about a drawing, attach the PDF page or an image of the drawing directly to the chat.
+
+## Keep your copy up to date
+
+The file is a copy of the book on the day you downloaded it.
+Its first lines give the book's version, and the [change log](/changelog/) lists what changed in each version.
+When the book changes, download the file again, and start a new chat with the new copy.
+
+## Other ways to give a tool the book
+
+These are for people who already use projects, skills or coding agents.
+Each tool's menus differ between accounts and change often, so follow the tool maker's own instructions for them.
+
+### A project in ChatGPT or Claude
+
+A project keeps the file and the instructions for every chat in it.
+Add `llms-full.txt` to the project's files, and paste these instructions into the project's instructions.
+
+```text title="Project instructions" wrap
+This project's files include llms-full.txt, the whole of OpenDFX for Printed Circuit Boards (https://opendfx.org).
+When I ask about designing, reviewing or releasing a printed circuit board, follow that book.
+
+- Search llms-full.txt for each recommendation you use. Give its ID, such as PCB-DFA-006, and its permanent address, such as https://opendfx.org/PCB-DFA-006.
+- Where a recommendation gives a minimum value and a recommended value, give both. Use the recommended value unless my design needs the minimum, and tell me each place it does.
+- Before you advise on a board, ask me who will make and assemble it, how many will be built, the IPC class, the board thickness and copper weight, how through-hole parts will be soldered, and how the board will be tested. If I don't know, use the book's defaults and say which.
+- When I ask for a review, give me a table of the recommendations you checked: ID, title, status (Met, Not met, Not applicable or Needs a person) and a note.
+- Mark a recommendation Met only when you can name the evidence: a file, a measurement, a report, or something I confirmed. Without evidence, mark it Needs a person and say what to check.
+- If you can't read a file I gave you, or can't find something in the book, say so. Don't answer as if you had read it.
+```
+
+See OpenAI's [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) and Anthropic's [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
+
+*What we tried: on 2026-11-18, a Claude project with these instructions worked as intended.
+The ChatGPT account we used that day had no way to add files to a project, so we tried these instructions in a ChatGPT chat with the file attached, and they worked there.*
+
+### The Agent Skill, for coding agents
+
+The skill is for coding agents that work on your KiCad files and can run commands, such as Claude Code and Codex.
+It is one zip file, [opendfx-pcb-design.zip](/opendfx-pcb-design.zip).
+It holds instructions for the agent, the recommendations data, the KiCad design-rules file, the release checker, and a script that prints the recommendations for each design stage.
+Installing it doesn't install Python or KiCad.
+
+Unzip it into your PCB project's skills folder, so that `opendfx-pcb-design/SKILL.md` ends up inside that folder.
+For Claude Code the folder is `.claude/skills`, and for Codex it is `.agents/skills`.
+You can also give the agent the zip file and ask it to do this for you.
+Then ask the agent, for example, to "set up the OpenDFX KiCad design rules for this project".
+See Anthropic's [skills in Claude Code](https://code.claude.com/docs/en/skills) and OpenAI's [Agent Skills](https://learn.chatgpt.com/docs/build-skills).
+
+*What we tried: in Claude Code on 2026-11-17, with KiCad 10.0.8, and in Codex on 2026-11-18, with KiCad 10.0.3, both with book version 1.0.
+Both set up the design rules as the skill asks.
+When the project already had its own rules file, both left it alone, listed where the two sets of rules overlap, and asked before changing anything.
+Some chat tools can take a skill too, but we couldn't find a way to upload it in the accounts we used on 2026-11-18, so we suggest the one-file steps at the top of this page for chat tools.*
+
+### An instructions block for other coding agents
+
+If you would rather not install the skill, paste the [instructions block](/00-start-here/05-using-this-book-with-an-ai-agent/#or-add-the-book-to-your-projects-instructions) into your project's instructions file.
+That is `CLAUDE.md` for Claude Code, `AGENTS.md` for Codex, a rules file in `.cursor/rules/` for Cursor, and `.github/copilot-instructions.md` for GitHub Copilot.
+OpenDFX's own `AGENTS.md` is for people changing the book, so don't copy it into your project.
+See Cursor's [Rules](https://cursor.com/docs/context/rules) and GitHub's [Adding repository custom instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions).
+
+*What we tried: we haven't tried the instructions block in any tool yet.*

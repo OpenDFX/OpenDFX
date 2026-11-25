@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="980" height="1066.02" viewBox="0 0 980 1066.02" role="img" aria-labelledby="title desc">
+<defs>
+<clipPath id="d0">
+<rect x="140.0" y="80.0" width="740.4" height="498.00000000000006" rx="0" class="bg" />
+</clipPath>
+</defs>
+<title id="title">Keep-out around through-hole pins for selective soldering</title><desc id="desc">Drawn to scale, solder side of the board. A row of three through-hole pads on a 2.54 mm pitch, with traces under the mask. A white dashed line marks the recommended keep-out, 3 mm beyond the outer edge of the pads on three sides and 5 mm on the side where the board leaves the solder wave; a red dashed line inside it marks the 2 mm absolute minimum. A small surface-mount part sits just outside the keep-out, pointing at the pins rather than lying side-on to them.</desc>
+<style>
+/* fonts embedded by embed_fonts.py */
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 400; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 600; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+@font-face { font-family: 'Atkinson Hyperlegible Next'; font-weight: 700; font-style: normal; src: url(data:font/woff2;base64,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) format('woff2'); }
+/* end of embedded fonts */
+
+svg { font-family: 'Atkinson Hyperlegible Next', 'OpenDFX Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.bg      { fill: #ffffff; }
+.ink     { fill: #1d2125; }
+.ink-s   { stroke: #1d2125; }
+.muted   { fill: #5b636b; }
+.thin    { stroke: #5b636b; stroke-width: 1.87; fill: none; }
+.mask    { fill: #1e7a3e; }   /* mask over FR4, Chris's key */
+.mask-lt { fill: #1e7a3e; }
+.mask-lt-s { stroke: #1e7a3e; stroke-width: 2.16; fill: none; }
+.waste   { fill: #1e7a3e; }   /* rails, tabs, frames: board material too */
+.edge    { stroke: #1d2125; stroke-width: 2.36; fill: none; }
+.copper  { fill: #d9b44a; }   /* exposed copper */
+.bare    { fill: #9c7a4a; }   /* exposed FR4 */
+.hole    { fill: #17191c; stroke: #17191c; stroke-width: 2.16; }
+.score   { stroke: #b23a2b; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.zone    { fill: #b23a2b; fill-opacity: 0.12; }
+.zone-s  { stroke: #b23a2b; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.keep    { fill: #2563a8; fill-opacity: 0.10; }
+.keep-s  { stroke: #2563a8; stroke-width: 1.87; stroke-dasharray: 4.18 4.18; fill: none; }
+.part    { fill: #3b3f45; }
+.term    { fill: #c9ccd1; }
+.balloon { fill: #ffffff; stroke: #1d2125; stroke-width: 2.16; }
+.lead    { stroke: #1d2125; stroke-width: 1.87; fill: none; }
+.dim     { stroke: #2563a8; stroke-width: 1.87; fill: none; }
+.dimtxt  { fill: #2563a8; paint-order: stroke; stroke: #ffffff; stroke-width: 3.45px; stroke-linejoin: round; }
+.arrow   { fill: #2563a8; }
+.dot     { fill: #1d2125; }
+.capbody { fill: #c8a878; stroke: #8a6d45; stroke-width: 1.57; }
+.capterm { fill: #d9dde2; stroke: #8f969d; stroke-width: 1.57; }
+.stub    { fill: #9aa69e; stroke: #3b4147; stroke-width: 1.77; }
+.foil    { fill: #b9c0c7; stroke: #5b636b; stroke-width: 1.77; }
+.paste   { fill: #bdbdb6; }   /* solder paste */
+.wall    { stroke: #b23a2b; stroke-width: 3.34; fill: none; }
+.shadow  { fill: #1d2125; fill-opacity: 0.12; }
+.ray     { stroke: #b23a2b; stroke-width: 2.06; stroke-dasharray: 6.96 4.18; fill: none; }
+.silk    { fill: #ffffff; }
+.silk-s  { stroke: #ffffff; stroke-width: 3.14; fill: none; }
+.outline { stroke: #e8eaed; stroke-width: 2.06; stroke-dasharray: 5.57 4.18; fill: none; }
+.asm     { stroke: #1d2125; stroke-width: 2.16; stroke-dasharray: 8.36 4.18; fill: none; }
+/* Board colors, from Chris's key (2026-11-05). A board looks the same in light and dark mode. */
+.cu-exposed    { fill: #d9b44a; }
+.fr4-exposed   { fill: #9c7a4a; }
+.mask-on-cu    { fill: #2f9e4f; }
+.mask-on-fr4   { fill: #1e7a3e; }
+.silkscreen    { fill: #f2f2ef; }
+.solder-paste  { fill: #bdbdb6; }
+.drill         { fill: #17191c; }
+.offboard      { fill: #3b4046; }
+.contact       { fill: #e0392b; }
+.adhesive      { fill: #8fb3d1; }
+.s-part        { stroke: #3b3f45; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.solder        { fill: #d0d4d8; stroke: #8f969d; stroke-width: 1.57; }
+.s-cu-exposed, .s-fr4-exposed, .s-mask-on-cu, .s-mask-on-fr4, .s-silkscreen, .s-offboard, .s-foil, .s-foil-edge
+               { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.s-cu-exposed  { stroke: #d9b44a; }
+.s-fr4-exposed { stroke: #9c7a4a; }
+.s-mask-on-cu  { stroke: #2f9e4f; }
+.s-mask-on-fr4 { stroke: #1e7a3e; }
+.s-silkscreen  { stroke: #f2f2ef; }
+.s-offboard    { stroke: #3b4046; }
+.s-foil        { stroke: #b9c0c7; }
+.s-foil-edge   { stroke: #5b636b; }
+.enclosure     { fill: #26292d; }
+.flux          { fill: #c8a24a; fill-opacity: 0.35; }
+.figbox        { fill: none; stroke: #1d2125; stroke-width: 2.95; }
+.ko-rec        { stroke: #f2f2ef; stroke-width: 2.56; stroke-dasharray: 9.75 5.57; fill: none; }
+.ko-min        { stroke: #ff7a66; stroke-width: 2.56; stroke-dasharray: 4.18 4.18; fill: none; }
+@media (prefers-color-scheme: dark) {
+  .figbox { stroke: #e8eaed; }
+  .enclosure { fill: #3d434a; }
+  .bg      { fill: #16191c; }
+  .ink     { fill: #e8eaed; }
+  .ink-s   { stroke: #e8eaed; }
+  .muted   { fill: #a3abb3; }
+  .thin    { stroke: #a3abb3; }
+  .edge    { stroke: #e8eaed; }
+  .score   { stroke: #f08a7a; }
+  .zone    { fill: #f08a7a; }
+  .zone-s  { stroke: #f08a7a; }
+  .keep    { fill: #79aef0; }
+  .keep-s  { stroke: #79aef0; }
+  .part    { fill: #c7cbd1; }
+  .term    { fill: #6e747b; }
+  .balloon { fill: #16191c; stroke: #e8eaed; }
+  .lead    { stroke: #e8eaed; }
+  .dim     { stroke: #79aef0; }
+  .dimtxt  { fill: #79aef0; stroke: #16191c; }
+  .arrow   { fill: #79aef0; }
+  .dot     { fill: #e8eaed; }
+  .capbody { fill: #a88a5e; stroke: #d8c3a0; }
+  .capterm { fill: #9aa1a8; stroke: #d8dde2; }
+  .stub    { fill: #5d6a62; stroke: #c7cbd1; }
+  .foil    { fill: #5b636b; stroke: #a3abb3; }
+  .wall    { stroke: #f08a7a; }
+  .shadow  { fill: #e8eaed; fill-opacity: 0.14; }
+  .ray     { stroke: #f08a7a; }
+  .asm     { stroke: #e8eaed; }
+}
+</style>
+<rect x="0" y="0" width="980" height="1066.02" class="bg" />
+<g transform="translate(0,55.7)">
+<g clip-path="url(#d0)">
+<rect x="140.0" y="80.0" width="740.4" height="498.00000000000006" rx="0" class="mask-on-fr4" />
+<path d="M404.0,284.0 L404.0,194.0 L329.0,119.0 L329.0,50.0" class="s-mask-on-cu" stroke-width="9.0" />
+<path d="M480.2,284.0 L480.2,194.0 L405.2,119.0 L405.2,50.0" class="s-mask-on-cu" stroke-width="9.0" />
+<path d="M556.4,284.0 L556.4,194.0 L481.4,119.0 L481.4,50.0" class="s-mask-on-cu" stroke-width="9.0" />
+<path d="M480.2,468.5 L480.2,518.0 L570.2,608.0" class="s-mask-on-cu" stroke-width="9.0" />
+<circle cx="404.0" cy="284.0" r="26.25" class="fr4-exposed" />
+<circle cx="404.0" cy="284.0" r="24.0" class="cu-exposed" />
+<circle cx="404.0" cy="284.0" r="13.5" class="drill" />
+<circle cx="480.2" cy="284.0" r="26.25" class="fr4-exposed" />
+<circle cx="480.2" cy="284.0" r="24.0" class="cu-exposed" />
+<circle cx="480.2" cy="284.0" r="13.5" class="drill" />
+<circle cx="556.4" cy="284.0" r="26.25" class="fr4-exposed" />
+<circle cx="556.4" cy="284.0" r="24.0" class="cu-exposed" />
+<circle cx="556.4" cy="284.0" r="13.5" class="drill" />
+<rect x="462.95" y="413.75" width="34.5" height="25.5" rx="3.0" class="fr4-exposed" />
+<rect x="465.2" y="416.0" width="30.0" height="21.0" rx="2.4" class="cu-exposed" />
+<rect x="462.95" y="455.75" width="34.5" height="25.5" rx="3.0" class="fr4-exposed" />
+<rect x="465.2" y="458.0" width="30.0" height="21.0" rx="2.4" class="cu-exposed" />
+</g>
+<path d="M365.0,245.0 L595.4,245.0 L595.4,323.0 L365.0,323.0 L365.0,245.0" class="s-silkscreen" stroke-width="4.5" />
+<text x="607.4" y="272.0" font-size="15.72" text-anchor="start" class="silk">J1</text>
+<text x="510.2" y="464.0" font-size="15.72" text-anchor="start" class="silk">R1</text>
+<rect x="290.0" y="170.0" width="440.4" height="228.0" rx="0" class="ko-rec" />
+<rect x="320.0" y="200.0" width="320.4" height="168.0" rx="0" class="ko-min" />
+<path d="M375.8225,308.0 L248.43,308.0" class="dim" />
+<path d="M375.8225,398.0 L248.43,398.0" class="dim" />
+<path d="M254.0,308.0 L254.0,398.0" class="dim" />
+<path d="M254.0,308.0 L257.61554727560303,317.05215853528205 L250.38445272439697,317.05215853528205 Z" class="arrow" />
+<path d="M254.0,398.0 L250.38445272439697,388.94784146471795 L257.61554727560303,388.94784146471795 Z" class="arrow" />
+<text x="262.355" y="358.57" font-size="16.71" text-anchor="start" class="dimtxt">3</text>
+<path d="M375.8225,308.0 L194.43,308.0" class="dim" />
+<path d="M375.8225,368.0 L194.43,368.0" class="dim" />
+<path d="M200.0,308.0 L200.0,368.0" class="dim" />
+<path d="M200.0,308.0 L203.61554727560303,317.05215853528205 L196.38445272439697,317.05215853528205 Z" class="arrow" />
+<path d="M200.0,368.0 L196.38445272439697,358.94784146471795 L203.61554727560303,358.94784146471795 Z" class="arrow" />
+<text x="191.645" y="343.57" font-size="16.71" text-anchor="end" class="dimtxt">2 min</text>
+<path d="M580.4,255.8225 L580.4,128.43" class="dim" />
+<path d="M730.4,255.8225 L730.4,128.43" class="dim" />
+<path d="M580.4,134.0 L730.4,134.0" class="dim" />
+<path d="M580.4,134.0 L589.452158535282,130.38445272439697 L589.452158535282,137.61554727560303 Z" class="arrow" />
+<path d="M730.4,134.0 L721.3478414647179,137.61554727560303 L721.3478414647179,130.38445272439697 Z" class="arrow" />
+<text x="655.4" y="127.0375" font-size="16.71" text-anchor="middle" class="dimtxt">5</text>
+<path d="M290.0,255.8225 L290.0,128.43" class="dim" />
+<path d="M380.0,255.8225 L380.0,128.43" class="dim" />
+<path d="M290.0,134.0 L380.0,134.0" class="dim" />
+<path d="M290.0,134.0 L299.05215853528205,130.38445272439697 L299.05215853528205,137.61554727560303 Z" class="arrow" />
+<path d="M380.0,134.0 L370.94784146471795,137.61554727560303 L370.94784146471795,130.38445272439697 Z" class="arrow" />
+<text x="335.0" y="127.0375" font-size="16.71" text-anchor="middle" class="dimtxt">3</text>
+<text x="40.0" y="670.55" font-size="17.69" class="ink" font-weight="600">Key</text>
+<path d="M40.0,684.4749999999999 L470.0,684.4749999999999" class="thin" />
+<circle cx="53.925" cy="715.1099999999999" r="12.5325" class="balloon" />
+<text x="53.925" y="720.68" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">1</text>
+<text x="78.99000000000001" y="720.68" font-size="17.2" class="ink">Through-hole pad</text>
+<circle cx="53.925" cy="751.3149999999999" r="12.5325" class="balloon" />
+<text x="53.925" y="756.885" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">2</text>
+<text x="78.99000000000001" y="756.885" font-size="17.2" class="ink">Keep-out, recommended</text>
+<text x="78.99000000000001" y="779.165" font-size="15.72" class="muted">3 mm; 5 mm on the side leaving the wave</text>
+<path d="M510.0,684.4749999999999 L940.0,684.4749999999999" class="thin" />
+<circle cx="523.925" cy="715.1099999999999" r="12.5325" class="balloon" />
+<text x="523.925" y="720.68" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">3</text>
+<text x="548.99" y="720.68" font-size="17.2" class="ink">Absolute minimum</text>
+<text x="548.99" y="742.9599999999999" font-size="15.72" class="muted">2 mm</text>
+<circle cx="523.925" cy="773.5949999999999" r="12.5325" class="balloon" />
+<text x="523.925" y="779.165" font-size="15.23" text-anchor="middle" class="ink" font-weight="600">4</text>
+<text x="548.99" y="779.165" font-size="17.2" class="ink">Surface-mount part outside</text>
+<text x="548.99" y="801.4449999999999" font-size="15.72" class="muted">Pointing at the pins, not side-on</text>
+<rect x="40" y="852.9675" width="19.495" height="19.495" class="cu-exposed" />
+<rect x="40" y="852.9675" width="19.495" height="19.495" class="thin" />
+<text x="70.635" y="869.6775" font-size="16.71" class="ink">Exposed copper</text>
+<rect x="40" y="883.6025" width="19.495" height="19.495" class="mask-on-cu" />
+<rect x="40" y="883.6025" width="19.495" height="19.495" class="thin" />
+<text x="70.635" y="900.3125" font-size="16.71" class="ink">Mask over copper</text>
+<rect x="330" y="852.9675" width="19.495" height="19.495" class="mask-on-fr4" />
+<rect x="330" y="852.9675" width="19.495" height="19.495" class="thin" />
+<text x="360.635" y="869.6775" font-size="16.71" class="ink">Mask over FR4</text>
+<rect x="330" y="883.6025" width="19.495" height="19.495" class="drill" />
+<rect x="330" y="883.6025" width="19.495" height="19.495" class="thin" />
+<text x="360.635" y="900.3125" font-size="16.71" class="ink">Hole</text>
+<rect x="616" y="847.3974999999999" width="36.205" height="61.27" class="mask-on-fr4" />
+<path d="M620,862.7149999999999 L638,862.7149999999999" class="ko-rec" />
+<text x="661.775" y="869.6775" font-size="16.71" text-anchor="start" class="ink">Keep-out, recommended</text>
+<path d="M620,893.35 L638,893.35" class="ko-min" />
+<text x="661.775" y="900.3125" font-size="16.71" text-anchor="start" class="ink">Absolute minimum</text>
+<text x="40" y="951.835" font-size="15.72" class="muted">Drawn to scale, solder side. Dimensions in mm from the outer edge of the through-hole pads.</text>
+<text x="40" y="979.6850000000001" font-size="15.72" class="muted">PCB-DFA-043. Ask your assembler which side the board leaves the wave.</text>
+<path d="M422.0,293.0 L422.0,573.075" class="lead" fill="none" />
+<circle cx="422.0" cy="293.0" r="3.0635000000000003" class="dot" />
+<circle cx="422.0" cy="587.0" r="13.925" class="balloon" />
+<text x="422.0" y="592.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">1</text>
+<path d="M730.4,335.0 L821.475,335.0" class="lead" fill="none" />
+<circle cx="730.4" cy="335.0" r="3.0635000000000003" class="dot" />
+<circle cx="835.4" cy="335.0" r="13.925" class="balloon" />
+<text x="835.4" y="340.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">2</text>
+<path d="M320.0,230.0 L123.925,230.0" class="lead" fill="none" />
+<circle cx="320.0" cy="230.0" r="3.0635000000000003" class="dot" />
+<circle cx="110.0" cy="230.0" r="13.925" class="balloon" />
+<text x="110.0" y="235.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">3</text>
+<path d="M495.2,446.0 L646.2750000000001,446.0" class="lead" fill="none" />
+<circle cx="495.2" cy="446.0" r="3.0635000000000003" class="dot" />
+<circle cx="660.2" cy="446.0" r="13.925" class="balloon" />
+<text x="660.2" y="451.57" font-size="16.21" text-anchor="middle" class="ink" font-weight="600">4</text>
+</g>
+<rect x="16.71" y="11.14" width="66.14375" height="36.205" rx="8.355" class="figbox" />
+<text x="49.781875" y="37.597500000000004" font-size="20.64" text-anchor="middle" font-weight="700" class="ink">D17</text>
+<text x="96.77874999999999" y="36.205" font-size="17.69" class="muted">PCB-DFA-043</text>
+</svg>

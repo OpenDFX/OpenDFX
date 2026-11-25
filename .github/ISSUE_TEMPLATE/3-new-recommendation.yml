@@ -1,0 +1,32 @@
+name: Suggest a new recommendation
+description: Advice the book is missing.
+labels: ["new recommendation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Once a suggestion is agreed, you or the maintainer write it up, and it gets its permanent ID when it is merged.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem it prevents
+      description: What goes wrong on the line, in test or in the field when designers don't follow it.
+    validations:
+      required: true
+  - type: textarea
+    id: advice
+    attributes:
+      label: The advice
+      description: What a designer should do. Give a minimum and a recommended value if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A standard, a datasheet, a published guideline, or your own experience. Say which it is.
+  - type: input
+    id: where
+    attributes:
+      label: Where it belongs
+      description: The part or page of the book it fits best, if you know.
